@@ -1,0 +1,7 @@
+PWD /home/sergio/Escritorio/proyecto/memoria/contido
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
+INPUT implementacion_aplicacion.tex
+OUTPUT implementacion_aplicacion.log

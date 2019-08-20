@@ -1,0 +1,560 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  19 AUG 2019 11:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**portada.tex
+(./portada.tex
+LaTeX2e <2018-12-01>
+
+./portada.tex:1: LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./portada.tex:3: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3   \hspace*{128pt}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./portada.tex:4: Undefined control sequence.
+l.4   \textcolor
+                {udcgray}{{\fontencoding{T1}\fontfamily{phv}\selectfont Depa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+LaTeX Font Info:    Try loading font information for T1+phv on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+./portada.tex:6: Undefined control sequence.
+l.6   \textcolor
+                {udcpink}{{\fontencoding{T1}\fontfamily{phv}\selectfont Facu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no k in font nullfont!
+
+Overfull \hbox (164.10986pt too wide) in paragraph at lines 3--7
+[]|  \T1/phv/m/n/10 De-
+ []
+
+
+Overfull \hbox (17.77979pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 par-
+ []
+
+
+Overfull \hbox (11.66978pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 ta-
+ []
+
+
+Overfull \hbox (27.78966pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 mento
+ []
+
+
+Overfull \hbox (11.11987pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 de
+ []
+
+
+Overfull \hbox (31.66968pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 (nome) 
+ []
+
+
+Overfull \hbox (164.49986pt too wide) in paragraph at lines 3--7
+|  \T1/phv/m/n/10 Fac-
+ []
+
+
+Overfull \hbox (11.10986pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 ul-
+ []
+
+
+Overfull \hbox (19.4597pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 tade
+ []
+
+
+Overfull \hbox (11.11987pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 de
+ []
+
+
+Overfull \hbox (11.66978pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 In-
+ []
+
+
+Overfull \hbox (14.6998pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 for-
+ []
+
+
+Overfull \hbox (29.44969pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 mática 
+ []
+
+
+./portada.tex:8: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   \begin{center}
+                    
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--8
+[] 
+ []
+
+./portada.tex:9: Undefined control sequence.
+l.9     \includegraphics
+                        [scale=0.3]{imaxes/udc}\\[35pt]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no c in font nullfont!
+./portada.tex:11: Undefined control sequence.
+l.11     {\large
+                 TRABALLO FIN DE GRAO \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no Ñ in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no Í in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no Á in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no Ó in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no Ñ in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no Í in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no S in font nullfont!
+
+./portada.tex:15: LaTeX Error: Environment huge undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15     \begin{huge}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (55.90001pt too wide) in paragraph at lines 16--17
+ []\TU/lmr/bx/n/10 Dispositivo 
+ []
+
+
+Overfull \hbox (5.27pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 e 
+ []
+
+
+Overfull \hbox (22.19pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 apli- 
+ []
+
+
+Overfull \hbox (31.14pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 cación 
+ []
+
+
+Overfull \hbox (18.91pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 An- 
+ []
+
+
+Overfull \hbox (26.46pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 droid 
+ []
+
+
+Overfull \hbox (22.31pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 para 
+ []
+
+
+Overfull \hbox (15.81pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 au- 
+ []
+
+
+Overfull \hbox (25.07pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 men- 
+ []
+
+
+Overfull \hbox (14.8pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 tar 
+ []
+
+
+Overfull \hbox (5.59pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 a 
+ []
+
+
+Overfull \hbox (13.64pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 se- 
+ []
+
+
+Overfull \hbox (23.9pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 guri- 
+ []
+
+
+Overfull \hbox (23.64pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 dade 
+ []
+
+
+Overfull \hbox (16.68001pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 nos 
+ []
+
+
+Overfull \hbox (15.49pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 de- 
+ []
+
+
+Overfull \hbox (35.79001pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 spraza- 
+ []
+
+
+Overfull \hbox (25.07pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 men- 
+ []
+
+
+Overfull \hbox (14.76pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 tos 
+ []
+
+
+Overfull \hbox (11.66pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 en 
+ []
+
+
+Overfull \hbox (13.41pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 bi- 
+ []
+
+
+Overfull \hbox (12.13pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 ci- 
+ []
+
+
+Overfull \hbox (23.63pt too wide) in paragraph at lines 16--17
+ \TU/lmr/bx/n/10 cleta 
+ []
+
+
+./portada.tex:19: LaTeX Error: \begin{center} on input line 8 ended by \end{huge}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19     \end{huge}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--24
+[] 
+ []
+
+./portada.tex:25: Undefined control sequence.
+l.25     {\large
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
+./portada.tex:27: Undefined control sequence.
+l.27       {\bf
+                Estudante:}        & Sergio Rodríguez Gayoso \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+./portada.tex:28: Undefined control sequence.
+l.28       {\bf
+                Director/a/es/as:} & Carlos Vázquez Regueiro \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no ñ in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+./portada.tex:32: Undefined control sequence.
+<argument> A Coruña, \today 
+                            .
+l.32   \rightline{A Coruña, \today.}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+
+./portada.tex:33: LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> portada.tex
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 61 strings out of 494900
+ 853 string characters out of 6177140
+ 57940 words of memory out of 5000000
+ 4073 multiletter control sequences out of 15000+600000
+ 5384 words of font info for 16 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 19i,6n,12p,190b,157s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

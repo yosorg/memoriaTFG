@@ -1,0 +1,2806 @@
+version: 0.12.2
+filePath: memoria_tfg.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns:
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+  dviToPdfEngine: xdvipdfmx
+  engine: xelatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  intermediatePostScript: false
+  $PATH: /usr/local/texlive/2019
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2019-08-16T18:21:08.962Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  memoria_tfg.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  memoria_tfg.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-08-16T18:21:09.014Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  /home/sergio/.config/dicy/config.yaml-ParsedYAML:
+    timeStamp: 2019-08-16T18:21:09.005Z
+    jobNames: []
+    value:
+      synctex: true
+      engine: xelatex
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+      intermediatePostScript: false
+      $PATH: /usr/local/texlive/2019
+    type: ParsedYAML
+  memoria_tfg.tex:
+    timeStamp: 2019-08-16T17:55:43.561Z
+    jobNames: []
+    hash: 5pnkScjENF41+HFGTo2Oxf+hnoJrvkdWnmXNXqhtQ1M=
+    type: LaTeX
+    subType: report
+  /home/sergio/.config/dicy/config.yaml:
+    timeStamp: 2019-08-16T18:20:57.337Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  memoria_tfg.log:
+    timeStamp: 2019-08-16T18:24:48.867Z
+    jobNames: []
+    hash: cAERb2TaEj0rKJ7HrVDOQpmINRF/TxnlLEhHP5kY/9k=
+    type: LaTeXLog
+    subType: XeTeX
+  memoria_tfg.fls-ParsedFileListing:
+    jobNames: []
+    type: ParsedFileListing
+  memoria_tfg.log-ParsedLaTeXLog:
+    timeStamp: 2019-08-16T18:29:16.957Z
+    jobNames: []
+    value:
+      messages:
+        - name: XeTeX
+          severity: info
+          text: estilo_tfg
+          source:
+            file: estilo_tfg.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 26
+              end: 26
+        - name: XeTeX
+          severity: info
+          text: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 30
+              end: 30
+        - severity: info
+          name: XeTeX
+          category: Package color
+          text: 'Driver file: xetex.def'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+            range:
+              start: 147
+              end: 147
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 35
+              end: 35
+        - name: XeTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 41
+              end: 41
+        - name: XeTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 44
+              end: 44
+        - name: XeTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 48
+              end: 48
+        - name: XeTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 51
+              end: 51
+        - severity: info
+          name: XeTeX
+          category: Package graphics
+          text: 'Driver file: xetex.def'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 56
+              end: 56
+        - name: XeTeX
+          severity: info
+          text: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 62
+              end: 62
+        - name: XeTeX
+          severity: info
+          text: >-
+            hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref
+            (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 65
+              end: 66
+        - name: XeTeX
+          severity: info
+          text: 'hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)'
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 69
+              end: 69
+        - name: XeTeX
+          severity: info
+          text: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 70
+              end: 70
+        - name: XeTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 71
+              end: 71
+        - name: XeTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 72
+              end: 72
+        - name: XeTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 73
+              end: 73
+        - severity: info
+          name: XeTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 74
+              end: 74
+        - name: XeTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 75
+              end: 75
+        - severity: info
+          name: XeTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 76
+              end: 76
+        - name: XeTeX
+          severity: info
+          text: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 77
+              end: 77
+        - name: XeTeX
+          severity: info
+          text: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 78
+              end: 78
+        - name: XeTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 79
+              end: 79
+        - name: XeTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 80
+              end: 80
+        - name: XeTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 81
+              end: 81
+        - name: XeTeX
+          severity: info
+          text: >-
+            pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 82
+              end: 83
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 84
+              end: 84
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: pdfTeX >= 1.30 not detected.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 85
+              end: 85
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 86
+              end: 86
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 87
+              end: 87
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode not found.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 88
+              end: 88
+        - name: XeTeX
+          severity: info
+          text: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 89
+              end: 89
+        - name: XeTeX
+          severity: info
+          text: >-
+            bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers
+            (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 90
+              end: 91
+        - name: XeTeX
+          severity: info
+          text: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 92
+              end: 92
+        - name: XeTeX
+          severity: info
+          text: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 93
+              end: 93
+        - severity: info
+          name: XeTeX
+          category: Package hobsub
+          text: Skipping package `hobsub' (already loaded).
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 95
+              end: 95
+        - name: XeTeX
+          severity: info
+          text: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 96
+              end: 96
+        - name: XeTeX
+          severity: info
+          text: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 97
+              end: 97
+        - name: XeTeX
+          severity: info
+          text: xcolor-patch 2016/05/16 xcolor patch
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 98
+              end: 98
+        - name: XeTeX
+          severity: info
+          text: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 99
+              end: 99
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: \enddocument detected (standard20110627).
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 100
+              end: 100
+        - name: XeTeX
+          severity: info
+          text: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 101
+              end: 101
+        - name: XeTeX
+          severity: info
+          text: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 102
+              end: 102
+        - name: XeTeX
+          severity: info
+          text: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 103
+              end: 103
+        - name: XeTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 106
+              end: 106
+        - name: XeTeX
+          severity: info
+          text: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 109
+              end: 109
+        - name: XeTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 112
+              end: 112
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Option `colorlinks' set `true'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4393
+              end: 4393
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 126
+              end: 126
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4519
+              end: 4519
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 127
+              end: 127
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4524
+              end: 4524
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 128
+              end: 128
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4527
+              end: 4527
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 129
+              end: 129
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Plain pages OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4534
+              end: 4534
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 130
+              end: 130
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Backreferencing OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4539
+              end: 4539
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 131
+              end: 131
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Implicit mode ON; LaTeX internals redefined.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 132
+              end: 132
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Bookmarks ON
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4772
+              end: 4772
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 133
+              end: 133
+        - name: XeTeX
+          severity: info
+          text: 'url 2013/09/16 ver 3.4 Verb mode for urls, etc.'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 138
+              end: 138
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \url
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 5125
+              end: 5125
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 140
+              end: 140
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6380
+              end: 6380
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 145
+              end: 145
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6385
+              end: 6385
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 146
+              end: 146
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6388
+              end: 6388
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 147
+              end: 147
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: backreferencing OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6395
+              end: 6395
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 148
+              end: 148
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link coloring ON
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6398
+              end: 6398
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 149
+              end: 149
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link coloring with OCG OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6405
+              end: 6405
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 150
+              end: 150
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: PDF/A mode OFF
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6410
+              end: 6410
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 151
+              end: 151
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6450
+              end: 6450
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 152
+              end: 152
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6454
+              end: 6454
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 153
+              end: 153
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: 'Driver (autodetected): hxetex.'
+          source:
+            file: estilo_tfg.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 158
+              end: 158
+        - name: XeTeX
+          severity: info
+          text: >-
+            stringenc 2016/05/16 v1.11 Convert strings between diff. encodings
+            (HO)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 167
+              end: 168
+        - name: XeTeX
+          severity: info
+          text: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 177
+              end: 177
+        - severity: info
+          name: XeTeX
+          category: Package uniquecounter
+          text: New unique counter `rerunfilecheck'
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+            range:
+              start: 282
+              end: 282
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 178
+              end: 179
+        - name: XeTeX
+          severity: info
+          text: >-
+            minifp 2013/12/30 v0.96. Macros for real number operations and a
+            stack-based programing language.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/minifp/minifp.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 187
+              end: 188
+        - name: XeTeX
+          severity: info
+          text: >-
+            polyglossia 2018/04/07 v1.43 Alternative to Babel for XeLaTeX and
+            LuaLaTeX
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 220
+              end: 221
+        - name: XeTeX
+          severity: info
+          text: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 224
+              end: 224
+        - name: XeTeX
+          severity: info
+          text: makecmds 2009/09/03 v1.0a extra command making commands
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 228
+              end: 228
+        - name: XeTeX
+          severity: info
+          text: xkeyval 2014/12/03 v2.7a package option processing (HA)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 231
+              end: 231
+        - name: XeTeX
+          severity: info
+          text: expl3 2019-02-15 L3 programming layer (loader)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 244
+              end: 244
+        - name: XeTeX
+          severity: info
+          text: expl3 2019-02-15 L3 programming layer (code)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 247
+              end: 247
+        - name: XeTeX
+          severity: info
+          text: xparse 2018-10-17 L3 Experimental document command parser
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 398
+              end: 398
+        - name: XeTeX
+          severity: info
+          text: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 405
+              end: 405
+        - name: XeTeX
+          severity: info
+          text: >-
+            fontspec-xetex 2019/02/12 v2.7b Font selection for XeLaTeX and
+            LuaLaTeX
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 408
+              end: 409
+        - name: XeTeX
+          severity: info
+          text: fontenc 2018/08/11 v2.0j Standard LaTeX package
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 426
+              end: 426
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding TU
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+            range:
+              start: 82
+              end: 82
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 430
+              end: 430
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \itshape
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4044
+              end: 4044
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 433
+              end: 433
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \slshape
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4049
+              end: 4049
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 434
+              end: 434
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \scshape
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4054
+              end: 4054
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 435
+              end: 435
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \upshape
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4059
+              end: 4059
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 436
+              end: 436
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \em
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4089
+              end: 4089
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 437
+              end: 437
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \emph
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4114
+              end: 4114
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 438
+              end: 438
+        - severity: warning
+          name: XeTeX
+          category: Package polyglossia
+          text: >-
+            No hyphenation patterns were loaded for `Galician' I will use
+            \language=\l@nohyphenation instead.
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-galician.ldf
+            range:
+              start: 7
+              end: 7
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 446
+              end: 449
+        - severity: warning
+          name: XeTeX
+          category: Package polyglossia
+          text: \setlocalhyphenmin useless for unhyphenated language galician
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-galician.ldf
+            range:
+              start: 7
+              end: 7
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 453
+              end: 454
+        - severity: info
+          name: XeTeX
+          category: Package polyglossia
+          text: Default language is galician.
+          source:
+            file: estilo_tfg.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 457
+              end: 457
+        - name: XeTeX
+          severity: info
+          text: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 459
+              end: 459
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `lasy' in version `bold' U/lasy/m/n -->
+            U/lasy/b/n.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+            range:
+              start: 52
+              end: 52
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 461
+              end: 462
+        - name: XeTeX
+          severity: info
+          text: amsmath 2018/12/01 v2.17b AMS math features
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 465
+              end: 465
+        - name: XeTeX
+          severity: info
+          text: amstext 2000/06/29 v2.01 AMS text
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 470
+              end: 470
+        - name: XeTeX
+          severity: info
+          text: amsbsy 1999/11/29 v1.2d Bold Symbols
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 478
+              end: 478
+        - name: XeTeX
+          severity: info
+          text: amsopn 2016/03/08 v2.02 operator names
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 482
+              end: 482
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \frac
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 223
+              end: 223
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 485
+              end: 485
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \overline
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 385
+              end: 385
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 488
+              end: 488
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \ldots
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 482
+              end: 482
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 491
+              end: 491
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \dots
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 485
+              end: 485
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 492
+              end: 492
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \cdots
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 606
+              end: 606
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 493
+              end: 493
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OML
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 729
+              end: 729
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 497
+              end: 497
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OMS
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 730
+              end: 730
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 498
+              end: 498
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: 'Redefining \['
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2844
+              end: 2844
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 519
+              end: 519
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: 'Redefining \]'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2845
+              end: 2845
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 520
+              end: 520
+        - name: XeTeX
+          severity: info
+          text: amssymb 2013/01/14 v3.01 AMS font symbols
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 523
+              end: 523
+        - name: XeTeX
+          severity: info
+          text: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 526
+              end: 526
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathfrak' in version `bold' U/euf/m/n
+            --> U/euf/b/n.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+            range:
+              start: 106
+              end: 106
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 529
+              end: 530
+        - name: XeTeX
+          severity: info
+          text: geometry 2018/04/16 v5.8 Page Geometry
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 533
+              end: 533
+        - severity: error
+          name: XeTeX
+          category: LaTeX
+          text: File `libertine.sty' not found
+          source:
+            file: estilo_tfg.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 548
+              end: 548
+        - name: XeTeX
+          severity: info
+          text: >-
+            fancyhdr 2019/01/31 v3.10 Extensive control of page headers and
+            footers
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 555
+              end: 556
+        - name: XeTeX
+          severity: info
+          text: 'natbib 2010/09/13 8.31b (PWD, AO)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 568
+              end: 568
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \cite
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+            range:
+              start: 694
+              end: 694
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 571
+              end: 571
+        - name: XeTeX
+          severity: info
+          text: setspace 2011/12/19 v6.7a set line spacing
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 575
+              end: 575
+        - name: XeTeX
+          severity: info
+          text: tocbibind 2010/10/13 v1.5k extra ToC listings
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 578
+              end: 578
+        - severity: info
+          name: XeTeX
+          category: Package tocbibind
+          text: The document has chapter divisions
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+            range:
+              start: 50
+              end: 50
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 579
+              end: 579
+        - name: XeTeX
+          severity: info
+          text: titlesec 2016/03/21 v2.10.2 Sectioning titles
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 585
+              end: 585
+        - name: XeTeX
+          severity: info
+          text: blindtext 2012/01/06 V2.0 blindtext-Package
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 597
+              end: 597
+        - name: XeTeX
+          severity: info
+          text: 'xspace 2014/10/28 v1.13 Space after command names (DPC,MH)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 600
+              end: 600
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Option `colorlinks' set `true'
+          source:
+            file: estilo_tfg.sty
+            range:
+              start: 84
+              end: 84
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 621
+              end: 621
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 635
+              end: 636
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 637
+              end: 638
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 639
+              end: 640
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 641
+              end: 642
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for TU/lmr/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 643
+              end: 644
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 645
+              end: 646
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 647
+              end: 648
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for PD1/pdf/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 649
+              end: 650
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for PU/pdf/m/n ... okay
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 651
+              end: 652
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link coloring ON
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 654
+              end: 654
+        - name: XeTeX
+          severity: info
+          text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 657
+              end: 657
+        - name: XeTeX
+          severity: info
+          text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 660
+              end: 660
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 664
+              end: 664
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 665
+              end: 665
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \nameref
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 666
+              end: 666
+        - severity: info
+          name: XeTeX
+          category: Package fontspec
+          text: 'Adjusting the maths setup (use [no-math] to avoid this).'
+          source:
+            file: memoria_tfg.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 673
+              end: 674
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `legacymaths' in version `bold' OT1/cmr/m/n
+            --> OT1/cmr/bx/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 677
+              end: 678
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \acute
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 679
+              end: 679
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \grave
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 680
+              end: 680
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \ddot
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 681
+              end: 681
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \tilde
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 682
+              end: 682
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \bar
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 683
+              end: 683
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \breve
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 684
+              end: 684
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \check
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 685
+              end: 685
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \hat
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 686
+              end: 686
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \dot
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 687
+              end: 687
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \mathring
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 688
+              end: 688
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Gamma
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 689
+              end: 689
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Delta
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 690
+              end: 690
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Theta
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 691
+              end: 691
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Lambda
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 692
+              end: 692
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Xi
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 693
+              end: 693
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Pi
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 694
+              end: 694
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Sigma
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 695
+              end: 695
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Upsilon
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 696
+              end: 696
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Phi
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 697
+              end: 697
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Psi
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 698
+              end: 698
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Omega
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 699
+              end: 699
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \mathdollar
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 700
+              end: 700
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring symbol font `operators'
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 701
+              end: 701
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OT1' has changed to `TU' for symbol font `operators' in
+            the math version `normal'.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 702
+              end: 703
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `operators' in version `normal' OT1/cmr/m/n
+            --> TU/lmr/m/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 704
+              end: 705
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OT1' has changed to `TU' for symbol font `operators' in
+            the math version `bold'.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 706
+              end: 707
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `operators' in version `bold' OT1/cmr/bx/n
+            --> TU/lmr/m/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 708
+              end: 709
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `operators' in version `normal' TU/lmr/m/n
+            --> TU/lmr/m/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 710
+              end: 711
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathit' in version `normal' OT1/cmr/m/it
+            --> TU/lmr/m/it.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 712
+              end: 713
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathbf' in version `normal' OT1/cmr/bx/n
+            --> TU/lmr/bx/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 714
+              end: 715
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathsf' in version `normal' OT1/cmss/m/n
+            --> TU/lmss/m/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 716
+              end: 717
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathtt' in version `normal' OT1/cmtt/m/n
+            --> TU/lmtt/m/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 718
+              end: 719
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `operators' in version `bold' TU/lmr/m/n -->
+            TU/lmr/bx/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 720
+              end: 721
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathit' in version `bold' OT1/cmr/bx/it
+            --> TU/lmr/bx/it.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 722
+              end: 723
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathsf' in version `bold' OT1/cmss/bx/n
+            --> TU/lmss/bx/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 724
+              end: 725
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathtt' in version `bold' OT1/cmtt/m/n
+            --> TU/lmtt/bx/n.
+          source:
+            file: memoria_tfg.tex
+            range:
+              start: 35
+              end: 35
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 726
+              end: 727
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Try loading font information for T1+phv
+          source:
+            file: portada/portada.tex
+            range:
+              start: 4
+              end: 4
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 766
+              end: 766
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Try loading font information for U+lasy
+          source:
+            file: portada/portada.tex
+            range:
+              start: 25
+              end: 25
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 776
+              end: 776
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: portada/portada.tex
+            range:
+              start: 25
+              end: 25
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 780
+              end: 780
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
+          source:
+            file: portada/portada.tex
+            range:
+              start: 25
+              end: 25
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 785
+              end: 785
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 48.'
+          source:
+            file: memoria_tfg.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 801
+              end: 802
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 6.'
+          source:
+            file: portada/resumo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 819
+              end: 820
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 3.'
+          source:
+            file: portada/palabras-chave.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 824
+              end: 825
+        - severity: info
+          name: XeTeX
+          category: Package lettrine.sty
+          text: >-
+            Targeted height = 22.12506pt (no accent, loversize=0), Lettrine
+            height = 22.12502pt (N); reported.
+          source:
+            file: contido/introducion.tex
+            range:
+              start: 4
+              end: 4
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 864
+              end: 867
+        - severity: info
+          name: XeTeX
+          category: Package lettrine.sty
+          text: >-
+            Targeted height = 22.12506pt (no accent, loversize=0), Lettrine
+            height = 22.12502pt (D); reported.
+          source:
+            file: contido/conclusions.tex
+            range:
+              start: 4
+              end: 4
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1171
+              end: 1174
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 72.'
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1177
+              end: 1178
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 72.'
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1181
+              end: 1182
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 72.'
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1191
+              end: 1192
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 72.'
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1201
+              end: 1202
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 72.'
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1216
+              end: 1217
+        - severity: warning
+          name: XeTeX
+          category: Package blindtext
+          text: 'galician not defined, using English instead. on input line 72.'
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1226
+              end: 1227
+        - severity: warning
+          name: XeTeX
+          text: No file memoria_tfg.bbl.
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1261
+              end: 1261
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `BeforeClearDocument'
+          source:
+            file: contido/implementacion_dispositivo.tex
+            range:
+              start: 89
+              end: 89
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1266
+              end: 1266
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `AfterLastShipout'
+          source:
+            file: contido/implementacion_dispositivo.tex
+            range:
+              start: 89
+              end: 89
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1267
+              end: 1267
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `AtVeryEndDocument'
+          source:
+            file: contido/implementacion_dispositivo.tex
+            range:
+              start: 89
+              end: 89
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1274
+              end: 1274
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Executing hook `AtEndAfterFileList'
+          source:
+            file: contido/implementacion_dispositivo.tex
+            range:
+              start: 89
+              end: 89
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1275
+              end: 1275
+        - severity: info
+          name: XeTeX
+          category: Package rerunfilecheck
+          text: >-
+            File `memoria_tfg.out' has not changed. Checksum:
+            79DEFD1B08460CCF1CF5CF0A56C8F41B.
+          source:
+            file: contido/implementacion_dispositivo.tex
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1276
+              end: 1277
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `AtVeryVeryEnd'
+          source:
+            file: contido/implementacion_dispositivo.tex
+            range:
+              start: 89
+              end: 89
+          log:
+            file: memoria_tfg.log
+            range:
+              start: 1278
+              end: 1278
+      inputs: []
+      outputs:
+        - memoria_tfg.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  memoria_tfg.pdf:
+    timeStamp: 2019-08-16T18:24:48.863Z
+    jobNames: []
+    hash: M2HldrZwUsnJJVl3lRSc161zCmSuqZvNge+o1NADHYs=
+    type: PortableDocumentFormat
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: memoria_tfg.yaml-ParsedYAML
+        type: default
+      - file: memoria_tfg.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: /home/sergio/.config/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: memoria_tfg.yaml-ParsedYAML
+        type: default
+      - file: memoria_tfg.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: /home/sergio/.config/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: /home/sergio/.config/dicy/config.yaml
+        type: default
+    outputs:
+      - file: /home/sergio/.config/dicy/config.yaml-ParsedYAML
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - memoria_tfg.tex
+    inputs:
+      - file: memoria_tfg.tex
+        type: default
+    outputs:
+      - file: memoria_tfg.tex-ParsedLaTeXMagic
+        type: default
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - memoria_tfg.tex
+    inputs:
+      - file: memoria_tfg.tex
+        type: default
+      - file: memoria_tfg.fls-ParsedFileListing
+        type: default
+      - file: memoria_tfg.log-ParsedLaTeXLog
+        type: default
+    outputs:
+      - file: memoria_tfg.pdf
+        type: default
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - memoria_tfg.log
+    inputs:
+      - file: memoria_tfg.log
+        type: default
+    outputs:
+      - file: memoria_tfg.log-ParsedLaTeXLog
+        type: default
+  - name: LogProducedTargets
+    command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - memoria_tfg.tex
+    inputs:
+      - file: memoria_tfg.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - memoria_tfg.log
+    inputs:
+      - file: memoria_tfg.log
+        type: default
+    outputs:
+      - file: memoria_tfg.log-ParsedLaTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - memoria_tfg.log-ParsedLaTeXLog
+    inputs:
+      - file: memoria_tfg.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Clean
+    command: clean
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []

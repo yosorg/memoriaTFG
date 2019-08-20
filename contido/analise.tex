@@ -1,0 +1,128 @@
+\chapter{Analise e planificación}
+\label{chap:Analise e planificación}
+Neste capítulo partirase dos requisitos do proxecto para analizar as posibles funcionalidades planificar a implementación e elixir a solución a implantar.
+
+\section{Análise}
+O obxetivo do proxecto é a creación de dous dispositivos que realizarán as seguintes funcións:
+\begin{itemize}
+    \item\textbf{Informar da posición da bicicleta mediante luces}
+
+Esta función realizarase no dispositivo principal. Para elo terá que contar con luces leds e capacidade para controlalas, tamén dispor de capacidade de comunicación co segundo dispositivo e dispoñer dunha fonte de alimentación con capacidade suficiente para facer funcionar as luces.\\
+
+    \item\textbf{Informar das manobras e estado do vehículo mediante luces}
+
+Para realizar esta función os requisitos son os mesmos da función anterior o que engadiremos a necesidade de sensores para detectar cambios no movemento da bicicleta, para sinalizar freadas ou accidentes, e cambios na luz do ambiente para acender as luces cando as condicións lumínicas non sexan favorables.\\
+
+    \item\textbf{Captura de vídeo do que sucede detrás do vehículo}
+
+Esta función tamén se realizará no dispositivo principal e necesitará os requisitos de comunicación e alimentación enerxética xa citados. Contará cunha cámara para capturar as imaxes e necesitará a capacidade para procesalas e transmitilas en tempo real.\\
+
+    \item\textbf{Entrada de ordes do usuario para o control de luces e vídeo}
+
+Esta función se executa no segundo dispositivo, para realizala será necesario un mecanismo de entrada, como poden ser botóns, pulsadores ou pantalla táctil. Tamén se necesitará capacidades de procesamento, comunicación e alimentación enerxética.\\
+
+    \item\textbf{Reprodución do vídeo en tempo real}
+
+Tamén a realizar no dispositivo dous, esta función necesita, a maiores do anteriormente citado unha pantalla na que poder ver o vídeo, e capacidades abondo para reproducilo a tempo real.
+\end{itemize}
+
+A maiores destes requisitos funcionais contase cos seguintes obxectivos:
+\begin{itemize}
+    \item \textbf{Pequeno tamaño e potabilidade}
+
+Co motivo de poder dispoñer o dispositivo da bicicleta, xa sexa para cargalo ou por motivos de seguridade o deixar a bicicleta aparcada na rúa, priorizarase por un deseño portátil. O ideal e que os dispositivos poidan separase da bicicleta con facilidade e que o seu tamaño permita gardalos no peto. Este, xunto cos requisitos funcionais, é o principal motivo polo que optarase por utilizar un telefono móbil como segundo dispositivo, xa que a maioría de persoas dispoñen de un en todo momento, a así evitaríase ter que levar un dispositivo a maiores.
+
+    \item \textbf{Independencia entre dispositivos}
+
+Buscarase que os dispositivos poidan conectarse sen fíos para obter unha maior independencia entre os dispositivos e evitar ter que colocar cables na bicicleta. Tamén se estudará a posibilidade de utilizar unha conexión cableada para diminuír o consumo enerxético dos dispositivos, neste caso optarase preferiblemente por unha conexión USB por compatibilidade co telefono móbil.
+
+    \item \textbf{Batería e alimentación}
+
+Para poder alimentar o dispositivo principal necesitarase dunha batería con capacidade abonda para poder utilizalo polo menos un dia de uso sen ter que recargala. Tamén se estudará a posibilidade de incluír sistemas de aceso e apagado de ser preciso.
+
+    \item \textbf{Sinxeleza e capacidade de actualización}
+
+Pretendese desenvolver un sistema robusto e simple para facilitar o seu mantemento e poder actualizalo de forma sinxela. Especialmente o software ha de ser o mais simple posible para poder permitir incorporar novas funcionalidades no futuro.
+\end{itemize}
+\section{Planificación}
+
+Seguindo a metodoloxía Top-Dow o desenvolvemento do proxecto dividirase en dúas fases correspondentes a os dous dispositivos. Comezarase polo desenvolvemento do dispositivo principal seguido da aplicación no dispositivo móbil é a comunicación entre ambos. Unha vez desenvolvidas as funcións principais iterarase entre as fase para desenrolar a conexión entre os dispositivos.
+
+\subsection{Fase 1: Dispositivo principal}
+As tarefas a realizar son as seguintes:
+\begin{itemize}
+    \item Conexión dos leds e probas de funcionamento.
+    \item Funcións de control dos leds, secuencias e cores.
+    \item Servidor de peticións de ordes.
+    \item Conexión da cámara e probas de funcionamento.
+    \item Transmisión de vídeo.
+    \item Autoarranque e apagado.
+    \item Alimentación enerxética e batería.
+    \item Deseño e construción de carcasa e ancoraxes.
+\end{itemize}
+\subsection{Fase 2: Aplicación do dispositivo móbil}
+Realizaranse a seguintes tarefas:
+\begin{itemize}
+
+    \item Introdución de ordes.
+    \item Deseño de interfaces.
+    \item Transmisión de ordes.
+    \item Xestión do estado.
+    \item Probas con sensores.
+    \item Funcións de automatización.
+    \item Recepción de vídeo.
+    \item Ancoraxe do dispositivo a bicicleta.
+\end{itemize}
+
+\section{Custos do proxecto}
+O software utilizado neste proxecto conta con licenzas de software libre polo que os custos restrinxiranse aos recursos humanos e recursos hardware.
+Nos recursos hardware da táboa 2.1 inclúense as pezas utilizadas finalmente para o dispositivo asi como as que se utilizaron para realización de probas.
+
+\begin{table}[tb]
+    \label{c:custos hardware}
+    \begin{center}
+        \begin{tabular}{|l|l|l|l|}
+            \hline
+             Compoñente & Cantidade & Custo por unidade & Subtotal\\ \hline
+             Raspberry Pi Zero W & 2 & 11.00€ & 22.00€ \\ \hline
+             Raspberry Pi Zero & 2 & 5.00€ & 5.00€ \\ \hline
+             Pi Camera Module V1 & 1 & 5.00€ & 5.00€ \\ \hline
+             Pi Camera Module V2 & 2 & 20.00€ & 40.00€ \\ \hline
+             Conxunto de lentes & 1 & 2.00€ & 2.00€ \\ \hline
+             Tira 8 leds w2812b & 4 & 1.00€ & 4.00€\\ \hline
+             Anel 8 leds w2812b & 2 & 1.00€ & 2.00€ \\ \hline
+             Adafruit Powerboost 1000C & 1 & 27.00€ & 27.00€ \\ \hline
+             Batería Lipo 1600mA & 1 & 7.00€ & 7.00€\\ \hline
+             Batería 18650 3400mA & 2 & 2.00€ & 4.00€ \\ \hline
+             Batería USB 5000mA & 1 & 10.00€ & 10.00€ \\ \hline
+             Material impresión 3D PLA & <1Kg & 15.00€ & 15.00€ \\ \hline
+             Cables &  &  & 5.00€ \\ \hline
+             Total &  &  & 148.00€ \\ \hline
+        \end{tabular}
+    \end{center}
+    \caption{Custos monetarios do proxecto}
+    \label{tab:my_label}
+\end{table}
+
+As estes custos engádense as ferramentas utilizadas incluíndo entre outros ordenador, impresora 3D, multímetro, soldador, dispositivo android e bicicleta.
+
+Na táboa 2.2 móstranse os recursos humanos utilizados medidos en horas de traballo.
+
+\begin{table}[tb]
+    \label{c:custos humanos}
+    \begin{center}
+        \begin{tabular}{|l|l|}
+            \hline
+             Tarefa & Tempo\\ \hline
+             Documentación & 80h \\ \hline
+             Desenvolvemento do dispositivo & 100h \\ \hline
+             Desenvolvemento do software do dispositivo & 100h \\ \hline
+             Desenvolvemento da aplicación & 200h \\ \hline
+             Deseño das pezas 3D & 70h \\ \hline
+             Probas e avaliación experimental & 32h\\ \hline
+             Total & 512h \\ \hline
+        \end{tabular}
+    \end{center}
+    \caption{Tempo empregado no proxecto}
+    \label{tab:my_label}
+\end{table}

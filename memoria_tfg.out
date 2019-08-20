@@ -1,0 +1,58 @@
+\BOOKMARK [0][-]{chapter.1}{Introdución}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Obxectivos}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Metodoloxía}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Proposta}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Traballo\040relacionado}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Estrutura\040da\040memoria}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Analise e planificación}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Análise}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Planificación}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Fase\0401:\040Dispositivo\040principal}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Fase 2: Aplicación do dispositivo móbil}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Custos\040do\040proxecto}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Deseño e implementación do dispositivo}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Esquema\040xeral\040do\040dispositivo\040HW}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Placas\040de\040desenvolvemento}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Luces\040led}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Cámara}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{Alimentación e baterías}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.5}{Software\040a\040utilizar}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.6}{Caixa\040e\040ancoraxes\040a\040bicicleta}{section.3.1}% 20
+\BOOKMARK [1][-]{section.3.2}{Leds}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.2.1}{Conexión coa Raspberry Pi}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.2}{Software\040de\040Control}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Camara}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Lentes}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{Captura\040de\040video}{section.3.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Transmisión de video}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.5}{Recepción de ordes}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.6}{Conexión co servidor}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.7}{Autoarranque\040do\040servidor}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.8}{Alimentación e enerxia}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.9}{Carcasa\040e\040anclaxe}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.10}{Custo\040do\040dispositivo}{chapter.3}% 33
+\BOOKMARK [0][-]{chapter.4}{Arquitectura e implementación da aplicación}{}% 34
+\BOOKMARK [1][-]{section.4.1}{Esquema xeral da aplicación}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{Actividade\040principal}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.2.1}{Layout}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.2}{Ciclo\040de\040vida\040da\040actividade}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.3}{Botones}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.4}{Sensores}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.5}{Superficie\040de\040video}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{Comuniciacíon co dispositivo}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Broadcast}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Conexión}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.3}{Transmisión de ordes}{section.4.3}% 45
+\BOOKMARK [1][-]{section.4.4}{Recepción de video}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.5}{Anclaxe\040a\040bicicleta}{chapter.4}% 47
+\BOOKMARK [0][-]{chapter.5}{Evaluación experimental}{}% 48
+\BOOKMARK [1][-]{section.5.1}{Consumo e autonomía}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.2}{Vídeo e lentes}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.3}{Visibilidade}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.4}{Estabilidade e consumo da aplicación}{chapter.5}% 52
+\BOOKMARK [0][-]{chapter.6}{Conclusións}{}% 53
+\BOOKMARK [1][-]{section.6.1}{Traballo\040futuro}{chapter.6}% 54
+\BOOKMARK [1][-]{section.Alph0.1}{Contido\040DVD}{chapter.6}% 55
+\BOOKMARK [1][-]{section.Alph0.2}{Requisitos e instalación}{chapter.6}% 56
+\BOOKMARK [0][-]{appendix.A}{Glosario de acrónimos}{}% 57
+\BOOKMARK [0][-]{appendix.B}{Glosario\040de\040termos}{}% 58

@@ -1,0 +1,66 @@
+correspóndense\chapter{Evaluación experimental}
+\label{chap:evaluacion_experimenal}
+Para comprobar que os resultados obtidos correspóndense co plantexado probaremos o dispositivo e a aplicación. Realizaremos probas en contornos controlados e probas no medio real o que esta dirixido.
+
+\section{Consumo e autonomía}
+
+Comenzarase as probas medindo o consumo de amperios do sistema. Para elo colocarase un amperímetro usb entre unha fonte de alimentación e a conexión usb coa que alimentarase o sistema nestas probas. Repetiremos as probas con diferentes fontes de alimentación e distintos cables para descartar fallos e conseguir unha maior consistencia nos resultados. A continuación realizaranse as mesmas probas no dispositivo medindo o consumo alimentándoo coa batería.
+
+Analizaranse os seguintes supostos para o dispositivo con un anel led e para o que conta a maiores coas dúas tiras led.
+\begin{itemize}
+    \item \textbf{Sistema en repouso: }
+    O sistema esta aceso pero só se estean a executar as funcións do sistema operativo incluíndo o servidor ssh para o control remoto.
+    \item \textbf{Servidor funcionando:}
+    Executamos o servidor.
+    \item \textbf{Cliente conectado:}
+    Conectamos o dispositivo móbil o servidor.
+    \item \textbf{Vídeo transmitindo:}
+    Transmitimos vídeo en directo o dispositivo móbil.
+    \item \textbf{Vídeo parado:}
+    Paramos a transmisión de vídeo.
+    \item \textbf{Desconexión do cliente:}
+    Pechamos a aplicación no dispositivo móbil.
+    \item \textbf{Luces intermitentes:}
+    Iniciamos as luces intermitentes a máxima intensidade nunha das direccións, consumo varia no proceso, rexistremos o valor máximo.
+    \item \textbf{Luces vermellas:}
+    Acendemos as luces vermellas a intensidade máxima.
+    \item \textbf{Luces vermellas e transmisión de vídeo:}
+    Consumo coas luces vermellas a máxima intensidade e co vídeo transmitindo en directo.
+\end{itemize}
+
+Os resultados obtidos son os seguintes:
+
+\begin{table}[tb]
+    \label{c:comparativa}
+    \begin{center}
+        \begin{tabular}{|l|l|l|l|}
+            \hline
+             &  24 luces & 24 luces & 8 luces\\
+             & & e batería & \\ \hline
+             Sistema en repouso & 165mA & 148mA & \\ \hline
+             Servidor en  funcionamento & 165mA & 148mA & \\ \hline
+             Cliente conectado & 165/168mA  & 148mA & \\ \hline
+             Vídeo transmitindo & 360mA & 342mA & \\ \hline
+             Vídeo parado & 211mA & 191mA & \\ \hline
+             Desconexión do cliente & 165mA & 148mA & \\ \hline
+             Luces intermitentes & 428mA & 414mA & \\ \hline
+             Luces vermellas & 505mA & 502mA & \\ \hline
+             Luces vermellas e vídeo & 660mA & 645mA & \\ \hline
+        \end{tabular}
+    \end{center}
+    \caption{Comparativa de consumo de amperios}
+    \label{tab:my_label}
+\end{table}
+
+
+As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A respectivamente, tamén utilizáronse dous cables un de maior calidade e outro cunha calidade inferior. En ningún dos casos obtivéronse diferencias apreciables sendo a maior diferencia de 4mA. Na versión con batería necesitouse utilizar cableado a maiores para realizar as probas, o que pode que incrementara lixeiramente o consumo.
+
+A seguinte proba a realizar será a de autonomía do dispositivo, para elo buscarase o consumo máximo acendendo as luces vermella a máxima intensidade o tempo que se transmite vídeo.
+
+Comezaranse as probas co dispositivo dotado de batería interna 
+
+\section{Vídeo e lentes}
+
+\section{Visibilidade}
+
+\section{Estabilidade e consumo da aplicación}

@@ -1,0 +1,67 @@
+\select@language {galician}
+\contentsline {chapter}{\numberline {1}Introdución}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Obxectivos}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Metodoloxía}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Proposta}{2}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Traballo relacionado}{3}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Estrutura da memoria}{3}{section.1.5}% 
+\contentsline {chapter}{\numberline {2}Analise e planificación}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Análise}{5}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Planificación}{7}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Fase 1: Dispositivo principal}{7}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Fase 2: Aplicación do dispositivo móbil}{7}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}Custos do proxecto}{8}{section.2.3}% 
+\contentsline {chapter}{\numberline {3}Deseño e implementación do dispositivo}{9}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Esquema xeral do dispositivo HW}{9}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Placas de desenvolvemento}{9}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Luces led}{12}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}Cámara}{13}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.4}Alimentación e baterías}{14}{subsection.3.1.4}% 
+\contentsline {subsection}{\numberline {3.1.5}Software a utilizar}{15}{subsection.3.1.5}% 
+\contentsline {subsection}{\numberline {3.1.6}Caixa e ancoraxes a bicicleta}{16}{subsection.3.1.6}% 
+\contentsline {section}{\numberline {3.2}Leds}{16}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Conexión coa Raspberry Pi}{16}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Software de Control}{17}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}Camara}{18}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Lentes}{19}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Captura de video}{19}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.4}Transmisión de video}{20}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Recepción de ordes}{20}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Conexión co servidor}{21}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Autoarranque do servidor}{21}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Alimentación e enerxia}{22}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Carcasa e anclaxe}{24}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Custo do dispositivo}{25}{section.3.10}% 
+\contentsline {chapter}{\numberline {4}Arquitectura e implementación da aplicación}{29}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Esquema xeral da aplicación}{30}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Actividade principal}{30}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Layout}{31}{subsection.4.2.1}% 
+\contentsline {subsubsection}{Layout vertical}{31}{subsection.4.2.1}% 
+\contentsline {subsubsection}{Layout horizontal}{31}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Ciclo de vida da actividade}{31}{subsection.4.2.2}% 
+\contentsline {subsubsection}{onCreate}{31}{subsection.4.2.2}% 
+\contentsline {subsubsection}{onResume}{32}{subsection.4.2.2}% 
+\contentsline {subsubsection}{onPause}{32}{subsection.4.2.2}% 
+\contentsline {subsubsection}{onDestroy}{32}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Botones}{32}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Sensores}{33}{subsection.4.2.4}% 
+\contentsline {subsubsection}{Acelerometro}{33}{subsection.4.2.4}% 
+\contentsline {subsubsection}{Sensor de Luz}{33}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Superficie de video}{33}{subsection.4.2.5}% 
+\contentsline {section}{\numberline {4.3}Comuniciacíon co dispositivo}{33}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Broadcast}{33}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Conexión}{34}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.3}Transmisión de ordes}{34}{subsection.4.3.3}% 
+\contentsline {section}{\numberline {4.4}Recepción de video}{34}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Anclaxe a bicicleta}{34}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Evaluación experimental}{37}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Consumo e autonomía}{37}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Vídeo e lentes}{38}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Visibilidade}{38}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Estabilidade e consumo da aplicación}{38}{section.5.4}% 
+\contentsline {chapter}{\numberline {6}Conclusións}{39}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Traballo futuro}{39}{section.6.1}% 
+\contentsline {section}{\numberline {.1}Contido DVD}{41}{section.Alph0.1}% 
+\contentsline {section}{\numberline {.2}Requisitos e instalación}{41}{section.Alph0.2}% 
+\contentsline {chapter}{\numberline {A}Glosario de acrónimos}{43}{appendix.A}% 
+\contentsline {chapter}{\numberline {B}Glosario de termos}{45}{appendix.B}% 
