@@ -1,4 +1,4 @@
-PWD /home/sergio/Escritorio/proyecto/memoria
+PWD /home/sergio/github/memoriaTFG
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -272,9 +272,11 @@ INPUT imaxes/circuito-leds.png
 INPUT imaxes/circuito-bateria.png
 INPUT imaxes/circuito-completo.png
 INPUT imaxes/esquema-completo.png
+INPUT imaxes/carcasa.png
 OUTPUT contido/implementacion_aplicacion.aux
 INPUT contido/implementacion_aplicacion.tex
 INPUT contido/implementacion_aplicacion.tex
+INPUT imaxes/soporte-mobil.png
 OUTPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.tex
 INPUT contido/evaluacion_experimenal.tex
