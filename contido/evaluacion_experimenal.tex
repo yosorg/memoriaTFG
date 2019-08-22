@@ -57,7 +57,14 @@ As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A
 
 A seguinte proba a realizar será a de autonomía do dispositivo, para elo buscarase o consumo máximo acendendo as luces vermella a máxima intensidade o tempo que se transmite vídeo.
 
-Comezaranse as probas co dispositivo dotado de batería interna 
+Comezaranse as probas co dispositivo dotado de batería interna, cando a voltaxe da batería esta entorno os 3.7V detectase un problema o sistema apagase, indicando batería baixa. O \emph{script} Python encargado de monitorizar o pin conectado o indicador de voltaxe baixo do Adafruit Powerboost detecta unha caída de voltaxe que confunde co franco de caída esperado cando o pin ponse a 0. O pin de baixo voltaxe do Adafruit Powerboost está conectado a voltaxe da batería cando a caga e superior a 3.2V e conectase a un valor de 0V cando baixa de este limite e debido a que cando batería esta a comezar a descargarse para poder proporcionar a amperaxe adecuada a súa voltaxe baixa a un ritmo rápido que confunde o \emph{script}. O podemos solucionar incluíndo unha segunda comprobación no \emph{script} despois de detectar o franco de caída comprobarase que o valor lido no pin é 0 antes de apagar a Raspberry.
+
+A continuación detectase un segundo problema, despois de  min volvese a apagar por batería baixa e unha vez apagado a batería recuperase ata unha voltaxe de 3.5V. Esto debese a que o estar consumindo o máximo de amperios necesita baixar a súa voltaxe para poder seguir entregando estes amperios. Que a batería se apague neste punto e bo para protexer a batería e prolongar a súa vida útil pero reduce o tempo de uso da batería, que poderíamos seguir usando sempre que non utilicemos o consumo máximo do dispositivo. Este problema pódese solucionar de dúas formas:
+Utilizando un batería de maior capacidade xa que poderá seguir subministrando a amperaxe necesaria a menor voltaxe.
+Utilizar unha batería cunha constante de descarga maior, isto é a capacidade máxima de amperios que pode subministrar en función da capacidade en amperios hora. A batería utilizada ten unha constante de descarga de 1C isto quere dicir que coa sua caga completa o fabricante garante que proporcione 1.6A funcionando con normalidade.
+Ámbalas dúas solucións implican na practica unha batería de maior tamaño.
+
+Procedemos a repetir a proba pero esta vez deshabitando o apagado automático, esperando a que o sistema se apague cando a voltaxe non sexa suficiente para manter a Raspberry acesa ou no peor caso cando o circuito de proteción que inclúe a batería a desconecte a 2.5V. De non usar unha batería con circuito de proteción
 
 \section{Vídeo e lentes}
 
