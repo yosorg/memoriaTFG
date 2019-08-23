@@ -3,13 +3,13 @@
   "introducion.xdv" 0 -1 0 "xelatex"
   (generated)
   "introducion.pdf"
-["xelatex"] 1566325076 "introducion.tex" "introducion.xdv" "introducion" 1566325077
+["xelatex"] 1566467031 "introducion.tex" "introducion.xdv" "introducion" 1566467032
   "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
-  "introducion.aux" 1566324491 2088 daab5a8dfbf0f1398d1a619c058c6754 ""
-  "introducion.tex" 1566325076 6559 453cbc23634f1ed5d024e1bbceaf61fc ""
+  "introducion.aux" 1566466266 2436 4c4cdbc45040c6d8e5fa91670cc10a8d ""
+  "introducion.tex" 1566467031 7957 23d2d5cb05584fe6836cb379952c215b ""
   (generated)
   "introducion.log"
   "introducion.xdv"

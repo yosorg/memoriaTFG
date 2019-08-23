@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  21 AUG 2019 22:10
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  23 AUG 2019 02:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1523,60 +1523,112 @@ Overfull \hbox (14.01427pt too wide) in paragraph at lines 4--5
  []
 
 
-Overfull \hbox (10.35524pt too wide) in paragraph at lines 6--7
+./contido/introducion.tex:9: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9     \caption
+                {Lesividade en función da luminosidade da vía. (incluir cita) }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./contido/introducion.tex:11: Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.11 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+./contido/introducion.tex:11: Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.11 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+./contido/introducion.tex:11: Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.11 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+./contido/introducion.tex:11: LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./contido/introducion.tex:11: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.11 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (10.35524pt too wide) in paragraph at lines 29--30
 []\TU/LinLibertine(0)/m/n/10.95 Varios estudos mostran que o uso de luces en bicicletas, especialmente as dinámicas permiten
  []
 
 
-Overfull \hbox (1.01088pt too wide) in paragraph at lines 6--7
+Overfull \hbox (1.01088pt too wide) in paragraph at lines 29--30
 \TU/LinLibertine(0)/m/n/10.95 que estas sexan divisadas a maiores distancias tanto de día como de noite. A tese The Nighttime
- []
-
-
-Overfull \hbox (2.51675pt too wide) in paragraph at lines 6--7
-\TU/LinLibertine(0)/m/n/10.95 Conspicuity Benefits of Static and Dynamic Bicycle Taillights estuda os beneficios de diferentes
- []
-
-
-Overfull \hbox (37.26476pt too wide) in paragraph at lines 8--9
-\TU/LinLibertine(0)/m/n/10.95 momentaneamente a visión do que ocorre diante e incluso o equilibrio en ciclistas non experimentados. 
- []
-
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 13.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 14.4pt
- -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf
-
-Overfull \hbox (9.79726pt too wide) in paragraph at lines 15--17
-\TU/LinLibertine(0)/m/n/10.95 tempo que disporá de alimentación propia ou compartida. Un segundo dispositivo de interacción
  []
 
 [1
 
 
 ]
-Overfull \hbox (17.8405pt too wide) in paragraph at lines 18--19
+Overfull \hbox (37.26476pt too wide) in paragraph at lines 31--32
+\TU/LinLibertine(0)/m/n/10.95 momentaneamente a visión do que ocorre diante e incluso o equilibrio en ciclistas non experimentados. 
+ []
+
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 36.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+ -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf
+
+Overfull \hbox (9.79726pt too wide) in paragraph at lines 38--40
+\TU/LinLibertine(0)/m/n/10.95 tempo que disporá de alimentación propia ou compartida. Un segundo dispositivo de interacción
+ []
+
+
+Overfull \hbox (17.8405pt too wide) in paragraph at lines 41--42
 []\TU/LinLibertine(0)/m/n/10.95 O segundo consistirá en desenvolver o software que permita o funcionamento dos dispositivos.
  []
 
 
-Overfull \hbox (0.14784pt too wide) in paragraph at lines 28--29
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (0.14784pt too wide) in paragraph at lines 51--52
 \TU/LinLibertine(0)/m/n/10.95 engadindo en cada incremento novas funcionalidades a o prototipo previamente desenvolvido,
  []
 
 
-Overfull \hbox (10.90274pt too wide) in paragraph at lines 35--36
+Overfull \hbox (10.90274pt too wide) in paragraph at lines 58--59
 []\TU/LinLibertine(0)/m/n/10.95 Existen no mercado dispositivos con funcións similares pero poucos integra tódalas funcións.
  []
 
-[2]) [3]
+)
+Underfull \vbox (badness 3735) has occurred while \output is active []
+
+ [3] [4]
 \openout2 = `contido/analise.aux'.
 
- (./contido/analise.tex [4
-
-
-
-]
+ (./contido/analise.tex
 Capítulo 2.
 
 Overfull \hbox (5.2744pt too wide) in paragraph at lines 3--4
@@ -1613,7 +1665,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[5]
+[5
+
+
+
+]
 Overfull \hbox (13.07983pt too wide) in paragraph at lines 22--23
 []\TU/LinLibertine(0)/m/n/10.95 Esta función se executa no segundo dispositivo, para realizala será necesario un mecanismo
  []
@@ -1880,23 +1936,30 @@ Overfull \hbox (2.36171pt too wide) in paragraph at lines 3--7
  []
 
 
+Overfull \hbox (0.79274pt too wide) in paragraph at lines 20--21
+\TU/LinLibertine(0)/m/n/10.95 obxectivo. Sen embargo se nos presenta outra opción moito máis atractiva: utilizar un telefono
+ []
+
+
 Overfull \hbox (0.1041pt too wide) in paragraph at lines 22--23
 \TU/LinLibertine(0)/m/n/10.95 operativo máis empregado globalmente e nos permitirá chegar a un maior numero de usuarios. 
  []
 
 [31]
-Overfull \hbox (31.02597pt too wide) in paragraph at lines 33--34
-[]\TU/LinLibertine(0)/m/n/10.95 É funcional: Kotlin é unha linguaxe orientada a obxetos pero inclue conceptos da programación
- []
+./contido/implementacion_aplicacion.tex:45: Too many }'s.
+l.45 ... Esta actividade contará con dous layouts}
+                                                   un para a posición vertic...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
 [32]
-Overfull \hbox (2.2121pt too wide) in paragraph at lines 47--48
-[]\TU/LinLibertine(0)/m/n/10.95 Este layout contará cunha superficie reservada para o video na metade superior da pantalla.
+Overfull \hbox (2.27779pt too wide) in paragraph at lines 47--48
+[]\TU/LinLibertine(0)/m/n/10.95 Este \TU/LinLibertine(0)/m/it/10.95 layout \TU/LinLibertine(0)/m/n/10.95 contará cunha superficie reservada para o vídeo na metade superior da pantalla.
  []
 
 
-Overfull \hbox (22.54993pt too wide) in paragraph at lines 63--64
-[]\TU/LinLibertine(0)/m/n/10.95 Aquí xestionaremos o estado da conexión, iniciando a clase request se non esta en funcionameto
+Overfull \hbox (27.25842pt too wide) in paragraph at lines 63--64
+[]\TU/LinLibertine(0)/m/n/10.95 Aquí xestionaremos o estado da conexión, iniciando a clase \TU/LinLibertine(0)/m/it/10.95 request \TU/LinLibertine(0)/m/n/10.95 se non esta en funcionamento
  []
 
 
@@ -1905,23 +1968,25 @@ Overfull \hbox (5.25664pt too wide) in paragraph at lines 63--64
  []
 
 [33]
+./contido/implementacion_aplicacion.tex:69: Too many }'s.
+l.69 ...a primeiro plano pásese o método onResume}
+                                                  .
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
 Overfull \hbox (3.50136pt too wide) in paragraph at lines 83--84
-[]\TU/LinLibertine(0)/bx/n/10.95 Noite: \TU/LinLibertine(0)/m/n/10.95 O pulsalo activarase o modo noite, no que o sensor lumínico do móbil encargaráse
+[]\TU/LinLibertine(0)/bx/n/10.95 Noite: \TU/LinLibertine(0)/m/n/10.95 O pulsalo activarase o modo noite, no que o sensor lumínico do móbil encargarase
  []
 
 [34]
-Overfull \hbox (1.42006pt too wide) in paragraph at lines 89--91
-[]\TU/LinLibertine(0)/m/n/10.95 Unhas das ventaxa de utilixar un dispositivo mobil é que estes contan con diversos sensores
+Overfull \hbox (5.05545pt too wide) in paragraph at lines 89--91
+[]\TU/LinLibertine(0)/m/n/10.95 Unhas das vantaxes de utilizar un dispositivo móbil é que estes contan con diversos sensores
  []
 
 
-Overfull \hbox (4.61656pt too wide) in paragraph at lines 93--95
-[]\TU/LinLibertine(0)/m/n/10.95 O sensor de luz é un fotorreceptor que xenera unha sinal electrica dependendo da incidencia
- []
-
-
-Overfull \hbox (14.27339pt too wide) in paragraph at lines 93--95
-\TU/LinLibertine(0)/m/n/10.95 metodo definirase o comportamente do sensor: Cando o botón de Noite esta activado encenderase
+Overfull \hbox (9.07213pt too wide) in paragraph at lines 93--95
+\TU/LinLibertine(0)/m/n/10.95 método definirase o comportamento do sensor: Cando o botón de Noite esta activado acenderase
  []
 
 [35]
@@ -1967,7 +2032,139 @@ Package lettrine.sty Info: Targeted height = 21.55566pt
 
 
 
-] [45])
+]
+./anexos/anexos.tex:14: Missing $ inserted.
+<inserted text> 
+                $
+l.14 crear un archivo llamdo wpa_
+                                 supplicant.conf
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./anexos/anexos.tex:19: Missing $ inserted.
+<inserted text> 
+                $
+l.19 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ñ in font cmmi10!
+Missing character: There is no ó in font cmmi10!
+
+Overfull \hbox (406.70569pt too wide) in paragraph at lines 8--19
+\TU/LinLibertine(0)/m/n/10.95 archivo vacio llamado ssh crear un archivo llamdo wpa$[]\OML/cmm/m/it/10.95 upplicant:confeditarelarchivoaadiendolasiguintecofiguracinconlacofiguraciondelaredwificreadaenelmovilcountry \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (50.92223pt too wide) in paragraph at lines 8--19
+\OML/cmm/m/it/10.95 COUNTRYctrl[]nterface \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 DIR \OT1/cmr/m/n/10.95 = /\OML/cmm/m/it/10.95 var\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 run\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 wpa[]upplicantGROUP \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 netdevupdate[]onfig \OT1/cmr/m/n/10.95 =
+ []
+
+./anexos/anexos.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 ^^I       key_
+                   mgmt=WPA-PSK
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./anexos/anexos.tex:24: Extra }, or forgotten $.
+l.24 ^^I    }
+             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./anexos/anexos.tex:25: You can't use `macro parameter character #' in math mode.
+l.25 #
+      contemplar realizar configuracion con ip estatica
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./anexos/anexos.tex:26: You can't use `macro parameter character #' in math mode.
+l.26 #
+      añadir opcion para activar otg https://medium.com/@aallan/setting-up-a...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./anexos/anexos.tex:28: You can't use `macro parameter character #' in math mode.
+l.28 #
+      ofrecer opciones para averiguar la ip
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./anexos/anexos.tex:38: Missing $ inserted.
+<inserted text> 
+                $
+l.38 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ñ in font cmmi10!
+Missing character: There is no ñ in font cmmi10!
+Missing character: There is no ñ in font cmmi10!
+
+Overfull \hbox (302.77719pt too wide) in paragraph at lines 20--38
+[]\TU/LinLibertine(0)/m/n/10.95 network= ssid=”SSID” psk=”PASSWORD” key$[]\OML/cmm/m/it/10.95 gmt \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 WPA \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 PSKcontemplarrealizarconfiguracionconipestaticaaadiropcionparaactivarotghttps \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (1147.2579pt too wide) in paragraph at lines 20--38
+\OT1/cmr/m/n/10.95 //\OML/cmm/m/it/10.95 medium:com\OT1/cmr/m/n/10.95 /[]\OML/cmm/m/it/10.95 aallan\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setting \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 up \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 a \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 headless \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 raspberry \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 pi \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 zero \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 ded\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 83\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 274\OML/cmm/m/it/10.95 espulsamoslatargetaylaintroduciomosenlaraspiylaencendemosofreceropcionesparaaveriguarlaipnosconectamosporsshconelusuarioycontraseapordefecto[]pi[][]raspberry[]cambiamoslacontraseapordefectoconpasswdejecutarsudoraspi \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+
+Overfull \hbox (701.07547pt too wide) in paragraph at lines 20--38
+\OML/cmm/m/it/10.95 configenelapartadoInterfacacingOptionsactivarelmodulodelacamaraenelapartadoadvancedoptionsejecutarlaopcionenlagefilesistemejecutarelapartadoupdatesalirdelaconfiguracionejecutarsudoaptupdateejcutarsudoaptupgrade$ 
+ []
+
+./anexos/anexos.tex:41: Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...ia con wget https://github.com/jgarff/rpi_
+                                                  ws281x/archive/master.zip
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./anexos/anexos.tex:48: Missing $ inserted.
+<inserted text> 
+                $
+l.48 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (8.16891pt too wide) in paragraph at lines 39--48
+[]\TU/LinLibertine(0)/m/n/10.95 instalacion de la libreia de jgarff para el control de los leds sudo apt install scons descargamos
+ []
+
+
+Overfull \hbox (475.6967pt too wide) in paragraph at lines 39--48
+\TU/LinLibertine(0)/m/n/10.95 la libreria con wget https://github.com/jgarff/rpi$[]\OML/cmm/m/it/10.95 s\OT1/cmr/m/n/10.95 281\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 archive\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 master:zipdescomprimimosconunzipmaster:zipentraenlacarpetayejecutarelcomandosconsejecutarsudoaptinstallpython \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+
+Overfull \hbox (26.69739pt too wide) in paragraph at lines 39--48
+\OML/cmm/m/it/10.95 devswigejecutarwgethttps \OT1/cmr/m/n/10.95 : //\OML/cmm/m/it/10.95 pypi:python:org\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 packages\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 source\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 s\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setuptools\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setuptools \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+
+Overfull \hbox (95.45517pt too wide) in paragraph at lines 39--48
+\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 7\OML/cmm/m/it/10.95 :zipentrarenlacarpetapythonyejecutarsudopython:\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setup:pybuildejecutarsudopython:\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setup:pyinstall$ 
+ []
+
+[45])
 \openout2 = `bibliografia/acronimos.aux'.
 
  (./bibliografia/acronimos.tex [46
@@ -2000,20 +2197,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 4BB0B02D44257CDC5B96F6DC54F97983.
+(rerunfilecheck)             Checksum: 55D1A4CAAF3243D661A9A81AC32E61D3.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 20 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 33184 strings out of 494900
- 649052 string characters out of 6177140
- 678598 words of memory out of 5000000
- 36716 multiletter control sequences out of 15000+600000
+ 33187 strings out of 494900
+ 649097 string characters out of 6177140
+ 678745 words of memory out of 5000000
+ 36719 multiletter control sequences out of 15000+600000
  542087 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,12n,101p,1706b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memoria_tfg.xdv (64 pages, 822616 bytes).
+Output written on memoria_tfg.xdv (64 pages, 853232 bytes).

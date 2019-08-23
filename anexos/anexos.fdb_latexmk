@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 1566462351 "anexos.xdv" "anexos.pdf" "anexos" 1566462351
+  "anexos.xdv" 1566462351 2136 010298bd5d5c0e5ea321de6246a04788 "xelatex"
+  (generated)
+  "anexos.pdf"
+["xelatex"] 1566462351 "anexos.tex" "anexos.xdv" "anexos" 1566462351
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
+  "anexos.aux" 1566418217 1444 48ef4c1c42c250d0444266eed1b26cdd ""
+  "anexos.tex" 1566462351 1857 3d5911b39479b333ec26c973f7ce9d16 ""
+  (generated)
+  "anexos.log"
+  "anexos.xdv"
