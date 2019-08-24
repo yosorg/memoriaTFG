@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  23 AUG 2019 02:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  24 AUG 2019 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3429,19 +3429,6 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-./implementacion_aplicacion.tex:45: Too many }'s.
-l.45 ... Esta actividade contará con dous layouts}
-                                                   un para a posición vertic...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3859,6 +3846,16 @@ Overfull \hbox (16.11pt too wide) in paragraph at lines 44--48
 
 Overfull \hbox (13.8pt too wide) in paragraph at lines 44--48
 \TU/lmr/m/it/10 out
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 44--48
+\TU/lmr/m/it/10 lay-
+ []
+
+
+Overfull \hbox (17.89pt too wide) in paragraph at lines 44--48
+\TU/lmr/m/it/10 outs
  []
 
 
@@ -5339,20 +5336,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-./implementacion_aplicacion.tex:69: Too many }'s.
-l.69 ...a primeiro plano pásese o método onResume}
-                                                  .
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 67--70
@@ -5387,6 +5370,21 @@ Overfull \hbox (14.31pt too wide) in paragraph at lines 67--70
 
 Overfull \hbox (19.16pt too wide) in paragraph at lines 67--70
 \TU/lmr/m/it/10 Stop
+ []
+
+
+Overfull \hbox (14.31pt too wide) in paragraph at lines 67--70
+\TU/lmr/m/it/10 on-
+ []
+
+
+Overfull \hbox (14.96pt too wide) in paragraph at lines 67--70
+\TU/lmr/m/it/10 Re-
+ []
+
+
+Overfull \hbox (22.24pt too wide) in paragraph at lines 67--70
+\TU/lmr/m/it/10 sume 
  []
 
 Missing character: There is no N in font nullfont!
@@ -6568,6 +6566,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
 
 Overfull \hbox (31.43001pt too wide) in paragraph at lines 85--86
 \TU/lmr/bx/n/10 Brillo:

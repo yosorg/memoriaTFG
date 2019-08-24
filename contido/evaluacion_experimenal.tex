@@ -1,4 +1,4 @@
-correspóndense\chapter{Evaluación experimental}
+\chapter{Evaluación experimental}
 \label{chap:evaluacion_experimenal}
 Para comprobar que os resultados obtidos correspóndense co plantexado probaremos o dispositivo e a aplicación. Realizaremos probas en contornos controlados e probas no medio real o que esta dirixido.
 
@@ -28,30 +28,13 @@ Analizaranse os seguintes supostos para o dispositivo con un anel led e para o q
     Consumo coas luces vermellas a máxima intensidade e co vídeo transmitindo en directo.
 \end{itemize}
 
-Os resultados obtidos son os seguintes:
-
-\begin{table}[tb]
-    \label{c:comparativa}
-    \begin{center}
-        \begin{tabular}{|l|l|l|l|}
-            \hline
-             &  24 luces & 24 luces & 8 luces\\
-             & & e batería & \\ \hline
-             Sistema en repouso & 165mA & 148mA & \\ \hline
-             Servidor en  funcionamento & 165mA & 148mA & \\ \hline
-             Cliente conectado & 165/168mA  & 148mA & \\ \hline
-             Vídeo transmitindo & 360mA & 342mA & \\ \hline
-             Vídeo parado & 211mA & 191mA & \\ \hline
-             Desconexión do cliente & 165mA & 148mA & \\ \hline
-             Luces intermitentes & 428mA & 414mA & \\ \hline
-             Luces vermellas & 505mA & 502mA & \\ \hline
-             Luces vermellas e vídeo & 660mA & 645mA & \\ \hline
-        \end{tabular}
-    \end{center}
-    \caption{Comparativa de consumo de amperios}
-    \label{tab:my_label}
-\end{table}
-
+\begin{figure}[tb]
+  \centering
+  \includegraphics[scale=.5]{imaxes/grafica-amperaxe.png}
+  \caption{Grafica do consumo en mA.}
+  \label{f:soporte móbil}
+\end{figure}
+Como se pode observar na gráfica da figura 5.1 o uso ou non de batería non afecta en gran medida ao consumo de amperios, pero ha de terse en conta que estas probas realizáronse coas batería coa carga completa. Se comparamos a previsión de consumos que fixemos coas medición obtidas 
 
 As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A respectivamente, tamén utilizáronse dous cables un de maior calidade e outro cunha calidade inferior. En ningún dos casos obtivéronse diferencias apreciables sendo a maior diferencia de 4mA. Na versión con batería necesitouse utilizar cableado a maiores para realizar as probas, o que pode que incrementara lixeiramente o consumo.
 

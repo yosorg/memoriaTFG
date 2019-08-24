@@ -284,6 +284,7 @@ INPUT imaxes/soporte-mobil.png
 OUTPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.tex
 INPUT contido/evaluacion_experimenal.tex
+INPUT imaxes/grafica-amperaxe.png
 OUTPUT contido/conclusions.aux
 INPUT contido/conclusions.tex
 INPUT contido/conclusions.tex

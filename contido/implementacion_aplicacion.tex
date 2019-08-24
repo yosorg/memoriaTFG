@@ -42,7 +42,7 @@ A aplicación contará con catro compoñentes. O principal será a \emph{MainAct
 A actividade principal ou \emph{MainActivity} dunha aplicación Android é a primeira pantalla que aparece cando executamos a aplicación e a encargada de controlar o seu funcionamento e a sua interface de usuario. Neste caso a actividade será a encargada de mostrar os botóns e encargarse do seu funcionamento, amosar o estado da conexión, encargarse da xestión do sensores e reproducir o vídeo. O mesmo tempo encargarase de instanciar e comunicarse coas clases encargadas da conexión co dispositivo e da recepción de vídeo.
 
 \subsection{Layout}
-Un \emph{layout} é a definición da estrutura da interface de usuario. Esta actividade contará con dous layouts} un para a posición vertical e outro para a posición horizontal da pantalla
+Un \emph{layout} é a definición da estrutura da interface de usuario. Esta actividade contará con dous \emph{layouts} un para a posición vertical e outro para a posición horizontal da pantalla
 \subsubsection{Layout vertical}
 Este \emph{layout} contará cunha superficie reservada para o vídeo na metade superior da pantalla. Na metade inferior situaranse os botóns encargados de executar as ordes. Na parte superior situase a barra de estado que na sua parte dereita contará cun botón para conectar que servirá o tempo de indicador de conexión, a sua esquerda mostrarase unha barra para controlar a intensidade dos leds.
 
@@ -66,7 +66,7 @@ Este método executase despois de \emph{onCreate} cando a pantalla xa é visible
 
 Rexistrarase aquí un \emph{sensor listener} para obter a información do sensor de luz.
 \subsubsection{onPause}
-Este método executase cando a aplicación deixa de estar en primeiro plano, se o usuario a minimiza u outra aplicación executase a actividade pasará a \emph{onStop} se despois de acceder a aplicacións recentes a aplicación volve a primeiro plano pásese o método onResume}.
+Este método executase cando a aplicación deixa de estar en primeiro plano, se o usuario a minimiza u outra aplicación executase a actividade pasará a \emph{onStop} se despois de acceder a aplicacións recentes a aplicación volve a primeiro plano pásese o método \emph{onResume}.
 
 No noso caso neste método cancelaremos o rexistro do sensor xa que non se seguira a utilizar e deteremos a transmisión de vídeo se se esta a executar.
 \subsubsection{onDestroy}
@@ -82,7 +82,7 @@ A actividade é a encargada de iniciar os botóns e manexar o seu funcionamento.
     \item \textbf{Vermello:} O pulsalo enviarase unha orde para acender a luz de vermella, o pulsador non funcionara se algunha das luces de xiro está acesa.
     \item \textbf{Noite:} O pulsalo activarase o modo noite, no que o sensor lumínico do móbil encargarase de acender a luz vermella cando a luz ambiente baixe de certo umbral.
     \item \textbf{Freo:} Activa o modo de freada no que acenderase a luz vermella progresivamente cando o acelerómetro do dispositivo móbil detecte unha freada.
-    \item \textbf{Brillo:} Este botón despregará unha barra cun indicador que poderemos deslizar para elixir a intensidade das luces
+    \item \textbf{Brillo:} Este botón despregará unha barra cun indicador que poderemos deslizar para elixir a intensidade das luces.
     \item \textbf{Conexión:} Este botón enviará unha orde de conexión, unha vez conectado cambiará a súa aparencia para indicar que existe conexión co dispositivo.
 \end{itemize}
 \subsection{Sensores}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  23 AUG 2019 02:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  24 AUG 2019 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1150,7 +1150,7 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 ) (./contido/implementacion_dispositivo.aux) (./contido/implementacion_aplicacion.aux) (./contido/evaluacion_experimenal.aux
 
-LaTeX Warning: Label `tab:my_label' multiply defined.
+LaTeX Warning: Label `f:soporte móbil' multiply defined.
 
 ) (./contido/conclusions.aux) (./anexos/anexos.aux) (./bibliografia/acronimos.aux) (./bibliografia/glosario.aux))
 \openout1 = `memoria_tfg.aux'.
@@ -1523,67 +1523,12 @@ Overfull \hbox (14.01427pt too wide) in paragraph at lines 4--5
  []
 
 
-./contido/introducion.tex:9: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9     \caption
-                {Lesividade en función da luminosidade da vía. (incluir cita) }
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./contido/introducion.tex:11: Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.11 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./contido/introducion.tex:11: Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.11 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
-
-./contido/introducion.tex:11: Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.11 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-./contido/introducion.tex:11: LaTeX Error: \begin{document} ended by \end{table}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \end{table}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./contido/introducion.tex:11: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.11 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
-
-
-Overfull \hbox (10.35524pt too wide) in paragraph at lines 29--30
+Overfull \hbox (10.35524pt too wide) in paragraph at lines 27--28
 []\TU/LinLibertine(0)/m/n/10.95 Varios estudos mostran que o uso de luces en bicicletas, especialmente as dinámicas permiten
  []
 
 
-Overfull \hbox (1.01088pt too wide) in paragraph at lines 29--30
+Overfull \hbox (1.01088pt too wide) in paragraph at lines 27--28
 \TU/LinLibertine(0)/m/n/10.95 que estas sexan divisadas a maiores distancias tanto de día como de noite. A tese The Nighttime
  []
 
@@ -1591,41 +1536,35 @@ Overfull \hbox (1.01088pt too wide) in paragraph at lines 29--30
 
 
 ]
-Overfull \hbox (37.26476pt too wide) in paragraph at lines 31--32
+Overfull \hbox (37.26476pt too wide) in paragraph at lines 29--30
 \TU/LinLibertine(0)/m/n/10.95 momentaneamente a visión do que ocorre diante e incluso o equilibrio en ciclistas non experimentados. 
  []
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 36.
+(Font)              scaled to size 14.4pt on input line 34.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 14.4pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf
 
-Overfull \hbox (9.79726pt too wide) in paragraph at lines 38--40
+Overfull \hbox (9.79726pt too wide) in paragraph at lines 36--38
 \TU/LinLibertine(0)/m/n/10.95 tempo que disporá de alimentación propia ou compartida. Un segundo dispositivo de interacción
  []
 
 
-Overfull \hbox (17.8405pt too wide) in paragraph at lines 41--42
+Overfull \hbox (17.8405pt too wide) in paragraph at lines 39--40
 []\TU/LinLibertine(0)/m/n/10.95 O segundo consistirá en desenvolver o software que permita o funcionamento dos dispositivos.
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-Overfull \hbox (0.14784pt too wide) in paragraph at lines 51--52
+[2]
+Overfull \hbox (0.14784pt too wide) in paragraph at lines 49--50
 \TU/LinLibertine(0)/m/n/10.95 engadindo en cada incremento novas funcionalidades a o prototipo previamente desenvolvido,
  []
 
 
-Overfull \hbox (10.90274pt too wide) in paragraph at lines 58--59
+Overfull \hbox (10.90274pt too wide) in paragraph at lines 56--57
 []\TU/LinLibertine(0)/m/n/10.95 Existen no mercado dispositivos con funcións similares pero poucos integra tódalas funcións.
  []
 
-)
-Underfull \vbox (badness 3735) has occurred while \output is active []
-
- [3] [4]
+) [3] [4]
 \openout2 = `contido/analise.aux'.
 
  (./contido/analise.tex
@@ -1945,14 +1884,7 @@ Overfull \hbox (0.1041pt too wide) in paragraph at lines 22--23
 \TU/LinLibertine(0)/m/n/10.95 operativo máis empregado globalmente e nos permitirá chegar a un maior numero de usuarios. 
  []
 
-[31]
-./contido/implementacion_aplicacion.tex:45: Too many }'s.
-l.45 ... Esta actividade contará con dous layouts}
-                                                   un para a posición vertic...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[32]
+[31] [32]
 Overfull \hbox (2.27779pt too wide) in paragraph at lines 47--48
 []\TU/LinLibertine(0)/m/n/10.95 Este \TU/LinLibertine(0)/m/it/10.95 layout \TU/LinLibertine(0)/m/n/10.95 contará cunha superficie reservada para o vídeo na metade superior da pantalla.
  []
@@ -1968,13 +1900,6 @@ Overfull \hbox (5.25664pt too wide) in paragraph at lines 63--64
  []
 
 [33]
-./contido/implementacion_aplicacion.tex:69: Too many }'s.
-l.69 ...a primeiro plano pásese o método onResume}
-                                                  .
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
 Overfull \hbox (3.50136pt too wide) in paragraph at lines 83--84
 []\TU/LinLibertine(0)/bx/n/10.95 Noite: \TU/LinLibertine(0)/m/n/10.95 O pulsalo activarase o modo noite, no que o sensor lumínico do móbil encargarase
  []
@@ -1998,34 +1923,41 @@ File: imaxes/soporte-mobil.png Graphic file (type bmp)
  (./contido/evaluacion_experimenal.tex [38
 
 
-]
-Capítulo 5.
-[39
 
 ]
-Overfull \hbox (36.37428pt too wide) in paragraph at lines 56--57
+Capítulo 5.
+[39]
+File: imaxes/grafica-amperaxe.png Graphic file (type bmp)
+<imaxes/grafica-amperaxe.png>
+
+Overfull \hbox (10.08539pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+
+Overfull \hbox (36.37428pt too wide) in paragraph at lines 39--40
 []\TU/LinLibertine(0)/m/n/10.95 As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A respectivamente,
  []
 
 
-Overfull \hbox (0.1041pt too wide) in paragraph at lines 58--59
+Overfull \hbox (0.1041pt too wide) in paragraph at lines 41--42
 \TU/LinLibertine(0)/m/n/10.95 consumo máximo acendendo as luces vermella a máxima intensidade o tempo que se transmite
  []
 
-[40]) [41]
+[40]) [41] [42]
 \openout2 = `contido/conclusions.aux'.
 
- (./contido/conclusions.tex [42
-
-
-
-]
+ (./contido/conclusions.tex
 Capítulo 6.
 Package lettrine.sty Info: Targeted height = 21.55566pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 21.35751pt (D);
 (lettrine.sty)             reported on input line 4.
-) [43]
+) [43
+
+
+
+]
 \openout2 = `anexos/anexos.aux'.
 
  (./anexos/anexos.tex [44
@@ -2209,12 +2141,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
 ### simple group (level 1) entered at line 20 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33187 strings out of 494900
- 649097 string characters out of 6177140
- 678745 words of memory out of 5000000
- 36719 multiletter control sequences out of 15000+600000
+ 33189 strings out of 494900
+ 649181 string characters out of 6177140
+ 677636 words of memory out of 5000000
+ 36720 multiletter control sequences out of 15000+600000
  542087 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,12n,101p,1706b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memoria_tfg.xdv (64 pages, 853232 bytes).
+Output written on memoria_tfg.xdv (64 pages, 850100 bytes).
