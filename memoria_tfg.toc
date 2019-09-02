@@ -36,33 +36,36 @@
 \contentsline {chapter}{\numberline {4}Arquitectura e implementación da aplicación}{31}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Esquema xeral da aplicación}{32}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Actividade principal}{32}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Layout}{33}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}Layout}{32}{subsection.4.2.1}% 
 \contentsline {subsubsection}{Layout vertical}{33}{subsection.4.2.1}% 
-\contentsline {subsubsection}{Layout horizontal}{33}{subsection.4.2.1}% 
+\contentsline {subsubsection}{Layout horizontal}{33}{figure.4.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Ciclo de vida da actividade}{33}{subsection.4.2.2}% 
-\contentsline {subsubsection}{onCreate}{33}{subsection.4.2.2}% 
-\contentsline {subsubsection}{onResume}{34}{subsection.4.2.2}% 
-\contentsline {subsubsection}{onPause}{34}{subsection.4.2.2}% 
-\contentsline {subsubsection}{onDestroy}{34}{subsection.4.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Botones}{34}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Sensores}{35}{subsection.4.2.4}% 
-\contentsline {subsubsection}{Acelerometro}{35}{subsection.4.2.4}% 
-\contentsline {subsubsection}{Sensor de Luz}{35}{subsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.2.5}Superficie de vídeo}{35}{subsection.4.2.5}% 
-\contentsline {section}{\numberline {4.3}Comuniciacíon co dispositivo}{35}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Broadcast}{35}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Conexión}{36}{subsection.4.3.2}% 
-\contentsline {subsection}{\numberline {4.3.3}Transmisión de ordes}{36}{subsection.4.3.3}% 
-\contentsline {section}{\numberline {4.4}Recepción de vídeo}{36}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Anclaxe a bicicleta}{36}{section.4.5}% 
-\contentsline {chapter}{\numberline {5}Evaluación experimental}{39}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Consumo e autonomía}{39}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Vídeo e lentes}{41}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Visibilidade}{42}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Estabilidade e consumo da aplicación}{42}{section.5.4}% 
-\contentsline {chapter}{\numberline {6}Conclusións}{43}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Traballo futuro}{43}{section.6.1}% 
-\contentsline {section}{\numberline {.1}Contido DVD}{45}{section.Alph0.1}% 
-\contentsline {section}{\numberline {.2}Requisitos e instalación}{45}{section.Alph0.2}% 
-\contentsline {chapter}{\numberline {A}Glosario de acrónimos}{47}{appendix.A}% 
-\contentsline {chapter}{\numberline {B}Glosario de termos}{49}{appendix.B}% 
+\contentsline {subsubsection}{onCreate}{34}{figure.4.3}% 
+\contentsline {subsubsection}{onResume}{34}{figure.4.3}% 
+\contentsline {subsubsection}{onPause}{34}{figure.4.3}% 
+\contentsline {subsubsection}{onDestroy}{35}{figure.4.3}% 
+\contentsline {subsection}{\numberline {4.2.3}Botones}{35}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Sensores}{36}{subsection.4.2.4}% 
+\contentsline {subsubsection}{Sensor de Luz}{36}{subsection.4.2.4}% 
+\contentsline {subsubsection}{Acelerómetro e xiroscopio}{36}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Superficie de vídeo}{37}{subsection.4.2.5}% 
+\contentsline {section}{\numberline {4.3}Comuniciacíon co dispositivo}{38}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Broadcast}{38}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Conexión}{38}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.3}Transmisión de ordes}{38}{subsection.4.3.3}% 
+\contentsline {section}{\numberline {4.4}Recepción de vídeo}{39}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Anclaxe a bicicleta}{39}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Evaluación experimental}{41}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Consumo e autonomía}{41}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Vídeo e lentes}{43}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Visibilidade}{44}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Estabilidade e consumo da aplicación}{44}{section.5.4}% 
+\contentsline {chapter}{\numberline {6}Conclusións}{45}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Traballo futuro}{45}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Lexislación}{45}{section.6.2}% 
+\contentsline {subsubsection}{Luces}{45}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Cámaras}{47}{subsection.6.2.1}% 
+\contentsline {section}{\numberline {.1}Contido DVD}{49}{section.Alph0.1}% 
+\contentsline {section}{\numberline {.2}Requisitos e instalación}{49}{section.Alph0.2}% 
+\contentsline {chapter}{\numberline {A}Glosario de acrónimos}{51}{appendix.A}% 
+\contentsline {chapter}{\numberline {B}Glosario de termos}{53}{appendix.B}% 

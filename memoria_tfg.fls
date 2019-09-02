@@ -280,7 +280,14 @@ INPUT imaxes/carcasa.png
 OUTPUT contido/implementacion_aplicacion.aux
 INPUT contido/implementacion_aplicacion.tex
 INPUT contido/implementacion_aplicacion.tex
+INPUT imaxes/layout-vertical1.png
+INPUT imaxes/layout-vertical2.png
+INPUT imaxes/layout-horizontal1.png
+INPUT imaxes/layout-horizontal2.png
+INPUT imaxes/ciclo-actividade.png
+INPUT imaxes/angulo.png
 INPUT imaxes/soporte-mobil.png
+INPUT imaxes/fallos-soporte.jpg
 OUTPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.tex
 INPUT contido/evaluacion_experimenal.tex
@@ -288,6 +295,7 @@ INPUT imaxes/grafica-amperaxe.png
 OUTPUT contido/conclusions.aux
 INPUT contido/conclusions.tex
 INPUT contido/conclusions.tex
+INPUT imaxes/lexislacion-luminica.png
 OUTPUT anexos/anexos.aux
 INPUT anexos/anexos.tex
 INPUT anexos/anexos.tex

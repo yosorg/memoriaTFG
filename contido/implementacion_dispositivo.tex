@@ -55,7 +55,7 @@ O seu prezo e superior os 60 euros.
     \end{itemize}
     \item Raspberry Pi
 
-As Raspberry Pi son unha serie de placas de desenvolvemento cun prezo moi axustado e unha potencia suficiente para para pode executar un sistema operativo completo. Grazas a sua popularidade dispón dun amplo soporte e compatibilidade con diversos software e outras plataformas hardware que a fan perfecta para diversos proxectos, como robótica, \emph{Iot} ou centros multimedia.
+As Raspberry Pi son unha serie de placas de desenvolvemento cun prezo moi axustado e unha potencia suficiente para para pode executar un sistema operativo completo. Grazas a sua popularidade dispón dun amplo soporte e compatibilidade con diversos software e outras plataformas hardware que a fan perfecta para diversos proxectos, como robótica, \emph{IoT} ou centros multimedia.
 A versión dispoñible con menor tamaño e a Raspberry Pi Zero
     \begin{itemize}
         \item Raspberry Pi Zero e Raspberry PI Zero W
@@ -67,7 +67,7 @@ A sua potencia e capacidade de conexión a fan máis que capaz de para este prox
 
 A principal característica destas placas é que implementan chips Wi-Fi e Wi-Fi máis Bluetooth respectivamente,contan cun procesador \emph{RISC} de un ou dous núcleos con velocidades dispoñibles entre os 80MHz e 240MHz e memorias ram de entre 32KiB e 520KiB.
 
-Os seus múltiples portos e interfaces, SPI, I2C, UART, \emph{PWM} entre outros, o seu baixo consumo e a sua compatibilidade co entorno de programación de arduino fainos ideais para pequenos proxectos de IoT, robótica ou domótica. Segundo as súas características poden obterse dende o prezo de un euro.
+Os seus múltiples portos e interfaces,\emph{SPI} ,  \emph{I2C}, \emph{UART}, \emph{PWM} entre outros, o seu baixo consumo e a sua compatibilidade co entorno de programación de arduino fainos ideais para pequenos proxectos de \emph{IoT}, robótica ou domótica. Segundo as súas características poden obterse dende o prezo de un euro.
 
 O igual que pasaba coas placas Arduino os ESP son ideais para a parte do manexo das luces pero non para a xestión do vídeo.
     \item Outras placas baseadas en procesadores ARM
@@ -114,7 +114,7 @@ Este tipo de leds están dispoñibles en diferentes combinacións: leds individu
 
 \subsection{Cámara}
 
-No caso da cámara plantexanse dúas opcións utilizar unha cámara usb ou unha das cámara deseñadas para funcionar coa Raspberry Pi que utilizan a sua conexión CSI. Optaremos pola segunda opción xa que unha cámara usb implica un tamaño demasiado grande para o proxecto e ademais non soen estar indicadas para a iluminación de exteriores.
+No caso da cámara plantexanse dúas opcións utilizar unha cámara usb ou unha das cámara deseñadas para funcionar coa Raspberry Pi que utilizan a sua conexión \emph{CSI}. Optaremos pola segunda opción xa que unha cámara usb implica un tamaño demasiado grande para o proxecto e ademais non soen estar indicadas para a iluminación de exteriores.
 
 No mercado existen diversos módulos de cámara para a Raspberry Pi pero a maioría están baseados nos Raspberry Pi Camera Module V1 e Raspberry Pi Camera Module V2 a principal diferencia entre ambos e que o primeiro conto con 5 megapixeles mentres o segundo conta con 8 megapixeles e unha notable mellora na calidade de imaxe.\\
 
@@ -160,7 +160,7 @@ Para poder utilizar estas baterías é necesario un circuíto de carga, un de pr
 A Raspberry Pi conta cunha ampla gama de sistemas operativos, algúns con propósitos concretos como reprodución de multimedia, servidores locais ou nodos de rede. Tamén conta con versións das distribucións Linux máis popular como Ubuntu, Arch ou Kali entre outros.
 Raspbian é unha distribución baseada en Debian, é máis antiga e máis optimizada para a Raspberry Pi e a que dispón de máis soporte polo que será a elixida para o proxecto.
 
-Para o control dos leds existen varias librarías dispoñibles para varias linguaxes de programación. As máis utilizadas son a de \emph{Adafruit}, que só está dispoñible en Python, e a de Jeremy Garff que será a que utilicemeos, xa que conta con unha documentación detallada e esta dispoñible en varias linguaxes de programación, entre outras C, Python e Java.
+Para o control dos leds existen varias librarías dispoñibles para varias linguaxes de programación. As máis utilizadas son a de Adafruit, que só está dispoñible en Python, e a de Jeremy Garff que será a que utilicemeos, xa que conta con unha documentación detallada e esta dispoñible en varias linguaxes de programación, entre outras C, Python e Java.
 
 Para a captura e transmisión do vídeo contamos con varias alternativas. A libraría \emph{picamera} para Python permite configurar calquera parámetro e o \emph{streaming} do vídeo na rede. Por outra parte o software para captura de vídeo \emph{raspivideo}, escrito en Python, tamén permite moitos parámetros de configuración é a sua saída de vídeo pode enviarse a rede utilizando algún programa para redirecionar o \emph{bitstream} dos datos como pode ser o software \emph{socat}.
 
@@ -347,7 +347,7 @@ Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse 
 
     Para suxeitar a carcasa a bicicleta deseñaremos un soporte en 3d co software Blender. Partiremos das medición da carcasa e deseñarase un soporte que suxeite a carcasa firmemente e permita atala a barra da sela mediante unha correa.
 
-    Unha vez deseñado e tras comprobar que o deseño e imprimible o exportarase no formato \emph{STL} que abriremos cun software encargado de dividir o deseño en capas e traducilo a ordes de desprazamento interpretables pola impresora, como resultado obterase un arquivo \emph{GCODE}  que pasaremos a impresora. O prototipo imprimirase o prototipo en 3d probarase e aplicaranse correccións no modelo. Para este deseño realizáronse dúas iteracións móstranse na figura 3.6.
+    Unha vez deseñado e tras comprobar que o deseño e imprimible exportarase no formato \emph{STL} que abrirase cun software encargado de dividir o deseño en capas e traducilo a ordes de desprazamento interpretables pola impresora, aquí configuraranse diferentes parámetros como a altura de capa, que é a resolución de impresión, as velocidades, a cantidade e tipo de recheo da peza ou o uso de soportes para facilitar a impresión. Neste caso utilizaras o software libre Slic3r no que configurarase a peza a imprimir cun 100\(\%\) de recheo para que sexa máis sólida cunha altura de capa de 0.2mm e sen uso de soportes, como resultado obterase un arquivo \emph{GCODE}  que pasaremos a impresora. O prototipo imprimirase o prototipo en 3d probarase e aplicaranse correccións no modelo. Para este deseño realizáronse dúas iteracións móstranse na figura 3.6.
 
     \begin{figure}[tb]
       \centering

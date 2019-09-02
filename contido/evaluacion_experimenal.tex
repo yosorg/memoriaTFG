@@ -1,6 +1,6 @@
 \chapter{Evaluación experimental}
 \label{chap:evaluacion_experimenal}
-Para comprobar que os resultados obtidos correspóndense co plantexado probaremos o dispositivo e a aplicación. Realizaremos probas en contornos controlados e probas no medio real o que esta dirixido.
+Para comprobar que os resultados obtidos correspóndense co plantexado probaremos o dispositivo e a aplicación. Realizaremos probas en contornos controlados e probas no medio real o que esta dirixido e analizaramos a se cumpre os requisitos legais.
 
 \section{Consumo e autonomía}
 
@@ -34,8 +34,8 @@ Analizaranse os seguintes supostos para o dispositivo con un anel led e para o q
   \caption{Grafica do consumo en mA.}
   \label{f:soporte móbil}
 \end{figure}
-Como se pode observar na gráfica da figura 5.1 o uso ou non de batería non afecta en gran medida ao consumo de amperios, pero ha de terse en conta que estas probas realizáronse coas batería coa carga completa. Se comparamos a previsión de consumos que fixemos coas medición obtidas 
-
+Como se pode observar na gráfica da figura 5.1 o uso ou non de batería non afecta en gran medida ao consumo de amperios, pero ha de terse en conta que estas probas realizáronse coas batería coa carga completa. Se se compara a previsión de consumos feita coas medición obtidas
+pódese ver que os valores no son moi diferentes sendo superior no caso do dispositivo de 8 luces, 437mA fronte aos 390mA previstos, e inferior no caso dispositivo con 24 luces, 660mA fronte aos 710mA previstos.
 As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A respectivamente, tamén utilizáronse dous cables un de maior calidade e outro cunha calidade inferior. En ningún dos casos obtivéronse diferencias apreciables sendo a maior diferencia de 4mA. Na versión con batería necesitouse utilizar cableado a maiores para realizar as probas, o que pode que incrementara lixeiramente o consumo.
 
 A seguinte proba a realizar será a de autonomía do dispositivo, para elo buscarase o consumo máximo acendendo as luces vermella a máxima intensidade o tempo que se transmite vídeo.
@@ -49,10 +49,54 @@ Utilizar unha batería cunha constante de descarga maior, isto é a capacidade m
 
 Procedemos a repetir a proba pero esta vez deshabitando o apagado automático, esperando a que o sistema se apague cando a voltaxe non sexa suficiente para manter a Raspberry acesa ou no peor caso cando o circuíto de protección que inclúe a batería a desconecte a 2.5V. De non usar unha batería con circuíto de protección poderíamos danar a batería podendo incluso arder ou estoupar durante próximas cargas. Neste caso obtemos minutos de funcionamento.
 
-Comezarase as probas para a versión do dispositivo sen luces intermitentes, faremos a proba cunha batería de 6000mA, obtense    , Neste caso observase que cando o dispositivo non pode subministrar suficiente voltaxe para alimentar a Raspberry esta se apaga, e como consecuencia tamén os leds alimentados dende o seu \emph{power rail}, o diminuír o consumo a voltaxe volve a ser suficiente para alimentar a Rasberry polo que esta se reinicia, entrando desta forma nun ciclo de reinicios ata que a voltaxe non e suficiente para arrancar a Raspberry.
+Comezarase as probas para a versión do dispositivo sen luces intermitentes, faremos a proba cunha batería de  mA, obtense    , Neste caso observase que cando o dispositivo non pode subministrar suficiente voltaxe para alimentar a Raspberry esta se apaga, e como consecuencia tamén os leds alimentados dende o seu \emph{power rail}, o diminuír o consumo a voltaxe volve a ser suficiente para alimentar a Raspberry polo que esta se reinicia, entrando desta forma nun ciclo de reinicios ata que a voltaxe non e suficiente para arrancar a Raspberry.
 
 \section{Vídeo e lentes}
 Nesta sección procederase a analizar a calidade do vídeo obtida a latencia
 \section{Visibilidade}
 
 \section{Estabilidade e consumo da aplicación}
+
+\section{Lexislación}
+A Lexislación que regula o uso de luces e cámaras varía amplamente segundo o país, analizaremos a legalidade do dispositivo segundo a lexislación española.
+\subsubsection{Luces}
+O uso de luces en bicicleta e obrigatorio en España cando as condicións lúminicas son insuficientes, na Instrución 18/S-146 da Dirección Xeneral de Tráfico con respecto a legalidade de luces parpadeantes, detalla os requisitos lumínicos aplicables as bicicletas recollidos nas diferentes lexislacións (incluir cita):
+\begin{itemize}
+  \item Artigo  98.1  do  Regulmento  Xeneral  de Circulación, aprobado por Real Decreto 1428/2003, de 21 de novembro.\\
+  "Todos los vehículos que circulen entre el ocaso y la salida del sol o a cualquier hora del día en los túneles, pasos inferiores y tramos de vía afectados por la señal “túnel” (S-5) deben llevar encendido el   alumbrado   que   corresponda   de   acuerdo   con   los   que   se determina en esta sección".
+  \item  Regulamento Xeneral de Vehículos, aprobado por Real Decreto 2822/1998, de 23 decembro\\
+  "En el artículo 22.4 se indica que las bicicletas, para circular de noche, por tramos   de   vías   señalizados   con   la   señal   de   “túnel”   o   cuando   existan condiciones  meteorológicas  o  ambientales  que  disminuyan  sensiblemente  la visibilidad,  deberán  disponer  de  los  siguientes  dispositivos: luz  de  posición delantera   y   trasera,   catadióptrico   trasero,   y   podrán   disponer   de catadióptricos en los radios de las ruedas y en los pedales".
+  \item Real Decreto 339/2014, de 9 de mayo, que establece os requisitos para a comercialización e posta en servizo das bicicletas e outros ciclos e as súas partes e pezas,establece no Anexo V o rango de intensidade lúmica nos faros das bicicletas.
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.6]{imaxes/lexislacion-luminica.png}
+    \caption{Rango de intensidade luminica nos faros das biciletas en España.}
+    \label{f:lexislación lumínica}
+  \end{figure}
+\end{itemize}
+A instrución conclúe que o uso de luces parpadeantes é legal sempre que as luces no produzan cegamento o resto de usuarios da vía e se adecúen a normativa citada.//
+Para saber se as luces cumpren estes requisitos lumínicos tense que calcular as candelas que emiten. Os fabricantes de tiras leds raramente indican esta información e se o fan é en formato de lúmenes que para converter a candelas e necesario saber o ángulo de emisión, dato que tampouco facilitan, e non tódolos leds co mesmo formato compórtanse da mesma maneira. Na ficha técnica duns leds WS2812B, coma os utilizados neste proxecto, do fabricante Worldsemi (incluir referencia) na táboa 6.1 especifican as milicandelas dos seus leds, tendo unha intensidade lumínica máxima combinada de entre 1850 e 2500 milicandelas.
+
+O dispositivo desenvolto so utiliza dúas cores a vermella cun valor \emph{RGB} (255,0,0) e a amarela cun valor \emph{RGB}  (255,170,0). Polo tanto para a luz vermella solo utilizamos este led cunha intensidade máxima indicada na táboa deste fabricante de entre 550 en 700 milicandelas. Para a luz amarela o led vermello funciona a intensidade máxima e o verde cun valor de 177 dun máximo de 255, supoñendo unha transmisión lineal destes valores a intensidade en candelas, obteríase un valor do 69.4\(\%\) que sobre os datos do fabricante para o led verde resulta entre 763 e 961 milicandelas, sumados os valores do led vermello o resultado é un máximo de entre 1313 e 1661 milicandelas.
+
+Para a luz vermella, no dispositivo de 8 luces isto serán entre 4.4 e 5.6 candelas, dentro do rango legal de entre 4 e 12 candelas, no caso do dispositivo de 24 luces o intensidade máxima será de entre 13.2 e 16.8 candelas en principio superior o limite legal non obstante este requirimento de intensidade é na dirección do eixo e as 16 luces extras utilizadas neste dispositivo están colocadas nun ángulo duns 55 graos polo que a intensidade na dirección será inferior, non e posible calcular este valor sen coñecer o ángulo de emisión de luz de estes leds.
+Para a luz amarela entre 10.5 e 13.2 candelas, podendo ser neste caso superior o limite legal, no dispositivo de 24 luces o valor máximo será de entre 31.5 e 39.8 candelas aínda que de igual forma que as vermellas o valor na dirección do eixo será menor.
+
+Como se pode observar en tódolos casos, a priori, as luces acadan o limite legal pero nalgúns o sobrepasan, para adaptar o comportamento das luces a lexislación bastará con limitar o valor da intensidade máxima. Para poder obter este valor será necesario realizar probas empíricas para medir as candelas emitidas polo dispositivo.
+
+Cabe destacar que o uso de indicadores de xiro non está recollido na lexislación española polo que seu uso podería ser sancionable se considérase que  pode ser contraproducente cegando a visión doutros ocupantes da vía. O seu uso non eximirá a necesidade de indicar as manobras co brazo como require a lei.
+\begin{table}[tb]
+    \label{c:intensidade leds}
+    \begin{center}
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+             Cor a emitir & Modelo & Lonxitude de onda (nm) & Intensidade lumínica (mcd)&Voltaxe(V)\\ \hline
+             Vermello & 13CBAUP & 620-630 & 550-700 & 1.8-2.2\\ \hline
+             Verde & 13CBAUP & 620-630 & 1100-1400 & 3.0-3.2\\ \hline
+             Azul & 10R1MUX & 465-475 & 200-400 & 3.0-3.4\\ \hline
+        \end{tabular}
+    \end{center}
+    \caption{Características dos leds WS2812B de Worldsemi}
+\end{table}
+
+\subsection{Cámaras}

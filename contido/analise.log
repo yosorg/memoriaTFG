@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  20 AUG 2019 21:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  29 AUG 2019 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4770,13 +4770,13 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 
-./analise.tex:105: LaTeX Error: \begin{document} ended by \end{table}.
+./analise.tex:104: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \end{table}
+l.104 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4919,7 +4919,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 107--108
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--107
 []
  []
 
@@ -4995,18 +4995,18 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 109--110
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--109
 []
  []
 
 
-./analise.tex:111: LaTeX Error: Environment table undefined.
+./analise.tex:110: LaTeX Error: Environment table undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{table}
+l.110 \begin{table}
                    [tb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5017,7 +5017,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 111--113
+Overfull \hbox (20.0pt too wide) in paragraph at lines 110--112
 []
  []
 
@@ -5214,13 +5214,13 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no h in font nullfont!
 
-./analise.tex:126: LaTeX Error: \caption outside float.
+./analise.tex:125: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126     \caption
+l.125     \caption
                   {Tempo empregado no proxecto}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5250,13 +5250,13 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 
-./analise.tex:128: LaTeX Error: \begin{document} ended by \end{table}.
+./analise.tex:127: LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \end{table}
+l.127 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,

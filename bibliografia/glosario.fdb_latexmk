@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "glosario.xdv" "glosario.pdf" "glosario" 0
+  "glosario.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "glosario.pdf"
+["xelatex"] 1567402644 "glosario.tex" "glosario.xdv" "glosario" 1567402644
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
+  "glosario.aux" 1567394826 1474 34971140439bc8b53b8c66895c44f57e ""
+  "glosario.tex" 1567402643 2009 f3693511d68dfd6046d0483e9ce1bdfa ""
+  (generated)
+  "glosario.log"
+  "glosario.xdv"

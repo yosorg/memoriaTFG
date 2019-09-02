@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "acronimos.xdv" "acronimos.pdf" "acronimos" 0
+  "acronimos.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "acronimos.pdf"
+["xelatex"] 1567400520 "acronimos.tex" "acronimos.xdv" "acronimos" 1567400521
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
+  "acronimos.aux" 1567394826 1477 36451a95ae9defa11bbc162f0414e836 ""
+  "acronimos.tex" 1567400520 1439 66cbefe6648a4d921579ca631767becf ""
+  (generated)
+  "acronimos.xdv"
+  "acronimos.log"
