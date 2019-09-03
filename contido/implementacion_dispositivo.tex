@@ -6,16 +6,12 @@ Neste capítulo afondarase no desenvolvemento do dispositivo comezando polo aspe
 \section{Esquema xeral do dispositivo HW}
 
 
-\textcolor{red}{O "dispositivo HW" debería ter un nome (estar bautizado) para que fose máis sinxelo falar del ...}
-
-
 As esixencias principais destes dispositivo son a existencia de conexións para as luces leds, conexións para unha cámara e capacidade de procesamento e comunicación o que engadiremos unha quinta esixencia, xa que o obxectivo do proxecto e conseguir unha solución de hardware e software libre que posibilite que o usuario final poida adquirir os compoñentes e montalos de forma sinxela, é preciso que os compoñentes sexan fáciles de adquirir e traballar con eles.
 
 A continuación analizaranse as diferentes opción de hardware dispoñibles, as súas características e seus pros e contras para o proxecto proposto.
 
 \subsection{Placas de desenvolvemento}
 
-\textcolor{red}{Faltan referencias !! para que o lector poida consultar toda a información. Aquí só debes poñer a relevante para o proxecto (evita poñer palla)}
 
 Sendo o desenvolvemento dunha placa dedicada a este propósito a solución idílica, o custo de este proceso xunto coa dificultade final da construción, sempre que non se optase por unha produción en serie, son as principais contras desta opción. Poren optarase por elixir unha placa cos requisitos requiridos entre as posibles opcións dispoñibles no mercado. Centrarémonos nos modelos co menor tamaño posible.
 
@@ -170,7 +166,6 @@ Por motivos de compatibilidade entre todo o software necesitado para o control d
 
 \subsection{Caixa e ancoraxes a bicicleta}
 
-\textcolor{red}{incluir esquemas e figuras para ilustrar conceptos}
 
 O lugar a colocar o dispositivo de iluminación e captura será na barra da sela da bicicleta, esta posición é a ideal tanto para capturar o vídeo como para que as luces sexan vistas polo tráfico que circula detrás do vehículo.
 
@@ -216,15 +211,25 @@ Escribiranse funcións encargadas dos padróns de iluminación. Estes padróns s
 
 Tamén se escribirá unha función para controlar a intensidade dos leds en función dun valor numérico recibido, 0 será mínimo e 100 a máxima intensidade.
 
-\section{Camara}
+\section{Cámara}
 
 A cámara a utilizar é a Raspberry Pi Camera, probarase a versión 1 e a versión 2, ambas conectarase a Rasberry Pi Zero co mesmo cable, o conector da placa é delicado polo que deberase conectar con coidado. Para habilitala executarase o comando \emph{raspiconfig} na terminal e no apartado de interfaces activarase a opción cámara.
 
-A versión 1 da cámara conta cunha resolución de 5 megapixeles mentres que a versión 2 conta con 8. \textcolor{red}{ As seguintes imaxes ilustran a diferenza de calidade de imaxe entre as dúas versión.}
-
+A versión 1 da cámara conta cunha resolución de 5 megapixeles mentres que a versión 2 conta con 8. Nas foto da figura 3.2 poden verse a 3 a utilizar, a versión 1.3 a versión 2.1 e a 2.1 sen filtro infravermello.
+\begin{figure}[tb]
+  \centering
+  \includegraphics[scale=.1]{imaxes/camaras.jpg}
+  \caption{De esquerda a dereita a Raspberry Pi camera module V1, V2 sen filtro infravermello e V2 cunha lente de gran angular}
+  \label{f:Cámaras}
+\end{figure}
 \subsection{Lentes}
-Para poder capturar o completo da estrada a cámara necesitará de algún tipo de lente que permita un maior campo de visión. Existen versións da cámara que xa inclúen unha lente, pero tamén poderemos atopar lentes externas coma es destinadas para os dispositivos móbiles, que contan co tamaño necesario para a cámara da Raspberry.
-\textcolor{red}{Nas seguintes fotos ilustraemos as diferencias según o tipo de lente.}
+Para poder capturar o completo da estrada a cámara necesitará de algún tipo de lente que permita un maior campo de visión. Existen versións da cámara que xa inclúen unha lente, pero tamén poderemos atopar lentes externas coma es destinadas para os dispositivos móbiles, que contan co tamaño necesario para a cámara da Raspberry. Na figura 3.3 móstranse as lentes a probar e analizar as tres superiores colocaranse sobre a cámara e as tres inferiores so para a versión da cámara que incorpora lente.
+\begin{figure}[tb]
+  \centering
+  \includegraphics[scale=.1]{imaxes/lentes.jpg}
+  \caption{Lentes con diferente ángulo de visión. De esquerda a dereita: fila superior 0.67x, 180º, 0.4x, fila inferior 130º, 160º, 220º }
+  \label{f:Lentes}
+\end{figure}
 
 \subsection{Captura de vídeo}
 \emph{Raspivideo} é o software que utilizaremos para capturar as imaxes, o programa executase dende terminal proporcionándolle diferentes parámetros. No noso caso os parámetros a utilizar serán:
@@ -298,7 +303,7 @@ O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA,
 
     Para o apagado utilizarase un segundo pin conectado o pulsador, cando este se pulse, estando a Rasberry acesa, se conectará a voltaxe da batería, cando este valor positivo chegue o pin un script Python encargarase de apagar o dispositivo. Engadiranse un divisor de voltaxe para reducir a voltaxe da batería xa que cando está completamente cargada a sua voltaxe de 4.2v e superior o máximo valor lóxico tolerado pola Raspberry Pi de 3.3V. Utilizaremos unha resistencia de 33k\(\Omega\) conectada entre o pin e a batería e unha resistencia de 100k\(\Omega\) entre o pin e terra. Para evitar que o pin de acendido dispare o apagado situarase un díodo entre o pin de acendido e apagado evitando que a voltaxe circule nesa dirección.
 
-    Finalmente conectarase o pin indicador de batería baixa a outro pin de entrada da Raspberry que mediante o script Python apagará o dispositivo. O diagrama de funcionamento mostrase na figura 3.2.
+    Finalmente conectarase o pin indicador de batería baixa a outro pin de entrada da Raspberry que mediante o script Python apagará o dispositivo. O diagrama de funcionamento mostrase na figura 3.4.
 
     \begin{figure}[tb]
       \centering
@@ -307,7 +312,7 @@ O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA,
     	\label{f:circuíto de alimentación}
     \end{figure}
 
-    Na figura 3.3 podemos ver o diagrama final do dispositivo e na figura 3.4 o esquema completo integrando os leds o circuíto de carga e a cámara.
+    Na figura 3.5 podemos ver o diagrama final do dispositivo e na figura 3.6 o esquema completo integrando os leds o circuíto de carga e a cámara.
 
     \begin{figure}[tb]
       \centering
@@ -339,7 +344,7 @@ O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA,
 
 \end{itemize}
 
-\section{Carcasa e anclaxe}
+\section{Carcasa e ancoraxe}
 
 Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse dúas opcións.
 \begin{itemize}
@@ -370,7 +375,6 @@ Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse 
       \caption{Evolución dos deseños da carcasa.}
       \label{f:evolucion da carcasa}
     \end{figure}
-    \section{Custo do dispositivo}
 
     \begin{figure}[tb]
       \centering
@@ -378,6 +382,28 @@ Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse 
       \caption{Ultimo desño da carcasa.}
       \label{f:carcasa}
     \end{figure}
-    \section{Custo do dispositivo}
 
+    \section{Custo do dispositivo}
+    Para aproximar o rango prezos do custo de fabricación do dispositivo calcularanse dúas opción a primeira utilizando os compoñentes máis baratos é a segunda os máis caros.
+    \begin{table}[tb]
+        \label{c:custos dispositivo}
+        \begin{center}
+            \begin{tabular}{|l|l||l|l|}
+                \hline
+                 Menor prezo & Custo  & Maior Prezo & Custo \\ \hline
+                 Raspberry Pi Zero & 5.00€  & Raspberry Pi Zero W& 11.00€ \\ \hline
+                 Adaptador Wi-Fi usb & 1.00€ &  & \\ \hline
+                 Carcasa 3D & 0.50€ & Carcasa ofical & 6.00€ \\ \hline
+                  &  & Soprte 3D & 0.50€ \\ \hline
+                 Pi Camera Module V1 & 3.00€ & Pi Camera Module V2 & 20.00€ \\ \hline
+                  &  & Lentes  & 2.00€ \\ \hline
+                 8 leds w2812b & 1.00€  &  24 leds w2812b & 3.00€\\ \hline
+                 Circuito de carga e protección xenérico & 2.00€  & Adafruit Powerboost 1000C & 23.00€ \\ \hline
+                 Batería Lipo 1600mA & 7.00€ & Batería Lipo 1800mA & 10.00€\\ \hline
+                 Cables & 1.00€ &  Cables & 1.00€ \\ \hline
+                 Total & 20.50€ &  Total & 76.50€ \\ \hline
+            \end{tabular}
+        \end{center}
+        \caption{Custos monetarios do proxecto}
+    \end{table}
 \end{itemize}

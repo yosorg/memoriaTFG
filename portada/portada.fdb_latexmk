@@ -3,7 +3,7 @@
   "portada.xdv" 0 -1 0 "xelatex"
   (generated)
   "portada.pdf"
-["xelatex"] 1566207199 "portada.tex" "portada.xdv" "portada" 1566207200
+["xelatex"] 1567408764 "portada.tex" "portada.xdv" "portada" 1567408765
   "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1480098688 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
@@ -11,8 +11,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
-  "portada.aux" 1566207119 1198 dbc441a39664d84dd7f1a0d84b8ed16b ""
-  "portada.tex" 1566207199 922 6df109082eabddd07ae6aa51deee8903 ""
+  "portada.aux" 1567405584 1198 dbc441a39664d84dd7f1a0d84b8ed16b ""
+  "portada.tex" 1567408764 943 aa4de9397d8ea5957a354677f417f823 ""
   (generated)
-  "portada.log"
   "portada.xdv"
+  "portada.log"

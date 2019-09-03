@@ -21,7 +21,7 @@
 \BOOKMARK [1][-]{section.3.2}{Leds}{chapter.3}% 21
 \BOOKMARK [2][-]{subsection.3.2.1}{Conexión coa Raspberry Pi}{section.3.2}% 22
 \BOOKMARK [2][-]{subsection.3.2.2}{Software\040de\040Control}{section.3.2}% 23
-\BOOKMARK [1][-]{section.3.3}{Camara}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Cámara}{chapter.3}% 24
 \BOOKMARK [2][-]{subsection.3.3.1}{Lentes}{section.3.3}% 25
 \BOOKMARK [2][-]{subsection.3.3.2}{Captura de vídeo}{section.3.3}% 26
 \BOOKMARK [1][-]{section.3.4}{Transmisión de vídeo}{chapter.3}% 27
@@ -29,32 +29,32 @@
 \BOOKMARK [1][-]{section.3.6}{Conexión co servidor}{chapter.3}% 29
 \BOOKMARK [1][-]{section.3.7}{Autoarranque\040do\040servidor}{chapter.3}% 30
 \BOOKMARK [1][-]{section.3.8}{Alimentación e enerxía}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.9}{Carcasa\040e\040anclaxe}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.9}{Carcasa\040e\040ancoraxe}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.10}{Custo\040do\040dispositivo}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.11}{Custo\040do\040dispositivo}{chapter.3}% 34
-\BOOKMARK [0][-]{chapter.4}{Arquitectura e implementación da aplicación}{}% 35
-\BOOKMARK [1][-]{section.4.1}{Esquema xeral da aplicación}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.2}{Actividade\040principal}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.2.1}{Layout}{section.4.2}% 38
-\BOOKMARK [2][-]{subsection.4.2.2}{Ciclo\040de\040vida\040da\040actividade}{section.4.2}% 39
-\BOOKMARK [2][-]{subsection.4.2.3}{Botones}{section.4.2}% 40
-\BOOKMARK [2][-]{subsection.4.2.4}{Sensores}{section.4.2}% 41
-\BOOKMARK [2][-]{subsection.4.2.5}{Superficie de vídeo}{section.4.2}% 42
-\BOOKMARK [1][-]{section.4.3}{Comuniciacíon co dispositivo}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.3.1}{Broadcast}{section.4.3}% 44
-\BOOKMARK [2][-]{subsection.4.3.2}{Conexión}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.3}{Transmisión de ordes}{section.4.3}% 46
-\BOOKMARK [1][-]{section.4.4}{Recepción de vídeo}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.5}{Anclaxe\040a\040bicicleta}{chapter.4}% 48
-\BOOKMARK [0][-]{chapter.5}{Evaluación experimental}{}% 49
-\BOOKMARK [1][-]{section.5.1}{Consumo e autonomía}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.2}{Vídeo e lentes}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.3}{Visibilidade}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.4}{Estabilidade e consumo da aplicación}{chapter.5}% 53
-\BOOKMARK [0][-]{chapter.6}{Conclusións}{}% 54
-\BOOKMARK [1][-]{section.6.1}{Traballo\040futuro}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.2}{Lexislación}{chapter.6}% 56
-\BOOKMARK [2][-]{subsection.6.2.1}{Cámaras}{section.6.2}% 57
+\BOOKMARK [0][-]{chapter.4}{Arquitectura e implementación da aplicación}{}% 34
+\BOOKMARK [1][-]{section.4.1}{Esquema xeral da aplicación}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{Actividade\040principal}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.2.1}{Layout}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.2}{Ciclo\040de\040vida\040da\040actividade}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.3}{Botones}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.4}{Sensores}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.5}{Superficie de vídeo}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{Comuniciacíon co dispositivo}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Broadcast}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Conexión}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.3}{Transmisión de ordes}{section.4.3}% 45
+\BOOKMARK [1][-]{section.4.4}{Recepción de vídeo}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.5}{Anclaxe\040a\040bicicleta}{chapter.4}% 47
+\BOOKMARK [0][-]{chapter.5}{Evaluación experimental}{}% 48
+\BOOKMARK [1][-]{section.5.1}{Consumo}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.2}{Autonomía}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.3}{Vídeo e lentes}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.4}{Visibilidade}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.5}{Estabilidade e consumo da aplicación}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.6}{Lexislación}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.6.1}{Cámaras}{section.5.6}% 55
+\BOOKMARK [0][-]{chapter.6}{Conclusións}{}% 56
+\BOOKMARK [1][-]{section.6.1}{Traballo\040futuro}{chapter.6}% 57
 \BOOKMARK [1][-]{section.Alph0.1}{Contido\040DVD}{chapter.6}% 58
 \BOOKMARK [1][-]{section.Alph0.2}{Requisitos e instalación}{chapter.6}% 59
 \BOOKMARK [0][-]{appendix.A}{Glosario de acrónimos}{}% 60

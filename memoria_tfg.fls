@@ -269,6 +269,8 @@ OUTPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_dispositivo.tex
 INPUT contido/implementacion_dispositivo.tex
 INPUT imaxes/circuito-leds.png
+INPUT imaxes/camaras.jpg
+INPUT imaxes/lentes.jpg
 INPUT imaxes/circuito-bateria.png
 INPUT imaxes/circuito-completo.png
 INPUT imaxes/esquema-completo.png
@@ -292,10 +294,10 @@ OUTPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.tex
 INPUT contido/evaluacion_experimenal.tex
 INPUT imaxes/grafica-amperaxe.png
+INPUT imaxes/lexislacion-luminica.png
 OUTPUT contido/conclusions.aux
 INPUT contido/conclusions.tex
 INPUT contido/conclusions.tex
-INPUT imaxes/lexislacion-luminica.png
 OUTPUT anexos/anexos.aux
 INPUT anexos/anexos.tex
 INPUT anexos/anexos.tex

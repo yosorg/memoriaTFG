@@ -2,7 +2,7 @@
 \label{chap:evaluacion_experimenal}
 Para comprobar que os resultados obtidos correspóndense co plantexado probaremos o dispositivo e a aplicación. Realizaremos probas en contornos controlados e probas no medio real o que esta dirixido e analizaramos a se cumpre os requisitos legais.
 
-\section{Consumo e autonomía}
+\section{Consumo}
 
 Comenzarase as probas medindo o consumo de amperios do sistema. Para elo colocarase un amperímetro usb entre unha fonte de alimentación e a conexión usb coa que alimentarase o sistema nestas probas. Repetiremos as probas con diferentes fontes de alimentación e distintos cables para descartar fallos e conseguir unha maior consistencia nos resultados. A continuación realizaranse as mesmas probas no dispositivo medindo o consumo alimentándoo coa batería.
 
@@ -38,24 +38,34 @@ Como se pode observar na gráfica da figura 5.1 o uso ou non de batería non afe
 pódese ver que os valores no son moi diferentes sendo superior no caso do dispositivo de 8 luces, 437mA fronte aos 390mA previstos, e inferior no caso dispositivo con 24 luces, 660mA fronte aos 710mA previstos.
 As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A respectivamente, tamén utilizáronse dous cables un de maior calidade e outro cunha calidade inferior. En ningún dos casos obtivéronse diferencias apreciables sendo a maior diferencia de 4mA. Na versión con batería necesitouse utilizar cableado a maiores para realizar as probas, o que pode que incrementara lixeiramente o consumo.
 
+\section{Autonomía}
+
 A seguinte proba a realizar será a de autonomía do dispositivo, para elo buscarase o consumo máximo acendendo as luces vermella a máxima intensidade o tempo que se transmite vídeo.
 
-Comezaranse as probas co dispositivo dotado de batería interna, cando a voltaxe da batería esta entorno os 3.7V detectase un problema o sistema apagase, indicando batería baixa. O \emph{script} Python encargado de monitorizar o pin conectado o indicador de voltaxe baixo do Adafruit Powerboost detecta unha caída de voltaxe que confunde co franco de caída esperado cando o pin ponse a 0. O pin de baixo voltaxe do Adafruit Powerboost está conectado a voltaxe da batería cando a caga e superior a 3.2V e conectase a un valor de 0V cando baixa de este limite e debido a que cando batería esta a comezar a descargarse para poder proporcionar a amperaxe adecuada a súa voltaxe baixa a un ritmo rápido que confunde o \emph{script}. O podemos solucionar incluíndo unha segunda comprobación no \emph{script} despois de detectar o franco de caída comprobarase que o valor lido no pin é 0 antes de apagar a Raspberry.
 
-A continuación detectase un segundo problema, despois de  min volvese a apagar por batería baixa e unha vez apagado a batería recuperase ata unha voltaxe de 3.5V. Esto debese a que o estar consumindo o máximo de amperios necesita baixar a súa voltaxe para poder seguir entregando estes amperios. Que o sistema se apague neste punto e conveniente para protexer a batería e prolongar a súa vida útil pero reduce o tempo de uso da batería, que poderíamos seguir usando sempre que non utilicemos o consumo máximo do dispositivo. Este problema pódese solucionar de dúas formas:
+Comezaranse as probas co dispositivo dotado de batería interna, cando a voltaxe da batería esta entorno os 3.9V detectase un problema o sistema apagase, indicando batería baixa. O \emph{script} Python encargado de monitorizar o pin conectado o indicador de voltaxe baixo do Adafruit Powerboost detecta unha caída de voltaxe que confunde co franco de caída esperado cando o pin ponse a 0. O pin de baixo voltaxe do Adafruit Powerboost está conectado a voltaxe da batería cando a caga e superior a 3.2V e conectase a un valor de 0V cando baixa de este limite e debido a que cando batería esta a comezar a descargarse para poder proporcionar a amperaxe adecuada a súa voltaxe baixa a un ritmo rápido que confunde o \emph{script}. O podemos solucionar incluíndo unha segunda comprobación no \emph{script} despois de detectar o franco de caída comprobarase que o valor lido no pin é 0 antes de apagar a Raspberry.
+
+A continuación detectase un segundo problema, despois de 15 min de funcionamento volvese a apagar por batería baixa e unha vez apagado a batería recuperase ata unha voltaxe de 3.6V. Esto debese a que o estar consumindo o máximo de amperios necesita baixar a súa voltaxe para poder seguir entregando estes amperios. Reducindo a intensidade dos leds conséguese a que o sistema non se apague pero a medida que a voltaxe vai baixando é necesario reducir a intensidade aínda máis.  Este problema pódese solucionar de dúas formas:
 Utilizando un batería de maior capacidade xa que poderá seguir subministrando a amperaxe necesaria a menor voltaxe.
 Utilizar unha batería cunha constante de descarga maior, isto é a capacidade máxima de amperios que pode subministrar en función da capacidade en amperios hora. A batería utilizada ten unha constante de descarga de 1C isto quere dicir que coa sua caga completa o fabricante garante que proporcione 1.6A funcionando con normalidade.
 Ámbalas dúas solucións implican na practica unha batería de maior tamaño.
 
-Procedemos a repetir a proba pero esta vez deshabitando o apagado automático, esperando a que o sistema se apague cando a voltaxe non sexa suficiente para manter a Raspberry acesa ou no peor caso cando o circuíto de protección que inclúe a batería a desconecte a 2.5V. De non usar unha batería con circuíto de protección poderíamos danar a batería podendo incluso arder ou estoupar durante próximas cargas. Neste caso obtemos minutos de funcionamento.
+Procedemos a repetir a proba pero esta vez deshabitando o apagado automático, esperando a que o sistema se apague cando a voltaxe non sexa suficiente para manter a Raspberry acesa ou no peor caso cando o circuíto de protección que inclúe a batería a desconecte a unha voltaxe mínima habitualmente 2.5V. De non usar unha batería con circuíto de protección poderíamos danar a batería podendo incluso arder ou estoupar durante próximas cargas. Neste caso obtivéronse 35 minutos de funcionamento. A voltaxe medida na batería foi de 3.58V, un valor de voltaxe na que a batería aínda conserva parte da súa carga. Que o sistema se apague neste punto e conveniente para protexer a batería e prolongar a súa vida útil pero reduce o tempo de uso da batería, que poderíamos seguir usando sempre que non utilicemos o consumo máximo do dispositivo, por exemplo apagando a transmisión de vídeo. Comprobamos este suposto reconectando a batería e esta vez acendendo so as luces e a unha intensidade do 50\(\%\), obtivéronse neste caso 50 minutos máis de funcionamento ata que a batería se desconectou mediante o seu circuíto de protección, para que volva a activarse e necesario comezar a recargala, a voltaxe medida foi de 3.4V.
 
-Comezarase as probas para a versión do dispositivo sen luces intermitentes, faremos a proba cunha batería de  mA, obtense    , Neste caso observase que cando o dispositivo non pode subministrar suficiente voltaxe para alimentar a Raspberry esta se apaga, e como consecuencia tamén os leds alimentados dende o seu \emph{power rail}, o diminuír o consumo a voltaxe volve a ser suficiente para alimentar a Raspberry polo que esta se reinicia, entrando desta forma nun ciclo de reinicios ata que a voltaxe non e suficiente para arrancar a Raspberry.
+
+Para comprobar a viabilidade do apagado automático realizamos unha nova proba esta vez so co anel led acendido e a unha intensidade do 80\(\%\) e o vídeo transmitindo, neste suposto o sistema permanece acceso durante  min e a voltaxe da batería despois do apagado é de V.
+
+Comezarase as probas para a versión do dispositivo sen luces intermitentes e alimentando por batería USB, faremos a proba cunha batería de  mA, obtense    . Neste caso observase que cando o dispositivo non pode subministrar suficiente voltaxe para alimentar a Raspberry esta se apaga, e como consecuencia tamén os leds alimentados dende o seu \emph{power rail}, o diminuír o consumo a voltaxe volve a ser suficiente para alimentar a Raspberry polo que esta se reinicia, entrando desta forma nun ciclo de reinicios ata que a voltaxe non é suficiente para arrancar a Raspberry. Este comportamento non se observa no dispositivo con circuíto de acendido xa que unha vez  apagado este non se acenderá ata que se pulse o botón de acendido.
 
 \section{Vídeo e lentes}
+Como se pode observar nas capturas da figura figura as calidade de imaxe e considerablemente maior cando se utiliza a versión 2 da cámara, esta diferenza é aínda máis notable cando as condicións de iluminación son desfavorables.
 Nesta sección procederase a analizar a calidade do vídeo obtida a latencia
 \section{Visibilidade}
+Para comprobar a visibilidade das luces procedeuse a observar o seu funcionamento a diferentes intensidades e distancias repetindo as probas de día e de noite. Sendo as luces amarelas máis brillantes e o padrón de movemento máis visible decidiuse facer as probas so nas luces vermellas e sen palpadeo para ilustra o caso menos visible.
+As distancias elixidas para a proba foron 50, 100 e 150 metros e as intensidades elixidas 20, 40, 80 e 100 por cento.
 
-\section{Estabilidade e consumo da aplicación}
+Para as probas
+
 
 \section{Lexislación}
 A Lexislación que regula o uso de luces e cámaras varía amplamente segundo o país, analizaremos a legalidade do dispositivo segundo a lexislación española.
@@ -100,3 +110,6 @@ Cabe destacar que o uso de indicadores de xiro non está recollido na lexislaci�
 \end{table}
 
 \subsection{Cámaras}
+
+Como o dispositivo non almacena as imaxes capturadas nin as comparte con terceiros non se esta a vulnerar ningunha lexislación. De incorporar a opción de gravar a vía poderíase incorrer nun delito nalgúns casos, xa que non existe unha regulación concreta sobre este tipo de cámaras.
+ Non será legal gravar a vía publica se se realiza de forma continuada e co vehículo parado xa que se pode considerar vídeo vixilancia ilegal, pero poderase capturar imaxes en movemento sempre que a utilización de estas se restrinxa o uso privado xa que a compartición de imaxes de persoas e das matriculas dos vehículos na vía pública vulnera a Ley Orgánica de Protección de Datos de Carácter Personal (LOPD) (incluir referencia) sempre que non se conte co consentimento destas persoas. En caso de accidente as imaxes poderían utilizarse nun xuízo ou nunha reclamación o seguro só con autorización xudicial.

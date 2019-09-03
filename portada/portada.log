@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  19 AUG 2019 11:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  2 SEP 2019 09:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -93,8 +93,33 @@ Overfull \hbox (11.11987pt too wide) in paragraph at lines 3--7
  []
 
 
-Overfull \hbox (31.66968pt too wide) in paragraph at lines 3--7
-\T1/phv/m/n/10 (nome) 
+Overfull \hbox (20.55981pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 Enx-
+ []
+
+
+Overfull \hbox (28.3496pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 eñaría
+ []
+
+
+Overfull \hbox (11.11987pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 de
+ []
+
+
+Overfull \hbox (24.43982pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 Com-
+ []
+
+
+Overfull \hbox (22.78966pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 puta-
+ []
+
+
+Overfull \hbox (25.00977pt too wide) in paragraph at lines 3--7
+\T1/phv/m/n/10 dores 
  []
 
 
@@ -556,5 +581,5 @@ Here is how much of TeX's memory you used:
  4073 multiletter control sequences out of 15000+600000
  5384 words of font info for 16 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 19i,6n,12p,190b,157s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,6n,12p,209b,157s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

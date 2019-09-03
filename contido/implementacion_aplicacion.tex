@@ -1,11 +1,6 @@
 \chapter{Arquitectura e implementación da aplicación}
 \label{chap:implementacion_aplicacion}
-Detalles da implementación do software, problemas xurdidos e solucions aplicadas
-posibles subseccion:
-servidor python- control das luces, control da camara, comunicacion, sockets e broadcasting
-aplicacion Android- layouts e botons, comunicacions ordes e recepcion de vídeo, xestion de varios dispositivos
-
-
+Partindo dos requisitos do dispositivo de control e visualización elixirase a arquitectura a utilizar e implementarase o software necesario.
 Son moitas as posibilidades de implementación deste dispositivo, os requisitos principais son:
 \begin{itemize}
     \item Dispoñer dunha pantalla para visualizar o vídeo e o estado das luces.
@@ -14,7 +9,7 @@ Son moitas as posibilidades de implementación deste dispositivo, os requisitos 
     \item Contar cunha batería ou fonte de alimentación
 \end{itemize}
 
-Realizar unha implementación física do dispositivo contaría coas vantaxes de poder contar cunha alta personalización dos seus compoñentes e robustez ao contar cun único dispositivo obxectivo. Sen embargo se nos presenta outra opción moito máis atractiva: utilizar un telefono móbil e crear unha aplicación dende onde poder visualizar o vídeo e controlar as luces, aparte de aforrar a construción do dispositivo. Reducirase así o número de compoñentes que o usuario ten que levar, xa que é habitual dispoñer dun móbil en todo momento.
+Realizar unha implementación física do dispositivo contaría coas vantaxes de poder contar cunha alta personalización dos seus compoñentes e robustez ao contar cun único hardware obxectivo. Sen embargo se nos presenta outra opción moito máis atractiva: utilizar un telefono móbil e crear unha aplicación dende onde poder visualizar o vídeo e controlar as luces, aparte de aforrar a construción do dispositivo. Reducirase así o número de compoñentes que o usuario ten que levar, xa que é habitual dispoñer dun móbil en todo momento.
 
 Desenvolverase a aplicación para o sistema operativo Android xa que este é o sistema operativo máis empregado globalmente e nos permitirá chegar a un maior numero de usuarios.
 
@@ -86,7 +81,7 @@ Neste método a actividade e detida completamente e devénse liberar os recursos
 
 Aquí enviarase a orde para deter a conexión co dispositivo.
 
-\subsection{Botones}
+\subsection{Botons}
 A actividade é a encargada de iniciar os botóns e manexar o seu funcionamento. Estes botón son os seguintes:
 \begin{itemize}
     \item \textbf{Esquerda:} O pulsar este botón enviarase unha orde de acender a luz de xiro a esquerda. Se hai algunha luz acesa se enviará primeiro unha orde para apagalas. O pulsalo por segunda vez se enviara a orde de apagar luz de xiro e no caso de que a luz vermella estivese acesa antes de indicar o xiro esta luz se acenderá de novo. O botón palpebrará en amarelo mentres estea aceso.
