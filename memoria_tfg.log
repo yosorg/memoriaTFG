@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  3 SEP 2019 09:23
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  3 SEP 2019 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1459,24 +1459,21 @@ Requested font "cmr10" at 10.95pt
  [1
 
 
-]
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 71.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 71.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 71.
-Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf
- [2])
+])
 \tf@toc=\write4
 \openout4 = `memoria_tfg.toc'.
 
- [3] [4
-
-] (./memoria_tfg.lof
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 57.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 57.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 57.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf
+ [2] (./memoria_tfg.lof
 Overfull \hbox (18.94543pt too wide) in paragraph at lines 6--6
  [][] [][][]\TU/LinLibertine(0)/m/n/10.95 De esquerda a dereita a Raspberry Pi camera module V1, V2 sen filtro infravermello 
  []
@@ -1485,13 +1482,15 @@ Overfull \hbox (18.94543pt too wide) in paragraph at lines 6--6
 \tf@lof=\write5
 \openout5 = `memoria_tfg.lof'.
 
- [5] [6
+ [3
+
+] [4
 
 ] (./memoria_tfg.lot)
 \tf@lot=\write6
 \openout6 = `memoria_tfg.lot'.
 
- [7] [8
+ [5] [6
 
 ]
 \openout2 = `contido/introducion.aux'.
@@ -1645,12 +1644,12 @@ Overfull \hbox (28.8004pt too wide) in paragraph at lines 3--4
  []
 
 
-Overfull \hbox (2.243pt too wide) in paragraph at lines 12--13
+Overfull \hbox (2.243pt too wide) in paragraph at lines 9--10
 \TU/LinLibertine(0)/m/n/10.95 conexións para unha cámara e capacidade de procesamento e comunicación o que engadiremos
  []
 
 
-Overfull \hbox (28.14441pt too wide) in paragraph at lines 14--15
+Overfull \hbox (28.14441pt too wide) in paragraph at lines 11--12
 []\TU/LinLibertine(0)/m/n/10.95 A continuación analizaranse as diferentes opción de hardware dispoñibles, as súas características
  []
 
@@ -1659,72 +1658,72 @@ Overfull \hbox (28.14441pt too wide) in paragraph at lines 14--15
 
 
 ]
-Overfull \hbox (11.38162pt too wide) in paragraph at lines 35--37
+Overfull \hbox (11.38162pt too wide) in paragraph at lines 31--33
 []\TU/LinLibertine(0)/m/n/10.95 O primeiro esta baseado no microcontrolador de 8bits ATmega32U4 cunha frecuencia
  []
 
 
-Overfull \hbox (28.46278pt too wide) in paragraph at lines 35--37
+Overfull \hbox (28.46278pt too wide) in paragraph at lines 31--33
 \TU/LinLibertine(0)/m/n/10.95 de 16MHz, 32KB de memoria flash e 2.5KB de \TU/LinLibertine(0)/m/it/10.95 SRAM\TU/LinLibertine(0)/m/n/10.95 . Conta con 20 pins de entradas/saídas
  []
 
 
-Overfull \hbox (9.9043pt too wide) in paragraph at lines 40--41
+Overfull \hbox (9.9043pt too wide) in paragraph at lines 36--37
 []\TU/LinLibertine(0)/m/n/10.95 Estas dúas versión o contar con gran cantidade de pins tanto dixitais como analóxicos
  []
 
 
-Overfull \hbox (15.24701pt too wide) in paragraph at lines 44--45
+Overfull \hbox (15.24701pt too wide) in paragraph at lines 40--41
 []\TU/LinLibertine(0)/m/n/10.95 Ambos baseado no procesador ARM M0+ de 32 bit de baixo consumo cunha frecuencia
  []
 
 [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [12]
-Overfull \hbox (4.07349pt too wide) in paragraph at lines 104--105
+Overfull \hbox (4.07349pt too wide) in paragraph at lines 100--101
 []\TU/LinLibertine(0)/m/n/10.95 O a nivel de software son compatibles con WS2812B pero as súas diferenzas non permiten
  []
 
 
-Overfull \hbox (0.85846pt too wide) in paragraph at lines 112--113
+Overfull \hbox (0.85846pt too wide) in paragraph at lines 108--109
 \TU/LinLibertine(0)/m/n/10.95 flexibles, tiras ríxidas, aneis e matrices. Faremos probas con tiras e aneis de diferentes tamaños. 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-
-Overfull \hbox (4.03514pt too wide) in paragraph at lines 125--126
+[13]
+Overfull \hbox (4.03514pt too wide) in paragraph at lines 121--122
 []\TU/LinLibertine(0)/m/n/10.95 Existen versións especificas para a Raspberry Pi Zero máis pequenas pero solo do Camera
  []
 
 
-Overfull \hbox (2.82695pt too wide) in paragraph at lines 150--151
+Overfull \hbox (2.82695pt too wide) in paragraph at lines 146--147
 []\TU/LinLibertine(0)/m/n/10.95 Utilizar unha batería usb externa permite dispoñer de altas capacidades que prolongarían
  []
 
 [14]
-Overfull \hbox (3.0402pt too wide) in paragraph at lines 154--155
+Overfull \hbox (3.0402pt too wide) in paragraph at lines 150--151
 \TU/LinLibertine(0)/m/n/10.95 devido as sua alta capacidade enerxética e lonxevidade. A \TU/LinLibertine(0)/m/it/10.95 voltaxe nominal \TU/LinLibertine(0)/m/n/10.95 destas baterías
  []
 
 
-Overfull \hbox (28.7111pt too wide) in paragraph at lines 163--164
+Overfull \hbox (28.7111pt too wide) in paragraph at lines 159--160
 []\TU/LinLibertine(0)/m/n/10.95 Para o control dos leds existen varias librarías dispoñibles para varias linguaxes de programación.
  []
 
 
-Overfull \hbox (2.76842pt too wide) in paragraph at lines 165--166
+Overfull \hbox (2.76842pt too wide) in paragraph at lines 161--162
 []\TU/LinLibertine(0)/m/n/10.95 Para a captura e transmisión do vídeo contamos con varias alternativas. A libraría \TU/LinLibertine(0)/m/it/10.95 picamera
  []
 
 [15]
-Overfull \hbox (4.9942pt too wide) in paragraph at lines 179--180
+Overfull \hbox (4.9942pt too wide) in paragraph at lines 174--175
 \TU/LinLibertine(0)/m/n/10.95 utilizarse \TU/LinLibertine(0)/m/it/10.95 ABS \TU/LinLibertine(0)/m/n/10.95 para imprimir unha versión final, un material moito mais resistente as condicións
  []
 
@@ -1732,118 +1731,121 @@ Overfull \hbox (4.9942pt too wide) in paragraph at lines 179--180
 File: imaxes/circuito-leds.png Graphic file (type bmp)
 <imaxes/circuito-leds.png>
 
-Overfull \hbox (9.154pt too wide) in paragraph at lines 203--204
+Overfull \hbox (9.154pt too wide) in paragraph at lines 198--199
 \TU/LinLibertine(0)/m/n/10.95 para Python. O seu funcionamento é moi simple, primeiro teremos que configurar os parámetros
  []
 
 
-Overfull \hbox (14.7479pt too wide) in paragraph at lines 211--213
+Overfull \hbox (14.7479pt too wide) in paragraph at lines 206--208
 []\TU/LinLibertine(0)/bx/n/10.95 Luz vermella incremental\TU/LinLibertine(0)/m/n/10.95 , é a encargada de indicar a freada, a sua intensidade aumentará
  []
 
-[17]
-Overfull \hbox (2.75397pt too wide) in paragraph at lines 213--215
+
+Overfull \hbox (2.75397pt too wide) in paragraph at lines 208--210
 []\TU/LinLibertine(0)/bx/n/10.95 Luz amarela de xiro a esquerda ou dereita\TU/LinLibertine(0)/m/n/10.95 , indica o xiro iluminando progresivamente
  []
 
+[17]
 File: imaxes/camaras.jpg Graphic file (type bmp)
 <imaxes/camaras.jpg>
-[18]
 File: imaxes/lentes.jpg Graphic file (type bmp)
 <imaxes/lentes.jpg>
 
-Overfull \hbox (4.1945pt too wide) in paragraph at lines 240--241
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (4.1945pt too wide) in paragraph at lines 235--236
 \TU/LinLibertine(0)/m/n/10.95 dende terminal proporcionándolle diferentes parámetros. No noso caso os parámetros a utilizar
  []
 
-[19]
-Overfull \hbox (13.70767pt too wide) in paragraph at lines 243--244
+
+Overfull \hbox (13.70767pt too wide) in paragraph at lines 238--239
 []\TU/LinLibertine(0)/m/n/10.95 -w e -h Son os parámetros de anchura e altura de píxeles, probaremos diferentes resolucións
  []
 
-
-Overfull \hbox (0.54941pt too wide) in paragraph at lines 248--249
+[19]
+Overfull \hbox (0.54941pt too wide) in paragraph at lines 243--244
 \TU/LinLibertine(0)/m/n/10.95 noso caso utilizaremos a saída estándar que indicaremos con ”-” , e que redirecionaremos
  []
 
-[20]
-Overfull \hbox (10.0085pt too wide) in paragraph at lines 252--253
+
+Overfull \hbox (10.0085pt too wide) in paragraph at lines 247--248
 []\TU/LinLibertine(0)/m/n/10.95 Para transmitir o vídeo ao dispositivo móbil a través da rede preséntanse varias posibilidades.
  []
 
 
-Overfull \hbox (13.48375pt too wide) in paragraph at lines 257--258
+Overfull \hbox (13.48375pt too wide) in paragraph at lines 252--253
 \TU/LinLibertine(0)/m/it/10.95 netcat \TU/LinLibertine(0)/m/n/10.95 unha utilidade para transmitir e recibir na rede mediante \TU/LinLibertine(0)/m/it/10.95 tcp \TU/LinLibertine(0)/m/n/10.95 ou \TU/LinLibertine(0)/m/it/10.95 udp\TU/LinLibertine(0)/m/n/10.95 . Transmitiremos
  []
 
-
-Overfull \hbox (11.60158pt too wide) in paragraph at lines 259--260
+[20]
+Overfull \hbox (11.60158pt too wide) in paragraph at lines 254--255
 \TU/LinLibertine(0)/m/n/10.95 redirecionaremos o vídeo a un porto nunha dirección \TU/LinLibertine(0)/m/it/10.95 ip \TU/LinLibertine(0)/m/n/10.95 mediante \TU/LinLibertine(0)/m/it/10.95 udp \TU/LinLibertine(0)/m/n/10.95 neste caso utilizando
  []
 
 
-Overfull \hbox (1.71202pt too wide) in paragraph at lines 264--265
+Overfull \hbox (1.71202pt too wide) in paragraph at lines 259--260
 []\TU/LinLibertine(0)/m/n/10.95 Para recibir os comandos enviados dende o dispositivo móbil e executalos mediante Python
  []
 
 
-Overfull \hbox (2.89633pt too wide) in paragraph at lines 266--267
+Overfull \hbox (2.89633pt too wide) in paragraph at lines 261--262
 \TU/LinLibertine(0)/m/it/10.95 BaseHTTPRequestHandler\TU/LinLibertine(0)/m/n/10.95 , o problema é que esta clase bloquea o programa mentres se executan
  []
 
 
-Overfull \hbox (21.61595pt too wide) in paragraph at lines 266--267
+Overfull \hbox (21.61595pt too wide) in paragraph at lines 261--262
 \TU/LinLibertine(0)/m/n/10.95 as ordes correspondentes a petición recibida. Para solucionar este problema poderiáse implementar
  []
 
 
-Overfull \hbox (3.8441pt too wide) in paragraph at lines 266--267
+Overfull \hbox (3.8441pt too wide) in paragraph at lines 261--262
 \TU/LinLibertine(0)/m/it/10.95 multithread \TU/LinLibertine(0)/m/n/10.95 de forma transparente. Plantexase utilizar as librarias \TU/LinLibertine(0)/m/it/10.95 multithread Tornado\TU/LinLibertine(0)/m/n/10.95 , \TU/LinLibertine(0)/m/it/10.95 Twisted
  []
 
-[21]
-Overfull \hbox (0.9747pt too wide) in paragraph at lines 268--269
+
+Overfull \hbox (0.9747pt too wide) in paragraph at lines 263--264
 []\TU/LinLibertine(0)/m/n/10.95 Finalmente optase por manexar a conexión directamente mediante \TU/LinLibertine(0)/m/it/10.95 sockets \TU/LinLibertine(0)/m/n/10.95 non bloqueastes
  []
 
 
-Overfull \hbox (2.07146pt too wide) in paragraph at lines 268--269
+Overfull \hbox (2.07146pt too wide) in paragraph at lines 263--264
 \TU/LinLibertine(0)/m/n/10.95 lista, unha vez aceptada introducirase nunha segunda lista as mensaxes recibidas e se executara
  []
 
-[22]
-Overfull \hbox (15.94148pt too wide) in paragraph at lines 303--304
+[21] [22]
+Overfull \hbox (15.94148pt too wide) in paragraph at lines 298--299
 \TU/LinLibertine(0)/m/n/10.95 operacional de 5.2v para evitar perdidas de voltaxe en cables e conectores, un pin habilitador
  []
 
-[23] [24]
-Overfull \hbox (23.85617pt too wide) in paragraph at lines 311--312
+[23]
+Overfull \hbox (23.85617pt too wide) in paragraph at lines 306--307
 \TU/LinLibertine(0)/m/n/10.95 Raspberry que mediante o script Python apagará o dispositivo. O diagrama de funcionamento
  []
 
 File: imaxes/circuito-bateria.png Graphic file (type bmp)
 <imaxes/circuito-bateria.png>
 
-Overfull \hbox (40.36516pt too wide) in paragraph at lines 315--316
+Overfull \hbox (40.36516pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
 File: imaxes/circuito-completo.png Graphic file (type bmp)
 <imaxes/circuito-completo.png>
 
-Overfull \hbox (54.82039pt too wide) in paragraph at lines 324--325
+Overfull \hbox (54.82039pt too wide) in paragraph at lines 319--320
  [][] 
  []
 
 File: imaxes/esquema-completo.png Graphic file (type bmp)
 <imaxes/esquema-completo.png>
 
-Overfull \hbox (12.06877pt too wide) in paragraph at lines 338--339
+Overfull \hbox (12.06877pt too wide) in paragraph at lines 333--334
 []\TU/LinLibertine(0)/m/n/10.95 Na implementación física colocaremos o chip de carga xunto cos compoñentes electrónicos
  []
 
 
-Overfull \hbox (2.77217pt too wide) in paragraph at lines 338--339
+Overfull \hbox (2.77217pt too wide) in paragraph at lines 333--334
 \TU/LinLibertine(0)/m/n/10.95 nunha placa cun conector para poder conectalo directamente os conectores da Raspberry
  []
 
@@ -1851,75 +1853,76 @@ File: imaxes/foto-circuito1.jpg Graphic file (type bmp)
 <imaxes/foto-circuito1.jpg>
 File: imaxes/foto-circuito2.jpg Graphic file (type bmp)
 <imaxes/foto-circuito2.jpg>
-[25]
-Overfull \hbox (10.4424pt too wide) in paragraph at lines 356--357
+[24]
+Overfull \hbox (10.4424pt too wide) in paragraph at lines 351--352
 []\TU/LinLibertine(0)/m/n/10.95 A primeira realizarase para a versión do proxecto alimentada cunha batería usb. Consistirá
  []
 
+[25]
 File: imaxes/soporte-caixa.jpg Graphic file (type bmp)
 <imaxes/soporte-caixa.jpg>
 File: imaxes/evolucion-carcasa.jpg Graphic file (type bmp)
 <imaxes/evolucion-carcasa.jpg>
 File: imaxes/carcasa.png Graphic file (type bmp)
 <imaxes/carcasa.png>
-[26]) [27] [28] [29] [30] [31]
+) [26] [27] [28] [29] [30]
 \openout2 = `contido/implementacion_aplicacion.aux'.
 
- (./contido/implementacion_aplicacion.tex [32
-
-
-
-]
+ (./contido/implementacion_aplicacion.tex
 Capítulo 4.
 
-Overfull \hbox (2.36171pt too wide) in paragraph at lines 3--7
-[]\TU/LinLibertine(0)/m/n/10.95 Detalles da implementación do software, problemas xurdidos e solucions aplicadas posibles
+Overfull \hbox (2.01546pt too wide) in paragraph at lines 3--5
+\TU/LinLibertine(0)/m/n/10.95 utilizar e implementarase o software necesario. Son moitas as posibilidades de implementación
  []
 
 
-Overfull \hbox (0.79274pt too wide) in paragraph at lines 17--18
+Overfull \hbox (0.79274pt too wide) in paragraph at lines 12--13
 \TU/LinLibertine(0)/m/n/10.95 obxectivo. Sen embargo se nos presenta outra opción moito máis atractiva: utilizar un telefono
  []
 
 
-Overfull \hbox (0.1041pt too wide) in paragraph at lines 19--20
+Overfull \hbox (0.1041pt too wide) in paragraph at lines 14--15
 \TU/LinLibertine(0)/m/n/10.95 operativo máis empregado globalmente e nos permitirá chegar a un maior numero de usuarios. 
  []
 
-[33]
+[31
+
+
+
+]
 File: imaxes/layout-vertical1.png Graphic file (type bmp)
 <imaxes/layout-vertical1.png>
 File: imaxes/layout-vertical2.png Graphic file (type bmp)
 <imaxes/layout-vertical2.png>
- [34]
+ [32]
 File: imaxes/layout-horizontal1.png Graphic file (type bmp)
 <imaxes/layout-horizontal1.png>
 File: imaxes/layout-horizontal2.png Graphic file (type bmp)
 <imaxes/layout-horizontal2.png>
 File: imaxes/ciclo-actividade.png Graphic file (type bmp)
 <imaxes/ciclo-actividade.png>
- [35]
-Overfull \hbox (18.18088pt too wide) in paragraph at lines 75--76
+ [33]
+Overfull \hbox (18.18088pt too wide) in paragraph at lines 70--71
 []\TU/LinLibertine(0)/m/n/10.95 Aquí xestionarase o estado da conexión, iniciando a clase \TU/LinLibertine(0)/m/it/10.95 request \TU/LinLibertine(0)/m/n/10.95 se non esta en funcionamento
  []
 
-[36] [37]
-Overfull \hbox (3.50136pt too wide) in paragraph at lines 95--96
+[34] [35]
+Overfull \hbox (3.50136pt too wide) in paragraph at lines 90--91
 []\TU/LinLibertine(0)/bx/n/10.95 Noite: \TU/LinLibertine(0)/m/n/10.95 O pulsalo activarase o modo noite, no que o sensor lumínico do móbil encargarase
  []
 
 
-Overfull \hbox (5.05545pt too wide) in paragraph at lines 101--103
+Overfull \hbox (5.05545pt too wide) in paragraph at lines 96--98
 []\TU/LinLibertine(0)/m/n/10.95 Unhas das vantaxes de utilizar un dispositivo móbil é que estes contan con diversos sensores
  []
 
-[38]
-Overfull \hbox (2.97667pt too wide) in paragraph at lines 110--111
+[36]
+Overfull \hbox (2.97667pt too wide) in paragraph at lines 105--106
 \TU/LinLibertine(0)/m/n/10.95 ou vertical polo que en ámbalas dúas poderase excluír os valores dun dos eixos do acelerómetro,
  []
 
 
-Overfull \hbox (4.47313pt too wide) in paragraph at lines 110--111
+Overfull \hbox (4.47313pt too wide) in paragraph at lines 105--106
 \TU/LinLibertine(0)/m/n/10.95 coordenadas do móbil transformaremos o vector obtido mediante o calculo a matriz de rotación.
  []
 
@@ -1928,17 +1931,17 @@ File: imaxes/angulo.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39] [40]
+ [37] [38]
 File: imaxes/soporte-mobil.png Graphic file (type bmp)
 <imaxes/soporte-mobil.png>
 File: imaxes/fallos-soporte.jpg Graphic file (type bmp)
 <imaxes/fallos-soporte.jpg>
-) [41] [42]
+) [39] [40]
 \openout2 = `contido/evaluacion_experimenal.aux'.
 
  (./contido/evaluacion_experimenal.tex
 Capítulo 5.
-[43
+[41
 
 
 
@@ -1958,7 +1961,7 @@ Overfull \hbox (0.1041pt too wide) in paragraph at lines 43--44
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [42]
 Overfull \hbox (0.71373pt too wide) in paragraph at lines 48--52
 \TU/LinLibertine(0)/m/n/10.95 conséguese a que o sistema non se apague pero a medida que a voltaxe vai baixando é necesario
  []
@@ -1966,12 +1969,12 @@ Overfull \hbox (0.71373pt too wide) in paragraph at lines 48--52
 
 Underfull \vbox (badness 2245) has occurred while \output is active []
 
- [45]
+ [43]
 Overfull \hbox (15.21707pt too wide) in paragraph at lines 61--63
 []\TU/LinLibertine(0)/m/n/10.95 Como se pode observar nas capturas da figura figura as calidade de imaxe e considerablemente
  []
 
-[46]
+[44]
 Overfull \hbox (4.04973pt too wide) in paragraph at lines 75--77
 []\TU/LinLibertine(0)/m/n/10.95 Artigo 98.1 do Regulmento Xeneral de Circulación, aprobado por Real Decreto 1428/2003,
  []
@@ -1983,7 +1986,7 @@ Overfull \hbox (7.32013pt too wide) in paragraph at lines 77--79
 
 File: imaxes/lexislacion-luminica.png Graphic file (type bmp)
 <imaxes/lexislacion-luminica.png>
-[47]
+[45]
 Overfull \hbox (22.53825pt too wide) in paragraph at lines 101--108
  [] 
  []
@@ -1996,10 +1999,10 @@ Overfull \hbox (5.91855pt too wide) in paragraph at lines 97--111
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48] [49]
+ [46] [47]
 \openout2 = `contido/conclusions.aux'.
 
- (./contido/conclusions.tex [50
+ (./contido/conclusions.tex [48
 
 
 
@@ -2019,10 +2022,10 @@ Overfull \hbox (1.62245pt too wide) in paragraph at lines 9--73
 \TU/LinLibertine(0)/m/n/10.95 rápida// Gravación continua, gravaacion en caso de accidente// cactadrioptico// varios padrons
  []
 
-[51]
+[49]
 \openout2 = `anexos/anexos.aux'.
 
- (./anexos/anexos.tex [52
+ (./anexos/anexos.tex [50
 
 
 
@@ -2158,16 +2161,16 @@ Overfull \hbox (95.45517pt too wide) in paragraph at lines 39--48
 \OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 7\OML/cmm/m/it/10.95 :zipentrarenlacarpetapythonyejecutarsudopython:\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setup:pybuildejecutarsudopython:\OT1/cmr/m/n/10.95 /\OML/cmm/m/it/10.95 setup:pyinstall$ 
  []
 
-[53])
+[51])
 \openout2 = `bibliografia/acronimos.aux'.
 
- (./bibliografia/acronimos.tex [54
+ (./bibliografia/acronimos.tex [52
 
 
 
 ]
 Apéndice A.
-[55]) [56]
+[53]) [54]
 \openout2 = `bibliografia/glosario.aux'.
 
  (./bibliografia/glosario.tex
@@ -2187,18 +2190,18 @@ Overfull \hbox (4.3928pt too wide) in paragraph at lines 31--33
 []\TU/LinLibertine(0)/m/n/10.95 Conxunto de daemons de administración do sistema, utilizado varios sistemas Linux. 
  []
 
-[57
+[55
 
 
 
-]) [58] (./memoria_tfg.bbl)
+]) [56] (./memoria_tfg.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./memoria_tfg.aux (./portada/portada.aux) (./portada/resumo.aux) (./contido/introducion.aux) (./contido/analise.aux) (./contido/implementacion_dispositivo.aux) (./contido/implementacion_aplicacion.aux) (./contido/evaluacion_experimenal.aux) (./contido/conclusions.aux) (./anexos/anexos.aux) (./bibliografia/acronimos.aux) (./bibliografia/glosario.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 608E0A255564AC9351124164EF471618.
+(rerunfilecheck)             Checksum: 6DB91C86F5B3F6966F522D88A4009D51.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2212,10 +2215,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
 Here is how much of TeX's memory you used:
  33239 strings out of 494900
  650393 string characters out of 6177140
- 682588 words of memory out of 5000000
+ 679493 words of memory out of 5000000
  36760 multiletter control sequences out of 15000+600000
  542087 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,12n,101p,1706b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,101p,1706b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memoria_tfg.xdv (74 pages, 1019028 bytes).
+Output written on memoria_tfg.xdv (70 pages, 1010176 bytes).
