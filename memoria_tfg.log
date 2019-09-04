@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  3 SEP 2019 09:49
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  4 SEP 2019 11:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1727,6 +1727,11 @@ Overfull \hbox (4.9942pt too wide) in paragraph at lines 174--175
 \TU/LinLibertine(0)/m/n/10.95 utilizarse \TU/LinLibertine(0)/m/it/10.95 ABS \TU/LinLibertine(0)/m/n/10.95 para imprimir unha versión final, un material moito mais resistente as condicións
  []
 
+
+Overfull \hbox (24.17859pt too wide) in paragraph at lines 182--183
+\TU/LinLibertine(0)/m/n/10.95 consuma mais de 1A será conveniente alimentar os leds directamente dende a fonte de alimentación,
+ []
+
 [16]
 File: imaxes/circuito-leds.png Graphic file (type bmp)
 <imaxes/circuito-leds.png>
@@ -1748,12 +1753,10 @@ Overfull \hbox (2.75397pt too wide) in paragraph at lines 208--210
 [17]
 File: imaxes/camaras.jpg Graphic file (type bmp)
 <imaxes/camaras.jpg>
+ [18]
 File: imaxes/lentes.jpg Graphic file (type bmp)
 <imaxes/lentes.jpg>
 
-Underfull \vbox (badness 1297) has occurred while \output is active []
-
- [18]
 Overfull \hbox (4.1945pt too wide) in paragraph at lines 235--236
 \TU/LinLibertine(0)/m/n/10.95 dende terminal proporcionándolle diferentes parámetros. No noso caso os parámetros a utilizar
  []
@@ -2221,4 +2224,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  65i,12n,101p,1706b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memoria_tfg.xdv (70 pages, 1010176 bytes).
+Output written on memoria_tfg.xdv (70 pages, 1011700 bytes).
