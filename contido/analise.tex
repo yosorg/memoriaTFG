@@ -76,10 +76,12 @@ Realizaranse a seguintes tarefas:
 
 \section{Custos do proxecto}
 O software utilizado neste proxecto conta con licenzas de software libre polo que os custos restrinxiranse aos recursos humanos e recursos hardware.
-Nos recursos hardware da táboa 2.1 inclúense as pezas utilizadas finalmente para o dispositivo asi como as que se utilizaron para realización de probas.
+Nos recursos hardware da táboa~\ref{tab:custos_hardware} inclúense as pezas utilizadas finalmente para o dispositivo asi como as que se utilizaron para realización de probas. Para aproximar o rango prezos do custo \emph{DIY} de fabricación do dispositivo  na táboa~\ref{tab:custos_dispositivo} calcularanse dúas opción a primeira utilizando os compoñentes máis baratos é a segunda os máis caros.
+
 
 \begin{table}[tb]
-    \label{c:custos hardware}
+    \label{tab:custos_hardware}
+    \caption{Custos monetarios do proxecto}
     \begin{center}
         \begin{tabular}{|l|l|l|l|}
             \hline
@@ -100,15 +102,37 @@ Nos recursos hardware da táboa 2.1 inclúense as pezas utilizadas finalmente pa
              Total &  &  & 140.00€ \\ \hline
         \end{tabular}
     \end{center}
-    \caption{Custos monetarios do proxecto}
+\end{table}
+
+\begin{table}[tb]
+    \label{tab:custos_dispositivo}
+    \caption{Custos de fabricación do dispositivo \emph{DIY}}
+    \begin{center}
+        \begin{tabular}{|l|l||l|l|}
+            \hline
+             Menor prezo & Custo  & Maior Prezo & Custo \\ \hline
+             Raspberry Pi Zero & 5.00€  & Raspberry Pi Zero W& 11.00€ \\ \hline
+             Adaptador Wi-Fi usb & 1.00€ &  & \\ \hline
+             Carcasa 3D & 0.50€ & Carcasa ofical & 6.00€ \\ \hline
+              &  & Soprte 3D & 0.50€ \\ \hline
+             Pi Camera Module V1 & 3.00€ & Pi Camera Module V2 & 20.00€ \\ \hline
+              &  & Lentes  & 2.00€ \\ \hline
+             8 leds w2812b & 1.00€  &  24 leds w2812b & 3.00€\\ \hline
+             Circuito de carga e protección xenérico & 2.00€  & Adafruit Powerboost 1000C & 23.00€ \\ \hline
+             Batería Lipo 1600mA & 7.00€ & Batería Lipo 1800mA & 10.00€\\ \hline
+             Cables & 1.00€ &  Cables & 1.00€ \\ \hline
+             Total & 20.50€ &  Total & 76.50€ \\ \hline
+        \end{tabular}
+    \end{center}
 \end{table}
 
 As estes custos engádense as ferramentas utilizadas incluíndo entre outros ordenador, impresora 3D, multímetro, soldador, dispositivo android e bicicleta.
 
-Na táboa 2.2 móstranse os recursos humanos utilizados medidos en horas de traballo.
+Na táboa~\ref{tab:custos_humanos} móstranse os recursos humanos utilizados medidos en horas de traballo.
 
 \begin{table}[tb]
-    \label{c:custos humanos}
+    \label{tab:custos_humanos}
+    \caption{Tempo empregado no proxecto}
     \begin{center}
         \begin{tabular}{|l|l|}
             \hline
@@ -122,6 +146,4 @@ Na táboa 2.2 móstranse os recursos humanos utilizados medidos en horas de trab
              Total & 512h \\ \hline
         \end{tabular}
     \end{center}
-    \caption{Tempo empregado no proxecto}
-    \label{tab:my_label}
 \end{table}

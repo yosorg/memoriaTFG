@@ -3,13 +3,13 @@
   "evaluacion_experimenal.xdv" 0 -1 0 "xelatex"
   (generated)
   "evaluacion_experimenal.pdf"
-["xelatex"] 1567496154 "evaluacion_experimenal.tex" "evaluacion_experimenal.xdv" "evaluacion_experimenal" 1567496155
+["xelatex"] 1567616203 "evaluacion_experimenal.tex" "evaluacion_experimenal.xdv" "evaluacion_experimenal" 1567616205
   "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
-  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
-  "evaluacion_experimenal.aux" 1567495441 3171 9ad13139dfae2f7521821efb517f1e1f ""
-  "evaluacion_experimenal.tex" 1567496154 14928 c290d376afe637f62712073205beeb1e ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
+  "evaluacion_experimenal.aux" 1567615668 3257 1121d6d27402e12ffdbee0237ee96d4e ""
+  "evaluacion_experimenal.tex" 1567616202 15048 3b65655069336c71889e1ace890a9400 ""
   (generated)
-  "evaluacion_experimenal.xdv"
   "evaluacion_experimenal.log"
+  "evaluacion_experimenal.xdv"

@@ -18,7 +18,7 @@ Para suxeitar un teléfono móbil ao guiador da bicicleta existen múltiples anc
 \section{Esquema xeral da aplicación}
 Para crear esta aplicación Android optarase por utilizar a linguaxe de programación Kotlin e o entorno de programación Android Studio. Kotlin é unha linguaxe de programación creada por JetBrains executable na maquina virtual de Java, dende 2017 Kotlin é unha linguaxe oficial para desenvolver aplicacións Android.
 
-Algunhas das súas vantaxes fronte a Java son:
+Como mosta o libro Kotlin for Android Developers~\cite{leivaKotlinAndroidDevelopers2018} algunhas das súas vantaxes fronte a Java son:
 \begin{itemize}
     \item Unha maior expresividade: Podes escribir mais con menos código.
     \item Maior seguridade: En Kotlin e obrigatorio especificar a nulabilidade dos obxectos e esta se comproba en tempo de compilación.
@@ -26,7 +26,7 @@ Algunhas das súas vantaxes fronte a Java son:
     \item Fai uso de extensión de funcións: Permite estender clases con novas funcionalidades se necesidade de ter aceso o código da clase.
     \item É altamente interoperable: Pódese utilizar librerías e clases de Java no mesmo proxecto.
 \end{itemize}
-incluír referencia a libro Kotlin
+
 
 A aplicación contará con catro compoñentes. O principal será a \emph{MainActivity}, a encargada de iniciar as compoñentes a visualizar na pantalla, executar as ordes e mostrar a información. O segundo será o \emph{layout} onde se definiran as compoñentes a visualizar e a sua posición en pantalla. O terceiro a clase \emph{request} a encargada da conexión co servidor e de transmitirlle as ordes. O cuarto elemento é a clase encargada de recibir o vídeo e descodificalo.
 
@@ -36,31 +36,31 @@ A actividade principal ou \emph{MainActivity} dunha aplicación Android é a pri
 \subsection{Layout}
 Un \emph{layout} é a definición da estrutura da interface de usuario. Esta actividade contará con dous \emph{layouts} un para a posición vertical e outro para a posición horizontal da pantalla
 \subsubsection{Layout vertical}
-Este \emph{layout}, figura 4.1, contará cunha superficie reservada para o vídeo na metade superior da pantalla. Na metade inferior situaranse os botóns encargados de executar as ordes. Na parte superior situase a barra de estado que na sua parte dereita contará cun botón para conectar que servirá o tempo de indicador de conexión, a súa esquerda mostrarase unha barra para controlar a intensidade dos leds.
+Este \emph{layout}, figura~\ref{fig:layout_horizontal}, contará cunha superficie reservada para o vídeo na metade superior da pantalla. Na metade inferior situaranse os botóns encargados de executar as ordes. Na parte superior situase a barra de estado que na sua parte dereita contará cun botón para conectar que servirá o tempo de indicador de conexión, a súa esquerda mostrarase unha barra para controlar a intensidade dos leds.
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.1]{imaxes/layout-vertical1.png}
   \includegraphics[scale=.1]{imaxes/layout-vertical2.png}
   \caption{Capturas de pantalla do \emph{layout} horizontal.}
-  \label{f:layout horizontal}
+  \label{fig:layout_horizontal}
 \end{figure}
 \subsubsection{Layout horizontal}
-Neste \emph{layout}, figura 4.2, o vídeo mostrarase como o fondo e os botóns sobre el. Os de xiro a esquerda e xiro dereita situados a ámbolos dous lados e o resto incluíndo o de control de intensidade lumínica e o de conexión situaranse na parte de inferior da pantalla.
+Neste \emph{layout}, figura~\ref{fig:layout_vertical}, o vídeo mostrarase como o fondo e os botóns sobre el. Os de xiro a esquerda e xiro dereita situados a ámbolos dous lados e o resto incluíndo o de control de intensidade lumínica e o de conexión situaranse na parte de inferior da pantalla.
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.1]{imaxes/layout-horizontal1.png}
   \includegraphics[scale=.1]{imaxes/layout-horizontal2.png}
   \caption{Capturas de pantalla do \emph{layout} vertical.}
-  \label{f:layout vertical}
+  \label{fig:layout_vertical}
 \end{figure}
 \subsection{Ciclo de vida da actividade}
-En Android cada actividade conta conta cun ciclo de vida, pasa por varios estados dende antes de iniciarse ata despois de finalizar. O estado principal dunha actividade é activa, no momento que a actividade está en primeiro plano e interactuando co usuario.
+En Android cada actividade conta conta cun ciclo de vida, figura~\ref{fig:actividade}, pasa por varios estados dende antes de iniciarse ata despois de finalizar. O estado principal dunha actividade é activa, no momento que a actividade está en primeiro plano e interactuando co usuario.
 
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.6]{imaxes/ciclo-actividade.png}
-  \caption{Ciclo de actividade Android (incluir referencia)}
-  \label{f:actividade}
+  \caption{Ciclo de actividade Android~\cite{UnderstandActivityLifecyclea}}
+  \label{fig:actividade}
 \end{figure}
 
 Para xestionar o que sucede no resto de estados utilízanse unhas funcións de \emph{callbacks}, no noso caso realizarase as seguintes accións en cada fase:
@@ -94,22 +94,22 @@ A actividade é a encargada de iniciar os botóns e manexar o seu funcionamento.
 \end{itemize}
 \subsection{Sensores}
 Unhas das vantaxes de utilizar un dispositivo móbil é que estes contan con diversos sensores para moitos fins. No noso caso utilizarase o acelerómetro e o xiroscopio para rexistrar cambios na posición e aceleracións no dispositivo e o sensor de luz para medir a intensidade de luz no ambiente.
-En Android accedese o sensor instanciando a clase \emph{SensorManager} e definindo unha instancia do sensor da que obterase os datos mediante a función \emph{on sensor change}.
+En Android accedese o sensor instanciando a clase \emph{SensorManager} e definindo unha instancia do sensor da que obterase os datos mediante a función \emph{on sensor change}~\cite{Sensors}.
 
 \subsubsection{Sensor de Luz}
-O sensor de luz é un fotorreceptor que xera unha sinal eléctrica dependendo da incidencia de fotóns. Para utilizar o sensor rexistrarase un \emph{sensor listener} no método \emph{onResume} e o método de \emph{callback} \emph{onSensorChanged} executarase cada vez que se detecte un cambio, neste método definirase o comportamento do sensor: Cando o botón de Noite esta activado acenderase o botón Vermello se o sensor rexistra un valor inferior a 400 lúmines. Este valor correspondese coa intensidade lumínica o comenzo do solpor.
-incluir referencia
+O sensor de luz é un fotorreceptor que xera unha sinal eléctrica dependendo da incidencia de fotóns. Para utilizar o sensor rexistrarase un \emph{sensor listener} no método \emph{onResume} e o método de \emph{callback} \emph{onSensorChanged} executarase cada vez que se detecte un cambio, neste método definirase o comportamento do sensor: Cando o botón de Noite esta activado acenderase o botón Vermello se o sensor rexistra un valor inferior a 400 lúmenes. Este valor correspondese coa intensidade lumínica o comenzo do solpor~\cite{Lux2019}.
+
 \subsubsection{Acelerómetro e xiroscopio}
 Para poder indicar a freada da bicicleta utilizarase o acelerómetro do dispositivo co que medirase a deceleración. O acelerómetro proporciona o valor da aceleración en $m/s^2$, para simplificar os cálculos utilizarase o sensor virtual \emph{ linear accelerometer} que proporciona o valor da aceleración excluíndo a gravidade asi o valor será 0 nos tres eixos cando o dispositivo este en repouso ou movéndose a unha velocidade constante.
 
-A forza a obter é a deceleración no sentido da marcha, para poder calculala é necesario coñecer a orientación do dispositivo co respecto ao eixo lonxitudinal da bicicleta. Como se mostra na figura 4.3 o dispositivo situarase no guiador da bicicleta en dúas posición horizontal, ou vertical polo que en ámbalas dúas poderase excluír os valores dun dos eixos do acelerómetro, \emph{x} e \emph{y} respectivamente. Para coñecer a influenza dos outros dous eixos sobre o plano paralelo a bicicleta necesitamos coñecer o ángulo que forma con esta. Utilizaremos o sensor virtual \emph{game rotation vector} para obter este ángulo, este sensor utiliza os datos do acelerómetro e o xiroscopio para proporcionar valores rotación en radiáns sobre os eixo de coordenadas da terra, aínda que non orientado o norte xa que este sensor virtual non utiliza o magnetómetro.  Estes valores están expresados en ángulos de Euler que indican mediante unha sucesións de xiros a desviación do sistema de coordenadas, para obter o ángulo respecto o eixo de coordenadas do móbil transformaremos o vector obtido mediante o calculo a matriz de rotación. Unha vez obtidos valores normalizados utilizaremos o ángulo respecto o eixo \emph{x} se o móbil esta en posición vertical e con respecto a \emph{y} se está en horizontal.
+A forza a obter é a deceleración no sentido da marcha, para poder calculala é necesario coñecer a orientación do dispositivo co respecto ao eixo lonxitudinal da bicicleta. O dispositivo situarase no guiador da bicicleta en dúas posición horizontal, ou vertical polo que en ámbalas dúas poderase excluír os valores dun dos eixos do acelerómetro, \emph{x} e \emph{y} respectivamente como se ve na figur~\ref{fig:angulo}. Para coñecer a influenza dos outros dous eixos sobre o plano paralelo a bicicleta necesitamos coñecer o ángulo que forma con esta. Utilizaremos o sensor virtual \emph{game rotation vector} para obter este ángulo, este sensor utiliza os datos do acelerómetro e o xiroscopio para proporcionar valores rotación en radiáns sobre os eixo de coordenadas da terra, aínda que non orientado o norte xa que este sensor virtual non utiliza o magnetómetro.  Estes valores están expresados en ángulos de Euler que indican mediante unha sucesións de xiros a desviación do sistema de coordenadas, para obter o ángulo respecto o eixo de coordenadas do móbil transformaremos o vector obtido mediante o calculo a matriz de rotación. Unha vez obtidos valores normalizados utilizaremos o ángulo respecto o eixo \emph{x} se o móbil esta en posición vertical e con respecto a \emph{y} se está en horizontal.
 
 O ángulo obtido coincide co ángulo con respecto o eixo direccional da bicicleta so no caso no que a bicicleta estea sobre chan plano polo que será necesario que a bicicleta estea sobre un terreo sen inclinación, para elo o cálculo do ángulo realizarase nun proceso de calibración, cando se acenda o modo freada solicitarase que se coloque o telefono no soporte do guiador e se suxeite a bicicleta sobre un terreo chairo.
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.6]{imaxes/angulo.png}
   \caption{Eixos do acelerómetro e ángulo coa horizontal. Para o dispositivo colocado en horizontal, en vertical o eixo superior sería \emph{y}.}
-  \label{f:angulo}
+  \label{fig:angulo}
 \end{figure}
 
 O modulo da forza resultante calcularase de forma trigonométrica a partir dos valores de aceleración dos dous eixos e o ángulo obtido. O sistema indicará que se acenda as luces cando o valor calculado supere certo nivel, utilizarase en principio o valor de $m/s^2$ e comprobarase nas probas se é o valor adecuado.
@@ -132,20 +132,20 @@ Unha vez obtida a dirección IP a clase \emph{request} utilizará unha función 
 Para transmitir as ordes a clase \emph{request} contara cunha función que recibe a mensaxe a transmitir e a envía a través do socket. Espera a recibir resposta do servidor e se é positiva devolve o valor booleano verdadeiro, en caso de non recibila devolve o valor falso.
 
 \section{Recepción de vídeo}
-Para este apartado crearase a clase \emph{VideoReceiver} que executarase no seu propio \emph{thread}. O vídeo é codificado no formato H.264 e transmitido por UDP, para recibilo ábrese un \emph{socket} no porto 5000 extraese a mensaxe do datragrama e, para acelerar o proceso, en vez de utilizar a función \emph{MediaExtractor} pásase a unha función de parseo encargada de separar os datos recibidos en \emph{NAL units}, o formato que utiliza H.264 para o transporte. Para elo cando se identifica a cabeceira da seguinte \emph{NAL units} a anterior se envía a outra función encargada de decodificar o vídeo mediante un \emph{MediaCodec}, finalmente o vídeo mostrase na superficie.
+Para este apartado crearase a clase \emph{VideoReceiver} que executarase no seu propio \emph{thread}. O vídeo é codificado no formato H.264 e transmitido por UDP, para recibilo ábrese un \emph{socket} no porto 5000 extraese a mensaxe do datragrama e, para acelerar o proceso, en vez de utilizar a función \emph{MediaExtractor} pásase a unha función de parseo~\cite{consti10ContributeConsti10MyMediaCodecPlayerforFPV2018a} encargada de separar os datos recibidos en \emph{NAL units}, o formato que utiliza H.264 para o transporte. Para elo cando se identifica a cabeceira da seguinte \emph{NAL units} a anterior se envía a outra función encargada de decodificar o vídeo mediante un \emph{MediaCodec}~\cite{MediaCodec}, finalmente o vídeo mostrase na superficie.
 
 \section{Anclaxe a bicicleta}
-Existen diversas opcións paras suxeitar o móbil o guiador dunha bicicleta, no mercado hai soportes para dispositivos concretos e outros que se adaptan ao tamaño e forma de diferentes modelos. Neste caso utilizarase unha código \emph{SCAD} que ao executalo co software de deseño 3D paramétrico OpenSCAD no que introdúcense as dimensións do dispositivo e como resultado obtense un arquivo \emph{STL} co deseño 3D do soporte.
+Existen diversas opcións paras suxeitar o móbil o guiador dunha bicicleta, no mercado hai soportes para dispositivos concretos e outros que se adaptan ao tamaño e forma de diferentes modelos. Neste caso utilizarase unha código \emph{SCAD} que ao executalo co software de deseño 3D paramétrico OpenSCAD no que introdúcense as dimensións do dispositivo e como resultado obtense un arquivo \emph{STL} co deseño 3D do soporte, figura~\ref{fig:soporte_mobil}.
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.2]{imaxes/soporte-mobil.png}
   \caption{Desño 3D do soporte para o dispositivo móbil.}
-  \label{f:soporte móbil}
+  \label{fig:soporte_mobil}
 \end{figure}
-Vendo que os soportes impresos non constaban coa resistencia esperada, como se mostra nas imaxes da figura  ,optouse por utilizar un soporte de aluminio nas probas para preservar a integridade do dispositivo móbil.
+Vendo que os soportes impresos non constaban coa resistencia esperada, como se mostra nas imaxes da figura~\ref{fig:fallos_soporte}, optouse por utilizar un soporte de aluminio nas probas para preservar a integridade do dispositivo móbil.
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.08]{imaxes/fallos-soporte.jpg}
   \caption{Mostras dos problemas do soporte impreso.}
-  \label{f:soporte móbil}
+  \label{fig:fallos_soporte}
 \end{figure}

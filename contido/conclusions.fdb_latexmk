@@ -3,13 +3,13 @@
   "conclusions.xdv" 0 -1 0 "xelatex"
   (generated)
   "conclusions.pdf"
-["xelatex"] 1567490289 "conclusions.tex" "conclusions.xdv" "conclusions" 1567490289
+["xelatex"] 1567595699 "conclusions.tex" "conclusions.xdv" "conclusions" 1567595699
   "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1565979427 2434172 c242f28570e002cdc8c63ecec4d9d921 ""
-  "conclusions.aux" 1567408815 1571 158dea43edb0e69a5d696791b04d2179 ""
-  "conclusions.tex" 1567490288 1177 29158f3153a7fb269c68e56c4ec144b5 ""
+  "conclusions.aux" 1567595579 1571 686d5ebd3e1060f27bee1593b373c2ae ""
+  "conclusions.tex" 1567595698 1213 5b9ae5d34945a3da8e5fd833dec69ed0 ""
   (generated)
-  "conclusions.log"
   "conclusions.xdv"
+  "conclusions.log"

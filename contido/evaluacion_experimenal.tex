@@ -32,9 +32,9 @@ Analizaranse os seguintes supostos para o dispositivo con un anel led e para o q
   \centering
   \includegraphics[scale=.5]{imaxes/grafica-amperaxe.png}
   \caption{Grafica do consumo en mA.}
-  \label{f:soporte móbil}
+  \label{fig:amperaxe}
 \end{figure}
-Como se pode observar na gráfica da figura 5.1 o uso ou non de batería non afecta en gran medida ao consumo de amperios, pero ha de terse en conta que estas probas realizáronse coas batería coa carga completa. Se se compara a previsión de consumos feita coas medición obtidas
+Como se pode observar na gráfica da figura~\ref{fig:amperaxe} o uso ou non de batería non afecta en gran medida ao consumo de amperios, pero ha de terse en conta que estas probas realizáronse coas batería coa carga completa. Se se compara a previsión de consumos feita coas medición obtidas
 pódese ver que os valores no son moi diferentes sendo superior no caso do dispositivo de 8 luces, 437mA fronte aos 390mA previstos, e inferior no caso dispositivo con 24 luces, 660mA fronte aos 710mA previstos.
 As fontes de alimentación utilizadas poden proporcionar un máximo de 3A e 2.1A respectivamente, tamén utilizáronse dous cables un de maior calidade e outro cunha calidade inferior. En ningún dos casos obtivéronse diferencias apreciables sendo a maior diferencia de 4mA. Na versión con batería necesitouse utilizar cableado a maiores para realizar as probas, o que pode que incrementara lixeiramente o consumo.
 
@@ -70,22 +70,24 @@ Para as probas
 \section{Lexislación}
 A Lexislación que regula o uso de luces e cámaras varía amplamente segundo o país, analizaremos a legalidade do dispositivo segundo a lexislación española.
 \subsubsection{Luces}
-O uso de luces en bicicleta e obrigatorio en España cando as condicións lúminicas son insuficientes, na Instrución 18/S-146 da Dirección Xeneral de Tráfico con respecto a legalidade de luces parpadeantes, detalla os requisitos lumínicos aplicables as bicicletas recollidos nas diferentes lexislacións (incluir cita):
+O uso de luces en bicicleta e obrigatorio en España cando as condicións lúminicas son insuficientes, na Instrución 18/S-146 da Dirección Xeneral de Tráfico con respecto a legalidade de luces parpadeantes, detalla os requisitos lumínicos aplicables as bicicletas recollidos nas diferentes lexislacións~\cite{Instruccion18S146}:
 \begin{itemize}
   \item Artigo  98.1  do  Regulmento  Xeneral  de Circulación, aprobado por Real Decreto 1428/2003, de 21 de novembro.\\
   "Todos los vehículos que circulen entre el ocaso y la salida del sol o a cualquier hora del día en los túneles, pasos inferiores y tramos de vía afectados por la señal “túnel” (S-5) deben llevar encendido el   alumbrado   que   corresponda   de   acuerdo   con   los   que   se determina en esta sección".
   \item  Regulamento Xeneral de Vehículos, aprobado por Real Decreto 2822/1998, de 23 decembro\\
   "En el artículo 22.4 se indica que las bicicletas, para circular de noche, por tramos   de   vías   señalizados   con   la   señal   de   “túnel”   o   cuando   existan condiciones  meteorológicas  o  ambientales  que  disminuyan  sensiblemente  la visibilidad,  deberán  disponer  de  los  siguientes  dispositivos: luz  de  posición delantera   y   trasera,   catadióptrico   trasero,   y   podrán   disponer   de catadióptricos en los radios de las ruedas y en los pedales".
-  \item Real Decreto 339/2014, de 9 de mayo, que establece os requisitos para a comercialización e posta en servizo das bicicletas e outros ciclos e as súas partes e pezas,establece no Anexo V o rango de intensidade lúmica nos faros das bicicletas.
-  \begin{figure}[h!]
+  \item Real Decreto 339/2014, de 9 de mayo, que establece os requisitos para a comercialización e posta en servizo das bicicletas e outros ciclos e as súas partes e pezas,establece no Anexo V o rango de intensidade lumínica nos faros das bicicletas (ver figura~\ref{fig:lexislacion_luminica}).
+
+  \begin{figure}[tbp]
     \centering
     \includegraphics[scale=0.6]{imaxes/lexislacion-luminica.png}
-    \caption{Rango de intensidade luminica nos faros das biciletas en España.}
-    \label{f:lexislación lumínica}
+    \caption{Rango de intensidade lumínica nos faros das biciletas en España~\cite{Instruccion18S146}.}
+    \label{fig:lexislacion_luminica}
   \end{figure}
 \end{itemize}
-A instrución conclúe que o uso de luces parpadeantes é legal sempre que as luces no produzan cegamento o resto de usuarios da vía e se adecúen a normativa citada.//
-Para saber se as luces cumpren estes requisitos lumínicos tense que calcular as candelas que emiten. Os fabricantes de tiras leds raramente indican esta información e se o fan é en formato de lúmenes que para converter a candelas e necesario saber o ángulo de emisión, dato que tampouco facilitan, e non tódolos leds co mesmo formato compórtanse da mesma maneira. Na ficha técnica duns leds WS2812B, coma os utilizados neste proxecto, do fabricante Worldsemi (incluir referencia) na táboa 6.1 especifican as milicandelas dos seus leds, tendo unha intensidade lumínica máxima combinada de entre 1850 e 2500 milicandelas.
+
+A instrución conclúe que o uso de luces parpadeantes é legal sempre que as luces no produzan cegamento o resto de usuarios da vía e se adecúen a normativa citada.
+Para saber se as luces cumpren estes requisitos lumínicos tense que calcular as candelas que emiten. Os fabricantes de tiras leds raramente indican esta información e se o fan é en formato de lúmenes que para converter a candelas e necesario saber o ángulo de emisión, dato que tampouco facilitan, e non tódolos leds co mesmo formato compórtanse da mesma maneira. Na ficha técnica duns leds WS2812B, coma os utilizados neste proxecto, do fabricante Worldsemi~\cite{WS2812BDatasheet} na táboa~\ref{tab:intensidade_leds} especifican as milicandelas dos seus leds, tendo unha intensidade lumínica máxima combinada de entre 1850 e 2500 milicandelas.
 
 O dispositivo desenvolto so utiliza dúas cores a vermella cun valor \emph{RGB} (255,0,0) e a amarela cun valor \emph{RGB}  (255,170,0). Polo tanto para a luz vermella solo utilizamos este led cunha intensidade máxima indicada na táboa deste fabricante de entre 550 en 700 milicandelas. Para a luz amarela o led vermello funciona a intensidade máxima e o verde cun valor de 177 dun máximo de 255, supoñendo unha transmisión lineal destes valores a intensidade en candelas, obteríase un valor do 69.4\(\%\) que sobre os datos do fabricante para o led verde resulta entre 763 e 961 milicandelas, sumados os valores do led vermello o resultado é un máximo de entre 1313 e 1661 milicandelas.
 
@@ -94,9 +96,10 @@ Para a luz amarela entre 10.5 e 13.2 candelas, podendo ser neste caso superior o
 
 Como se pode observar en tódolos casos, a priori, as luces acadan o limite legal pero nalgúns o sobrepasan, para adaptar o comportamento das luces a lexislación bastará con limitar o valor da intensidade máxima. Para poder obter este valor será necesario realizar probas empíricas para medir as candelas emitidas polo dispositivo.
 
-Cabe destacar que o uso de indicadores de xiro non está recollido na lexislación española polo que seu uso podería ser sancionable se considérase que  pode ser contraproducente cegando a visión doutros ocupantes da vía. O seu uso non eximirá a necesidade de indicar as manobras co brazo como require a lei.
+Cabe destacar que o uso de indicadores de xiro non está recollido na lexislación española polo que seu uso podería ser sancionable si se considera que pode ser contraproducente cegando a visión doutros ocupantes da vía. O seu uso non eximirá a necesidade de indicar as manobras co brazo como require a lei.
 \begin{table}[tb]
-    \label{c:intensidade leds}
+  \caption{Características dos leds WS2812B de Worldsemi}
+    \label{tab:intensidade_leds}
     \begin{center}
         \begin{tabular}{|l|l|l|l|l|}
             \hline
@@ -106,10 +109,9 @@ Cabe destacar que o uso de indicadores de xiro non está recollido na lexislaci�
              Azul & 10R1MUX & 465-475 & 200-400 & 3.0-3.4\\ \hline
         \end{tabular}
     \end{center}
-    \caption{Características dos leds WS2812B de Worldsemi}
 \end{table}
 
 \subsection{Cámaras}
 
 Como o dispositivo non almacena as imaxes capturadas nin as comparte con terceiros non se esta a vulnerar ningunha lexislación. De incorporar a opción de gravar a vía poderíase incorrer nun delito nalgúns casos, xa que non existe unha regulación concreta sobre este tipo de cámaras.
- Non será legal gravar a vía publica se se realiza de forma continuada e co vehículo parado xa que se pode considerar vídeo vixilancia ilegal, pero poderase capturar imaxes en movemento sempre que a utilización de estas se restrinxa o uso privado xa que a compartición de imaxes de persoas e das matriculas dos vehículos na vía pública vulnera a Ley Orgánica de Protección de Datos de Carácter Personal (LOPD) (incluir referencia) sempre que non se conte co consentimento destas persoas. En caso de accidente as imaxes poderían utilizarse nun xuízo ou nunha reclamación o seguro só con autorización xudicial.
+ Non será legal gravar a vía publica se se realiza de forma continuada e co vehículo parado xa que se pode considerar vídeo vixilancia ilegal, pero poderase capturar imaxes en movemento sempre que a utilización de estas se restrinxa o uso privado xa que a compartición de imaxes de persoas e das matriculas dos vehículos na vía pública vulnera a Ley Orgánica de Protección de Datos de Carácter Personal (LOPD)~\cite{BOEEsDocumento} sempre que non se conte co consentimento destas persoas. En caso de accidente as imaxes poderían utilizarse nun xuízo ou nunha reclamación o seguro só con autorización xudicial.

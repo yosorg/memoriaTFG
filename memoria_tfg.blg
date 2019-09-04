@@ -9,55 +9,65 @@ A level-1 auxiliary file: contido/implementacion_dispositivo.aux
 A level-1 auxiliary file: contido/implementacion_aplicacion.aux
 A level-1 auxiliary file: contido/evaluacion_experimenal.aux
 A level-1 auxiliary file: contido/conclusions.aux
-A level-1 auxiliary file: anexos/anexos.aux
 A level-1 auxiliary file: bibliografia/acronimos.aux
 A level-1 auxiliary file: bibliografia/glosario.aux
-I couldn't open style file IEEEtranN.bst
----line 37 of file memoria_tfg.aux
- : \bibstyle{IEEEtranN
- :                    }
-I'm skipping whatever remains of this command
-I found no \citation commands---while reading file memoria_tfg.aux
-I found no style file---while reading file memoria_tfg.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            96 strings with 809 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
-quote$ -- 0
-skip$ -- 0
+The style file: IEEEtranN.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bibliografia/bibliografia.bib
+-- IEEEtranN.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Natbib version - not for normal IEEE work.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--empty journal in ESTUDIOANALISISSINIESTRALIDAD
+Warning--empty journal in PrincipalesCifrasSiniestralidad
+
+Done.
+You've used 18 entries,
+            4855 wiz_defined-function locations,
+            1056 strings with 11814 characters,
+and the built_in function-call counts, 8461 in all, are:
+= -- 776
+> -- 77
+< -- 13
++ -- 58
+- -- 22
+* -- 425
+:= -- 1447
+add.period$ -- 36
+call.type$ -- 18
+change.case$ -- 37
+chr.to.int$ -- 18
+cite$ -- 27
+duplicate$ -- 652
+empty$ -- 771
+format.name$ -- 33
+if$ -- 1822
+int.to.chr$ -- 1
+int.to.str$ -- 19
+missing$ -- 114
+newline$ -- 108
+num.names$ -- 33
+pop$ -- 426
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 2
+skip$ -- 603
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 76
+swap$ -- 319
+text.length$ -- 2
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+top$ -- 6
+type$ -- 252
+warning$ -- 2
+while$ -- 24
 width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+write$ -- 223
+(There were 2 warnings)

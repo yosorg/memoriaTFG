@@ -2,9 +2,9 @@
 \chapter*{Apéndices}
 \thispagestyle{empty}
 
-\section{Contido DVD}
+\chapter{Contido DVD}
 
-\section{Requisitos e instalación}
+\chapter{Requisitos e instalación}
 revisar e redactar tutorial
 descargar ultima version de raspbian lite
 flashear so en targeta micro sd
@@ -14,16 +14,16 @@ crear un archivo vacio llamado ssh
 crear un archivo llamdo wpa_supplicant.conf
 editar el archivo añadiendo la siguinte cofiguración con la cofiguracion de la red wifi creada en el movil
 	country=COUNTRY
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	%ctrl_interface=DIR=/var/run/wpa\_supplicant GROUP=netdev
 	update_config=1
 
 	network={
 	       ssid="SSID"
 	       psk="PASSWORD"
-	       key_mgmt=WPA-PSK
+	 %      key\_mgmt=WPA-PSK
 	    }
-#contemplar realizar configuracion con ip estatica
-#añadir opcion para activar otg https://medium.com/@aallan/setting-up-a-headless-raspberry-pi-zero-3ded0b83f274
+%#contemplar realizar configuracion con ip estatica
+%#añadir opcion para activar otg https://medium.com/@aallan/setting-up-a-headless-raspberry-pi-zero-3ded0b83f274
 espulsamos la targeta y la introduciomos en la raspi y la encendemos
 #ofrecer opciones para averiguar la ip
 nos conectamos por ssh con el usuario y contraseña por defecto "pi" "raspberry"
@@ -38,11 +38,11 @@ ejcutar sudo apt upgrade
 
 instalacion de la libreia de jgarff para el control de los leds
 sudo apt install scons
-descargamos la libreria con wget https://github.com/jgarff/rpi_ws281x/archive/master.zip
+%descargamos la libreria con wget https://github.com/jgarff/rpi_ws281x/archive/master.zip
 descomprimimos con unzip master.zip
 entra en la carpeta y ejecutar el comando scons
 ejecutar sudo apt install python-dev swig
-ejecutar wget https://pypi.python.org/packages/source/s/setuptools/setuptools-5.7.zip
+%ejecutar wget https://pypi.python.org/packages/source/s/setuptools/setuptools-5.7.zip
 entrar en la carpeta python y ejecutar sudo python ./setup.py build
 ejecutar sudo python ./setup.py install
 

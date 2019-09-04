@@ -179,23 +179,23 @@ Crearanse dous prototipos con dúas configuracións de leds diferentes, ambas co
 \subsection{Conexión coa Raspberry Pi}
 Estes leds contan con catro puntos de conexión entrada de voltaxe, terra, entrada de datos é saída de datos.
 
-A voltaxe necesaria para alimentalos e de 5V, aínda que na maioría dos caso o fabricante indica un soporte a voltaxes de entrada de entre 4V e 7V. A Raspberry Pi conta con pins de saída a 5V conectada directamente a entrada, sen contar coa limitación dun fusible como noutras versións da placa, polo que pode alimentar os leds directamente pero xa que cada led pode chegar a consumir ata 60mA e os pins de 5V da Raspberry poden proporcionar ata 300mA (incluir referencia libro raspberry a fondo) e facer pasar polo \emph{power rail} unha corrente excesiva podería provocar danos ou unha aumento da temperatura da placa implicando menor velocidade e maior consumo. Tendo en conta que o fabricante non recomenda que a placa consuma mais de 1A será conveniente alimentar os leds directamente dende a fonte de alimentación, especialmente na versión na que utilizaremos 24 leds.
+A voltaxe necesaria para alimentalos e de 5V, aínda que na maioría dos caso o fabricante indica un soporte a voltaxes de entrada de entre 4V e 7V. A Raspberry Pi conta con pins de saída a 5V conectada directamente a entrada, sen contar coa limitación dun fusible como noutras versións da placa, polo que pode alimentar os leds directamente pero xa que cada led pode chegar a consumir ata 60mA e os pins de 5V da Raspberry poden proporcionar ata 300mA~\cite{molloyRaspberryPiFondo2018} e facer pasar polo \emph{power rail} unha corrente excesiva podería provocar danos ou unha aumento da temperatura da placa implicando menor velocidade e maior consumo. Tendo en conta que o fabricante non recomenda que a placa consuma mais de 1A será conveniente alimentar os leds directamente dende a fonte de alimentación, especialmente na versión na que utilizaremos 24 leds.
 
 Para a conexión de datos terase que usar unha das saídas da placa conectadas a un das dúas canles \emph{PWM} da que dispón. Estas saídas lóxicas contan cunha voltaxe de 3.3V, pero as tiras leds requiren que a voltaxe na entrada de datos, para ser interpretada como un valor lóxico HIGH, sexa polo menos un 70\(\%\) da  voltaxe de alimentación, neste caso 3.5V. Para solucionalo proponse dúas opcións: Reducir a voltaxe de entrada dos leds, o que implicaría unha menor luminosidade, ou aumentar a voltaxe do valor lóxico, optarase por esta solución utilizando un conversor lóxico de nivel. Na practica comprobaremos que os leds utilizados seguen interpretando como valor lóxico positivo os 3.3V polo que a utilización ou non do conversor de nivel a valoraremos máis adiante en función do espacio dispoñible.
 
 Os pins da placa dispoñibles con conexión \emph{PWM} serán o GPIO18 e GPIO12 para a canle PWM0 e GPIO13 para a canle PWM1. A libraría que utilizaremos tamén permite controlar o led mediante a conexión SPI e a PCM, utilizaremos a \emph{PWM} por que é a única que nos permite controlar dúas tiras led independentes simultaneamente, coa contraindicación de que o utilizar o \emph{PWM} a Raspberry non poderá xerar audio analóxico, algo que non necesitarase neste proxecto.
 
-Utilizaremos o GPIO18 para controlar o anel led e o GPIO13 no caso que utilicemos os intermitentes que irán conectados un o outro como se indica na figura 3.1.
+Utilizaremos o GPIO18 para controlar o anel led e o GPIO13 no caso que utilicemos os intermitentes que irán conectados un o outro como se indica na figura~\ref{fig:conexions_leds}.
 
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=1]{imaxes/circuito-leds.png}
   \caption{Diagrama de conexión dos leds.}
-  \label{f:conexións cos leds}
+  \label{fig:conexions_leds}
 \end{figure}
 
 \subsection{Software de Control}
-Para manexar os leds utilizaremos a libraría rpi\(\_\)ws281x de Jeremy Garff na sua versión para Python. O seu funcionamento é moi simple, primeiro teremos que configurar os parámetros da tira led, coma o numero de leds, o pin a que esta conectado, o tipo de tira  ou a canle \emph{PWM} entre outros. No programa principal deberemos inicializar os leds con estes parámetros e executala coa función \emph{begin}. Cada vez que queiramos que os les cambien os seu estado chamaremos a función \emph{show}.
+Para manexar os leds utilizaremos a libraría rpi\(\_\)ws281x de Jeremy Garff~\cite{garffUserspaceRaspberryPi2019} na sua versión para Python. O seu funcionamento é moi simple, primeiro teremos que configurar os parámetros da tira led, coma o numero de leds, o pin a que esta conectado, o tipo de tira  ou a canle \emph{PWM} entre outros. No programa principal deberemos inicializar os leds con estes parámetros e executala coa función \emph{begin}. Cada vez que queiramos que os les cambien os seu estado chamaremos a función \emph{show}.
 
 Escribiranse funcións encargadas dos padróns de iluminación. Estes padróns serán os seguintes:
 \begin{itemize}
@@ -213,22 +213,37 @@ Tamén se escribirá unha función para controlar a intensidade dos leds en func
 
 \section{Cámara}
 
-A cámara a utilizar é a Raspberry Pi Camera, probarase a versión 1 e a versión 2, ambas conectarase a Rasberry Pi Zero co mesmo cable, o conector da placa é delicado polo que deberase conectar con coidado. Para habilitala executarase o comando \emph{raspiconfig} na terminal e no apartado de interfaces activarase a opción cámara. (incluir tabla comarativa referenci libro pi zero)
+A cámara a utilizar é a Raspberry Pi Camera, probarase a versión 1 e a versión 2, ambas conectarase a Rasberry Pi Zero co mesmo cable, o conector da placa é delicado polo que deberase conectar con coidado. Para habilitala executarase o comando \emph{raspiconfig} na terminal e no apartado de interfaces activarase a opción cámara.
 
-A versión 1 da cámara conta cunha resolución de 5 megapixeles mentres que a versión 2 conta con 8. Nas foto da figura 3.2 poden verse a 3 a utilizar, a versión 1.3 a versión 2.1 e a 2.1 sen filtro infravermello.
+ Na táboa~\ref{tab:comparativa_camaras} móstrase unha comparativa de ámbalas dúas cámaras e na foto da figura~\ref{fig:camaras} poden verse as tres cámaras a utilizar, a versión 1.3 a versión 2.1 e a 2.1 sen filtro infravermello.
+\begin{table}[tb]
+    \label{tab:comparativa_camaras}
+    \caption{Táboa comparativa da Raspberry Pi Camera V1 e V2~\cite{mocqRaspberryPiPi2017}}
+    \begin{center}
+        \begin{tabular}{|l|l||l|}
+            \hline
+              &  V1 & V2\\ \hline
+             Sensor  & 5 Mpíxeles & 5 Mpíxeles \\ \hline
+             Resolución foto  & 2592x1944 & 3280x2464 \\ \hline
+             Vídeo maxi & 1080p & 1080p \\ \hline
+             Tamaño do módulo& 20x25x10 mm & 25x23x9 mm \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.06]{imaxes/camaras.jpg}
-  \caption{De esquerda a dereita a Raspberry Pi camera module V1, V2 sen filtro infravermello e V2 cunha lente de gran angular}
-  \label{f:Cámaras}
+  \caption{De esquerda a dereita a Raspberry Pi Camera Module V1, V2 sen filtro infravermello e V2 cunha lente de gran angular}
+  \label{fig:camaras}
 \end{figure}
 \subsection{Lentes}
-Para poder capturar o completo da estrada a cámara necesitará de algún tipo de lente que permita un maior campo de visión. Existen versións da cámara que xa inclúen unha lente, pero tamén poderemos atopar lentes externas coma es destinadas para os dispositivos móbiles, que contan co tamaño necesario para a cámara da Raspberry. Na figura 3.3 móstranse as lentes a probar e analizar as tres superiores colocaranse sobre a cámara e as tres inferiores so para a versión da cámara que incorpora lente.
+Para poder capturar o completo da estrada a cámara necesitará de algún tipo de lente que permita un maior campo de visión. Existen versións da cámara que xa inclúen unha lente, pero tamén poderemos atopar lentes externas coma es destinadas para os dispositivos móbiles, que contan co tamaño necesario para a cámara da Raspberry. Na figura~\ref{fig:lentes} móstranse as lentes a probar e analizar as tres superiores colocaranse sobre a cámara e as tres inferiores so para a versión da cámara que incorpora lente.
 \begin{figure}[tb]
   \centering
   \includegraphics[scale=.06]{imaxes/lentes.jpg}
   \caption{Lentes con diferente ángulo de visión. De esquerda a dereita: fila superior 0.67x, 180º, 0.4x, fila inferior 130º, 160º, 220º }
-  \label{f:Lentes}
+  \label{fig:lentes}
 \end{figure}
 
 \subsection{Captura de vídeo}
@@ -297,47 +312,47 @@ O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA,
 
     Para isto utilizaremos o chip de carga Adafruit Powerboost 1000 que conta cunhas características moi interesantes a maiores da protección de sobrecarga conta cunha led e un pin que se activaran cando a voltaxe da batería baixe dos 3.2v, unha voltaxe operacional de 5.2v para evitar perdidas de voltaxe en cables e conectores, un pin habilitador que permite conectar ou desconectar a batería, e proporciona 1 amperio de intensidade sen baixar a voltaxe dos 5v. Non conta con protección de sobrecarga polo que as batería que utilicemos deben incluír un circuíto de protección, este é o caso da maioría de baterías, de utilizar unha sin protección, como unha cela 18650, deberemos engadir o circuíto de protección ou asegurarnos de implementar o apagado por voltaxe baixa correctamente.
 
-    A realización o circuíto basearase no guía \emph{lipopi} de Daniel Bull que utiliza o Adafruit Powerboost, nas súas dúas versións a de 500 mA e 1 A, para programar o apagado automático da Rapberry Pi cando a batería baixe de 3.2v e un pulsador para o acendido, tamén conta con dúas versións máis unha que tamén permite o apagado, e outra que monitoriza a voltaxe da batería. Realizarase a versión con pulsador para acendido e apagado.
+    A realización o circuíto basearase no guía \emph{lipopi} de Daniel Bull~\cite{bullGuideSettingLiPo2019} que utiliza o Adafruit Powerboost, nas súas dúas versións a de 500 mA e 1 A, para programar o apagado automático da Rapberry Pi cando a batería baixe de 3.2v e un pulsador para o acendido, tamén conta con dúas versións máis unha que tamén permite o apagado, e outra que monitoriza a voltaxe da batería. Realizarase a versión con pulsador para acendido e apagado.
 
     O funcionamento é o seguinte, o premer o pulsador conéctase o positivo da batería co pin abilitador, acendendo o adafruit powerboost e por conseguinte acendendo a Raspberry Pi. O acender a Raspberry Pi un pin conectado o pin habilitador acenderase pare seguir mantendo un valor positivo. Para evitar que o voltaxe no pin habilitador caia no tempo entre que pulsamos o pulsador e a Raspberry Pi arranca e encárgase de manter o valor positivo, situaremos un circuíto RC formado por un condensador cunha resistencia en paralelo entre o pulsador e o pin habilitador. O condensador cargarase cando o pulsador cerre o circuíto e descargarase a continuación mantendo a voltaxe o tempo suficiente para que a Raspberry arranque e acenda o pin. Utilizarase un condensador de 100\(\mu\)F xunto cunha resistencia 100k\(\Omega\) que proporcionan un tempo suficiente de 10 segundos. O pin da Raspberry que utilizaremos para este propósito pode ser o 14 correspondente a conexión \emph{uart}, que se acenderá coa Raspberry e se desconectará cando se apague, engadiremos unha resistencia de 10k\(\Omega\) para protexer este pin. Tamén poderíase utilizar calquera outro pin de propósito xeral indicando no arquivo de configuración \emph{config.txt} na partición \emph{boot} da Raspberry, que o pin arranque cun valor positivo e cun valor negativo cando o dispositivo se apague, no caso de utilizar o pin \emph{GPIO} 5 as ordes serían as seguintes: \emph{$gpio=5=op,dh$} para que o pin arranque con valor positivo, \emph{$dtoverlay=gpio-poweroff,gpiopin=5,active_low="y"$} para deixar o pin apagado cando se apaga a Raspberry.
 
     Para o apagado utilizarase un segundo pin conectado o pulsador, cando este se pulse, estando a Rasberry acesa, se conectará a voltaxe da batería, cando este valor positivo chegue o pin un script Python encargarase de apagar o dispositivo. Engadiranse un divisor de voltaxe para reducir a voltaxe da batería xa que cando está completamente cargada a sua voltaxe de 4.2v e superior o máximo valor lóxico tolerado pola Raspberry Pi de 3.3V. Utilizaremos unha resistencia de 33k\(\Omega\) conectada entre o pin e a batería e unha resistencia de 100k\(\Omega\) entre o pin e terra. Para evitar que o pin de acendido dispare o apagado situarase un díodo entre o pin de acendido e apagado evitando que a voltaxe circule nesa dirección.
 
-    Finalmente conectarase o pin indicador de batería baixa a outro pin de entrada da Raspberry que mediante o script Python apagará o dispositivo. O diagrama de funcionamento mostrase na figura 3.4.
+    Finalmente conectarase o pin indicador de batería baixa a outro pin de entrada da Raspberry que mediante o script Python apagará o dispositivo. O diagrama de funcionamento mostrase na figura~\ref{fig:circuito_alimentacion}.
 
     \begin{figure}[tb]
       \centering
     	\includegraphics[scale=1]{imaxes/circuito-bateria.png}
     	\caption{Diagrama de funcionamento do circuíto de alimentación.}
-    	\label{f:circuíto de alimentación}
+    	\label{fig:circuito_alimentacion}
     \end{figure}
 
-    Na figura 3.5 podemos ver o diagrama final do dispositivo e na figura 3.6 o esquema completo integrando os leds o circuíto de carga e a cámara.
+    Na figura~\ref{fig:circuito_dispositivo} podemos ver o diagrama final do dispositivo e na figura~\ref{fig:esquema_dispositivo} o esquema completo integrando os leds o circuíto de carga e a cámara.
 
     \begin{figure}[tb]
       \centering
     	\includegraphics[scale=1]{imaxes/circuito-completo.png}
     	\caption{Diagrama do dispositivo.}
-    	\label{f:circuíto do dispositivo}
+    	\label{fig:circuito_dispositivo}
     \end{figure}
 
     \begin{sidewaysfigure}[tb]
       \centering
     	\includegraphics[scale=1]{imaxes/esquema-completo.png}
     	\caption{Esquema completo do dispositivo.}
-    	\label{f:esquema do dispositivo}
+    	\label{fig:esquema_dispositivo}
     \end{sidewaysfigure}
 
     Para arrancar automaticamente o script Python instalarase un novo servizo en \emph{sytemd} e de igual maneira que co servidor executarase no arranque e cada vez que se pare.
 
-    Na implementación física colocaremos o chip de carga xunto cos compoñentes electrónicos nunha placa cun conector para poder conectalo directamente os conectores da Raspberry Pi Zero. Tamén colocarase nesta placa o conversor lóxico de nivel como se ve na figura
+    Na implementación física colocaremos o chip de carga xunto cos compoñentes electrónicos nunha placa cun conector para poder conectalo directamente os conectores da Raspberry Pi Zero. Tamén colocarase nesta placa o conversor lóxico de nivel como se ve na figura~\ref{fig:fotos_reverso}
 
     \begin{figure}[tb]
       \centering
     	\includegraphics[scale=.05]{imaxes/foto-circuito1.jpg}
     	\includegraphics[scale=.05]{imaxes/foto-circuito2.jpg}
     	\caption{Imaxes do circuíto por ambas caras.}
-    	\label{f:fotos do circuíto reverso}
+    	\label{fig:fotos_reverso}
     \end{figure}
 
     Na elección da batería teremos en conta a maiores da sua capacidade o seu tamaño e forma, sendo o ideal que sexa similar o da Raspberry para poder integrala no dispositivo con facilidade. Por eso elixiremos unha batería de 1600mA e 5.92Wh con circuíto de protección e unhas dimensións de 9 x 34 x 50mm que para este suposto, xa que engadindo os leds extra calcúlase un consumo máximo de 3.55W, debería proporcionar un tempo mínimo de funcionamento de 2 horas aproximadamente.
@@ -352,13 +367,13 @@ Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse 
 
     Para suxeitar a carcasa a bicicleta deseñaremos un soporte en 3d co software Blender. Partiremos das medición da carcasa e deseñarase un soporte que suxeite a carcasa firmemente e permita atala a barra da sela mediante unha correa.
 
-    Unha vez deseñado e tras comprobar que o deseño e imprimible exportarase no formato \emph{STL} que abrirase cun software encargado de dividir o deseño en capas e traducilo a ordes de desprazamento interpretables pola impresora, aquí configuraranse diferentes parámetros como a altura de capa, que é a resolución de impresión, as velocidades, a cantidade e tipo de recheo da peza ou o uso de soportes para facilitar a impresión. Neste caso utilizaras o software libre Slic3r no que configurarase a peza a imprimir cun 100\(\%\) de recheo para que sexa máis sólida cunha altura de capa de 0.2mm e sen uso de soportes, como resultado obterase un arquivo \emph{GCODE}  que pasaremos a impresora. O prototipo imprimirase o prototipo en 3d probarase e aplicaranse correccións no modelo. Para este deseño realizáronse dúas iteracións móstranse na figura 3.6.
+    Unha vez deseñado e tras comprobar que o deseño e imprimible exportarase no formato \emph{STL} que abrirase cun software encargado de dividir o deseño en capas e traducilo a ordes de desprazamento interpretables pola impresora, aquí configuraranse diferentes parámetros como a altura de capa, que é a resolución de impresión, as velocidades, a cantidade e tipo de recheo da peza ou o uso de soportes para facilitar a impresión. Neste caso utilizaras o software libre Slic3r no que configurarase a peza a imprimir cun 100\(\%\) de recheo para que sexa máis sólida cunha altura de capa de 0.2mm e sen uso de soportes, como resultado obterase un arquivo \emph{GCODE}  que pasaremos a impresora. O prototipo imprimirase o prototipo en 3d probarase e aplicaranse correccións no modelo. Para este deseño realizáronse dúas iteracións móstranse na figura~\ref{fig:soporte_caixa}.
 
     \begin{figure}[tb]
       \centering
       \includegraphics[scale=.1]{imaxes/soporte-caixa.jpg}
-      \caption{Deseños do soporte.}
-      \label{f:soporte caixa}
+      \caption{Deseños do soporte na bicicleta para a caixa oficia da Rasberry Pi.}
+      \label{fig:soporte_caixa}
     \end{figure}
 
 
@@ -366,44 +381,20 @@ Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse 
 
     O deseño contara co anel led situado no exterior o redor da lente da cámara, no interior colocaranse tódolos compoñentes electrónicas e a batería. Na parte superior contará cun oco para o conector micro usb de carga e aceso a tarxeta micro sd da Raspberry Pi. No exterior contará tamén con dous brazos articulados nos que situaremos as dúas tiras leds para indicar o xiro.
 
-    Da mesma forma que no caso anterior o deseño imprimirase modificarase e volverase a imprimir ata que se obteña un resultado aceptable. Na figura 3.7 pódese observar a evolución dos diferentes deseños e na figura 3.8 unha imaxe renderizada do deseño final.
+    Da mesma forma que no caso anterior o deseño imprimirase modificarase e volverase a imprimir ata que se obteña un resultado aceptable. Na figura~\ref{fig:evolucion_carcasa} pódese observar a evolución dos diferentes deseños e na figura~\ref{fig:carcasa} unha imaxe renderizada do deseño final.
 
 
     \begin{figure}[tb]
       \centering
       \includegraphics[scale=.1]{imaxes/evolucion-carcasa.jpg}
       \caption{Evolución dos deseños da carcasa.}
-      \label{f:evolucion da carcasa}
+      \label{fig:evolucion_carcasa}
     \end{figure}
 
     \begin{figure}[tb]
       \centering
       \includegraphics[scale=.4]{imaxes/carcasa.png}
-      \caption{Ultimo desño da carcasa.}
-      \label{f:carcasa}
+      \caption{Ultimo deseño da carcasa.}
+      \label{fig:carcasa}
     \end{figure}
-
-    \section{Custo do dispositivo}
-    Para aproximar o rango prezos do custo de fabricación do dispositivo calcularanse dúas opción a primeira utilizando os compoñentes máis baratos é a segunda os máis caros.
-    \begin{table}[tb]
-        \label{c:custos dispositivo}
-        \begin{center}
-            \begin{tabular}{|l|l||l|l|}
-                \hline
-                 Menor prezo & Custo  & Maior Prezo & Custo \\ \hline
-                 Raspberry Pi Zero & 5.00€  & Raspberry Pi Zero W& 11.00€ \\ \hline
-                 Adaptador Wi-Fi usb & 1.00€ &  & \\ \hline
-                 Carcasa 3D & 0.50€ & Carcasa ofical & 6.00€ \\ \hline
-                  &  & Soprte 3D & 0.50€ \\ \hline
-                 Pi Camera Module V1 & 3.00€ & Pi Camera Module V2 & 20.00€ \\ \hline
-                  &  & Lentes  & 2.00€ \\ \hline
-                 8 leds w2812b & 1.00€  &  24 leds w2812b & 3.00€\\ \hline
-                 Circuito de carga e protección xenérico & 2.00€  & Adafruit Powerboost 1000C & 23.00€ \\ \hline
-                 Batería Lipo 1600mA & 7.00€ & Batería Lipo 1800mA & 10.00€\\ \hline
-                 Cables & 1.00€ &  Cables & 1.00€ \\ \hline
-                 Total & 20.50€ &  Total & 76.50€ \\ \hline
-            \end{tabular}
-        \end{center}
-        \caption{Custos monetarios do proxecto}
-    \end{table}
 \end{itemize}

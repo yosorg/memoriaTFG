@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  3 SEP 2019 09:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.9.4)  4 SEP 2019 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1646,7 +1646,65 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 18--20
 []
  []
 
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no A in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{leivaKotlinAndroidDevelopers2018}
+./implementacion_aplicacion.tex:21: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.21 ...rs~\cite{leivaKotlinAndroidDevelopers2018}
+                                                   algunhas das súas vantaxe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `leivaKotlinAndroidDevelopers2018' on page  undefined on input line 21.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -1686,6 +1744,11 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 21--22
+[]
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 21--22
 []
  []
 
@@ -2149,35 +2212,6 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no í in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3232,9 +3266,20 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 1 in font nullfont!
+./implementacion_aplicacion.tex:39: Undefined control sequence.
+<write> ...ig:layout_horizontal' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.39 ...ayout}, figura~\ref{fig:layout_horizontal}
+                                                  , contará cunha superficie...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:layout_horizontal' on page  undefined on input line 39.
+
 Missing character: There is no , in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3753,9 +3798,20 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
+./implementacion_aplicacion.tex:48: Undefined control sequence.
+<write> ...`fig:layout_vertical' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.48 ...{layout}, figura~\ref{fig:layout_vertical}
+                                                  , o vídeo mostrarase como ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:layout_vertical' on page  undefined on input line 48.
+
 Missing character: There is no , in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no v in font nullfont!
@@ -4198,6 +4254,27 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+./implementacion_aplicacion.tex:57: Undefined control sequence.
+<write> ...ence `fig:actividade' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.57 ...ciclo de vida, figura~\ref{fig:actividade}
+                                                  , pasa por varios estados ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:actividade' on page  undefined on input line 57.
+
+Missing character: There is no , in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -4402,13 +4479,8 @@ Overfull \hbox (13.8pt too wide) in paragraph at lines 36--58
  []
 
 
-Overfull \hbox (16.11pt too wide) in paragraph at lines 36--58
-\TU/lmr/m/it/10 lay-
- []
-
-
-Overfull \hbox (13.8pt too wide) in paragraph at lines 36--58
-\TU/lmr/m/it/10 out
+Overfull \hbox (10.86pt too wide) in paragraph at lines 36--58
+[]
  []
 
 
@@ -4429,6 +4501,26 @@ Overfull \hbox (16.11pt too wide) in paragraph at lines 36--58
 
 Overfull \hbox (13.8pt too wide) in paragraph at lines 36--58
 \TU/lmr/m/it/10 out
+ []
+
+
+Overfull \hbox (10.86pt too wide) in paragraph at lines 36--58
+[]
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 36--58
+\TU/lmr/m/it/10 lay-
+ []
+
+
+Overfull \hbox (13.8pt too wide) in paragraph at lines 36--58
+\TU/lmr/m/it/10 out
+ []
+
+
+Overfull \hbox (10.86pt too wide) in paragraph at lines 36--58
+[]
  []
 
 
@@ -4502,7 +4594,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.62   \caption
-               {Ciclo de actividade Android (incluir referencia)}
+               {Ciclo de actividade Android~\cite{UnderstandActivityLifecycl...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4530,25 +4622,23 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no ) in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{UnderstandActivityLifecyclea}
+./implementacion_aplicacion.tex:62: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.62 ...ndroid~\cite{UnderstandActivityLifecyclea}
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `UnderstandActivityLifecyclea' on page  undefined on input line 62.
+
+Missing character: There is no ] in font nullfont!
 
 ./implementacion_aplicacion.tex:64: LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -4564,6 +4654,11 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 59--65
+[]
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 59--65
 []
  []
 
@@ -7203,6 +7298,23 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no ó in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Sensors}
+./implementacion_aplicacion.tex:97: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.97 ...ión \emph{on sensor change}~\cite{Sensors}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Sensors' on page  undefined on input line 97.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (19.42pt too wide) in paragraph at lines 95--98
@@ -7240,8 +7352,8 @@ Overfull \hbox (13.42pt too wide) in paragraph at lines 95--98
  []
 
 
-Overfull \hbox (29.64pt too wide) in paragraph at lines 95--98
-\TU/lmr/m/it/10 change 
+Overfull \hbox (35.15pt too wide) in paragraph at lines 95--98
+\TU/lmr/m/it/10 change [] 
  []
 
 ./implementacion_aplicacion.tex:99: Undefined control sequence.
@@ -7575,7 +7687,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no ú in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -7640,24 +7752,99 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{Lux2019}
+./implementacion_aplicacion.tex:100: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.100 ...mínica o comenzo do solpor~\cite{Lux2019}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Lux2019' on page  undefined on input line 100.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 99--101
+[]
+ []
+
+
+Overfull \hbox (17.89pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 sen-
+ []
+
+
+Overfull \hbox (13.42pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 sor
+ []
+
+
+Overfull \hbox (13.3pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 lis-
+ []
+
+
+Overfull \hbox (22.36pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 tener
+ []
+
+
+Overfull \hbox (14.31pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 on-
+ []
+
+
+Overfull \hbox (14.96pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 Re-
+ []
+
+
+Overfull \hbox (22.24pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 sume
+ []
+
+
+Overfull \hbox (18.67pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 call-
+ []
+
+
+Overfull \hbox (18.4pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 back
+ []
+
+
+Overfull \hbox (14.31pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 on-
+ []
+
+
+Overfull \hbox (19.42pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 Sen-
+ []
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 sor-
+ []
+
+
+Overfull \hbox (36.8pt too wide) in paragraph at lines 99--101
+\TU/lmr/m/it/10 Changed
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 99--101
+[] 
+ []
+
 ./implementacion_aplicacion.tex:102: Undefined control sequence.
 l.102 \subsubsection
                     {Acelerómetro e xiroscopio}
@@ -8033,107 +8220,42 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 99--104
+Overfull \hbox (20.0pt too wide) in paragraph at lines 102--104
 []
  []
 
 
-Overfull \hbox (17.89pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 sen-
- []
-
-
-Overfull \hbox (13.42pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 sor
- []
-
-
-Overfull \hbox (13.3pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 lis-
- []
-
-
-Overfull \hbox (22.36pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 tener
- []
-
-
-Overfull \hbox (14.31pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 on-
- []
-
-
-Overfull \hbox (14.96pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 Re-
- []
-
-
-Overfull \hbox (22.24pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 sume
- []
-
-
-Overfull \hbox (18.67pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 call-
- []
-
-
-Overfull \hbox (18.4pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 back
- []
-
-
-Overfull \hbox (14.31pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 on-
- []
-
-
-Overfull \hbox (19.42pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 Sen-
- []
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 sor-
- []
-
-
-Overfull \hbox (36.8pt too wide) in paragraph at lines 99--104
-\TU/lmr/m/it/10 Changed
- []
-
-
-Overfull \hbox (22.95378pt too wide) in paragraph at lines 99--104
+Overfull \hbox (22.95378pt too wide) in paragraph at lines 102--104
 \OML/cmm/m/it/10 m=s[]$
  []
 
 
-Overfull \hbox (14.83pt too wide) in paragraph at lines 99--104
+Overfull \hbox (14.83pt too wide) in paragraph at lines 102--104
 \TU/lmr/m/it/10 lin-
  []
 
 
-Overfull \hbox (13.42pt too wide) in paragraph at lines 99--104
+Overfull \hbox (13.42pt too wide) in paragraph at lines 102--104
 \TU/lmr/m/it/10 ear
  []
 
 
-Overfull \hbox (13.29pt too wide) in paragraph at lines 99--104
+Overfull \hbox (13.29pt too wide) in paragraph at lines 102--104
 \TU/lmr/m/it/10 ac-
  []
 
 
-Overfull \hbox (36.43001pt too wide) in paragraph at lines 99--104
+Overfull \hbox (36.43001pt too wide) in paragraph at lines 102--104
 \TU/lmr/m/it/10 celerom-
  []
 
 
-Overfull \hbox (8.18001pt too wide) in paragraph at lines 99--104
+Overfull \hbox (8.18001pt too wide) in paragraph at lines 102--104
 \TU/lmr/m/it/10 e-
  []
 
 
-Overfull \hbox (12.14pt too wide) in paragraph at lines 99--104
+Overfull \hbox (12.14pt too wide) in paragraph at lines 102--104
 \TU/lmr/m/it/10 ter
  []
 
@@ -8281,30 +8403,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no O in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -8466,6 +8565,35 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+./implementacion_aplicacion.tex:105: Undefined control sequence.
+<write> ...eference `fig:angulo' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.105 ...ente como se ve na figur~\ref{fig:angulo}
+                                                  . Para coñecer a influenza...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:angulo' on page  undefined on input line 105.
+
 Missing character: There is no . in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -9182,6 +9310,11 @@ Overfull \hbox (4.64pt too wide) in paragraph at lines 105--106
 
 Overfull \hbox (4.86pt too wide) in paragraph at lines 105--106
 \TU/lmr/m/it/10 y
+ []
+
+
+Overfull \hbox (10.86pt too wide) in paragraph at lines 105--106
+[]
  []
 
 
@@ -11721,6 +11854,23 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{consti10ContributeConsti10MyMediaCodecPlayerforFPV2018a}
+./implementacion_aplicacion.tex:135: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.135 ...uteConsti10MyMediaCodecPlayerforFPV2018a}
+                                                   encargada de separar os d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `consti10ContributeConsti10MyMediaCodecPlayerforFPV2018a' on page  undefined on input line 135.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -11908,6 +12058,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no [ in font nullfont!
+\citation{MediaCodec}
+./implementacion_aplicacion.tex:135: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.135 ...te un \emph{MediaCodec}~\cite{MediaCodec}
+                                                  , finalmente o vídeo mostr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `MediaCodec' on page  undefined on input line 135.
+
+Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -12007,6 +12174,11 @@ Overfull \hbox (12.65pt too wide) in paragraph at lines 134--136
  []
 
 
+Overfull \hbox (5.43pt too wide) in paragraph at lines 134--136
+[]
+ []
+
+
 Overfull \hbox (21.13pt too wide) in paragraph at lines 134--136
 \TU/lmr/m/it/10 NAL
  []
@@ -12042,8 +12214,8 @@ Overfull \hbox (8.69pt too wide) in paragraph at lines 134--136
  []
 
 
-Overfull \hbox (25.56pt too wide) in paragraph at lines 134--136
-\TU/lmr/m/it/10 Codec
+Overfull \hbox (31.09pt too wide) in paragraph at lines 134--136
+\TU/lmr/m/it/10 Codec []
  []
 
 ./implementacion_aplicacion.tex:137: Undefined control sequence.
@@ -12408,6 +12580,27 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+./implementacion_aplicacion.tex:138: Undefined control sequence.
+<write> ...e `fig:soporte_mobil' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.138 ...o soporte, figura~\ref{fig:soporte_mobil}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:soporte_mobil' on page  undefined on input line 138.
+
 Missing character: There is no . in font nullfont!
 
 ./implementacion_aplicacion.tex:139: LaTeX Error: Environment figure undefined.
@@ -12622,6 +12815,20 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
+./implementacion_aplicacion.tex:145: Undefined control sequence.
+<write> ... `fig:fallos_soporte' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.145 ...imaxes da figura~\ref{fig:fallos_soporte}
+                                                  , optouse por utilizar un ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:fallos_soporte' on page  undefined on input line 145.
+
 Missing character: There is no , in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -12844,11 +13051,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 16 strings out of 494900
- 339 string characters out of 6177140
- 63940 words of memory out of 5000000
- 4031 multiletter control sequences out of 15000+600000
- 3656 words of font info for 16 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 18i,1n,12p,1343b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25 strings out of 494846
+ 537 string characters out of 6175759
+ 64283 words of memory out of 5000000
+ 4046 multiletter control sequences out of 15000+600000
+ 3664 words of font info for 17 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 19i,2n,24p,1351b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
