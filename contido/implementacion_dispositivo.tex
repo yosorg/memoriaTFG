@@ -22,7 +22,7 @@ As placas contempladas son as seguintes:
 
 Arduino é unha compañía dedicada o deseño e produción de placas de desenvolvemento con software e hardware, o que permite que terceiras compañías produzan as súas placas permitindo prezos finais de produto moi baixos.
 
-Con un ide propio cunha linguaxe de programación baseada en C++, cunha ampla compatibilidade con diverso hardware, a diversidade de opcións e a sua facilidade de uso converte as súas placas nas mais populares do mercado.
+Con un ide propio cunha linguaxe de programación baseada en C++, cunha ampla compatibilidade con diverso hardware, a diversidade de opcións e a sua facilidade de uso converte as súas placas nas máis populares do mercado.
 
 Polo seu tamaño e forma as placas Arduino consideradas son as seguintes:
     \begin{itemize}
@@ -45,7 +45,7 @@ Estas placas poden obterse por entre 20 e 50 euros
 
         \item Arduino MKR VIDOR 4000
 
-Esta placa de desenvolvemento a parte do procesador ARM M0+ inclúe un chip \emph{FPGA} que permite a sua configuración como diferentes hardware permitido que a placa poda dispoñer de diferentes compoñentes configurables como podería ser múltiples USB ou chips aceleradores de vídeo. Aparte conta con conexión micro HDMI mini PCI Express e un conector de cámara \emph{MIPI} no que se poderían conectar diversas cámara con calidade mais que suficiente para este proxecto.
+Esta placa de desenvolvemento a parte do procesador ARM M0+ inclúe un chip \emph{FPGA} que permite a sua configuración como diferentes hardware permitido que a placa poda dispoñer de diferentes compoñentes configurables como podería ser múltiples USB ou chips aceleradores de vídeo. Aparte conta con conexión micro HDMI mini PCI Express e un conector de cámara \emph{MIPI} no que se poderían conectar diversas cámara con calidade máis que suficiente para este proxecto.
 
 O seu prezo e superior os 60 euros.
     \end{itemize}
@@ -68,7 +68,7 @@ Os seus múltiples portos e interfaces,\emph{SPI} ,  \emph{I2C}, \emph{UART}, \e
 O igual que pasaba coas placas Arduino os ESP son ideais para a parte do manexo das luces pero non para a xestión do vídeo.
     \item Outras placas baseadas en procesadores ARM
 
-NO mercado existen múltiples placas de desenvolvemento baseadas en procesadores ARM, non obstante o prezo e o soporte da Raspberry Pi faina a mellor opción para a maioría de proxectos mais xenéricos.
+NO mercado existen múltiples placas de desenvolvemento baseadas en procesadores ARM, non obstante o prezo e o soporte da Raspberry Pi faina a mellor opción para a maioría de proxectos máis xenéricos.
     \item Outras placas baseadas en \emph{FPGA}
 
 Os chip \emph{FPGA} permiten un nivel de personalización hardware moi elevado, pero tamén contan cun alto prezo, e na maioría dos casos cun \emph{toolchain} privativo que e necesario pagar para poder desenvolver en eles. O contrapunto a sua versatilidade é un maior custo de desenvolvemento en comparación con solucións de programación de alto nivel.
@@ -122,7 +122,7 @@ Existen versións especificas para a Raspberry Pi Zero máis pequenas pero solo 
 
     \item Presenza de filtro infravermello
 
-As cámara soen contar cun filtro de luz infravermella para evitar o \emph{aliassing} que se produce nas cámara xa que as pantallas que utilizamos non están destinadas para emitir infravermellos e os nosos ollos non son capaces de percibilos. As cámaras que non contan con este filtro dan como resultado imaxes mais luminosas e cunha tonalidade violácea. Estas cámara son útiles para entornas exteriores no solpor ou para visión nocturna se se conta con fontes de luz infravermellas.
+As cámara soen contar cun filtro de luz infravermella para evitar o \emph{aliassing} que se produce nas cámara xa que as pantallas que utilizamos non están destinadas para emitir infravermellos e os nosos ollos non son capaces de percibilos. As cámaras que non contan con este filtro dan como resultado imaxes máis luminosas e cunha tonalidade violácea. Estas cámara son útiles para entornas exteriores no solpor ou para visión nocturna se se conta con fontes de luz infravermellas.
 
     \item Tipo de lente
 
@@ -171,7 +171,7 @@ O lugar a colocar o dispositivo de iluminación e captura será na barra da sela
 
 A Raspberry Pi conta cunha caixa oficial na que se pode instalar xunto coa cámara V2. Esta é a que utilizaremos no caso de alimentala cunha batería externa. Para suxeitar a placa á barra deseñaremos un soporte e o imprimiremos cunha impresora 3D. Para a versión con batería interna deseñaremos unha caixa protectora que albergue tódolos compoñentes e que se poida suxeitar á barra.
 
-Os prototipos imprimiranse en \emph{PLA} un material biodegradable e de fácil impresión, no é o mellor material para resistir a auga ou a humidade pero é ideal para o prototipado. Poderá utilizarse \emph{ABS} para imprimir unha versión final, un material moito mais resistente as condicións atmosféricas.
+Os prototipos imprimiranse en \emph{PLA} un material biodegradable e de fácil impresión, no é o mellor material para resistir a auga ou a humidade pero é ideal para o prototipado. Poderá utilizarse \emph{ABS} para imprimir unha versión final, un material moito máis resistente as condicións atmosféricas.
 
 \section{Leds}
 
@@ -179,7 +179,7 @@ Crearanse dous prototipos con dúas configuracións de leds diferentes, ambas co
 \subsection{Conexión coa Raspberry Pi}
 Estes leds contan con catro puntos de conexión entrada de voltaxe, terra, entrada de datos é saída de datos.
 
-A voltaxe necesaria para alimentalos e de 5V, aínda que na maioría dos caso o fabricante indica un soporte a voltaxes de entrada de entre 4V e 7V. A Raspberry Pi conta con pins de saída a 5V conectada directamente a entrada, sen contar coa limitación dun fusible como noutras versións da placa, polo que pode alimentar os leds directamente pero xa que cada led pode chegar a consumir ata 60mA e os pins de 5V da Raspberry poden proporcionar ata 300mA~\cite{molloyRaspberryPiFondo2018} e facer pasar polo \emph{power rail} unha corrente excesiva podería provocar danos ou unha aumento da temperatura da placa implicando menor velocidade e maior consumo. Tendo en conta que o fabricante non recomenda que a placa consuma mais de 1A será conveniente alimentar os leds directamente dende a fonte de alimentación, especialmente na versión na que utilizaremos 24 leds.
+A voltaxe necesaria para alimentalos e de 5V, aínda que na maioría dos caso o fabricante indica un soporte a voltaxes de entrada de entre 4V e 7V. A Raspberry Pi conta con pins de saída a 5V conectada directamente a entrada, sen contar coa limitación dun fusible como noutras versións da placa, polo que pode alimentar os leds directamente pero xa que cada led pode chegar a consumir ata 60mA e os pins de 5V da Raspberry poden proporcionar ata 300mA~\cite{molloyRaspberryPiFondo2018} e facer pasar polo \emph{power rail} unha corrente excesiva podería provocar danos ou unha aumento da temperatura da placa implicando menor velocidade e maior consumo. Tendo en conta que o fabricante non recomenda que a placa consuma máis de 1A será conveniente alimentar os leds directamente dende a fonte de alimentación, especialmente na versión na que utilizaremos 24 leds.
 
 Para a conexión de datos terase que usar unha das saídas da placa conectadas a un das dúas canles \emph{PWM} da que dispón. Estas saídas lóxicas contan cunha voltaxe de 3.3V, pero as tiras leds requiren que a voltaxe na entrada de datos, para ser interpretada como un valor lóxico HIGH, sexa polo menos un 70\(\%\) da  voltaxe de alimentación, neste caso 3.5V. Para solucionalo proponse dúas opcións: Reducir a voltaxe de entrada dos leds, o que implicaría unha menor luminosidade, ou aumentar a voltaxe do valor lóxico, optarase por esta solución utilizando un conversor lóxico de nivel. Na practica comprobaremos que os leds utilizados seguen interpretando como valor lóxico positivo os 3.3V polo que a utilización ou non do conversor de nivel a valoraremos máis adiante en función do espacio dispoñible.
 

@@ -1,15 +1,15 @@
 # Fdb version 3
-["xdvipdfmx"] 1567613471 "implementacion_dispositivo.xdv" "implementacion_dispositivo.pdf" "implementacion_dispositivo" 1567613471
-  "implementacion_dispositivo.xdv" 1567613469 7688 362537ded7854f9b5f153318f7ed57da "xelatex"
+["xdvipdfmx"] 1567622054 "implementacion_dispositivo.xdv" "implementacion_dispositivo.pdf" "implementacion_dispositivo" 1567622055
+  "implementacion_dispositivo.xdv" 1567622051 7664 136d935f1740cad9e9700a0a9b576cd0 "xelatex"
   (generated)
   "implementacion_dispositivo.pdf"
-["xelatex"] 1567613468 "implementacion_dispositivo.tex" "implementacion_dispositivo.xdv" "implementacion_dispositivo" 1567613471
+["xelatex"] 1567622051 "implementacion_dispositivo.tex" "implementacion_dispositivo.xdv" "implementacion_dispositivo" 1567622055
   "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
-  "implementacion_dispositivo.aux" 1567603444 7044 4ccb5f657aea005fcc28411241d30937 ""
-  "implementacion_dispositivo.tex" 1567613468 43032 37a211c43dd6ae0082d7c3fcff07ab84 ""
+  "implementacion_dispositivo.aux" 1567618966 7210 520f4b5ce86b34a635a6d19dfb81c823 ""
+  "implementacion_dispositivo.tex" 1567622051 43099 6009638240db459eecf2a8010ebe136e ""
   (generated)
   "implementacion_dispositivo.log"
   "implementacion_dispositivo.xdv"
