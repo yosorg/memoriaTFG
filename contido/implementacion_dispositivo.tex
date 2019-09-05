@@ -1,4 +1,4 @@
-\chapter{Deseño e implementación do dispositivo}
+\chapter{Deseño e implementación de BikeCam}
 \label{chap:implementacion_dispositivo}
 \lettrine{N}{este} capítulo afondarase no desenvolvemento do dispositivo comezando polo aspecto físico, opcións dispoñibles e alternativas, seguido pola construción do dispositivo e a implementación do sofware tendo en conta os problemas xurdidos e as solucións aplicadas.
 
@@ -122,7 +122,7 @@ As mensaxes serán as seguintes:
 \end{itemize}
 
 \section{Conexión co servidor}
-Os dispositivos conectaranse mediante unha rede local, xa sexa a través dun cable usb ou dunha rede wi-fi, en ámbolos dous casos o dispositivo Android será o encargado de aloxar a rede xa sexa compartindo por usb ou creando un punto de aceso wi-fi.
+Os dispositivos conectaranse mediante unha rede local, xa sexa a través dun cable USB ou dunha rede Wi-Fi, en ámbolos dous casos o dispositivo Android será o encargado de aloxar a rede xa sexa compartindo por USB ou creando un punto de aceso Wi-Fi.
 
 Para permitir que o dispositivo móbil se conecte o servidor sen ter que coñecer a dirección \emph{ip} de este procederase da seguinte maneira. Dende o servidor crearase un \emph{thread} no que se abrira un \emph{socket} encargado de enviar unha mensaxe a dirección de \emph{broadcast} para que poda ser recibido por tódolos dispositivos da rede.
 
@@ -130,10 +130,10 @@ Para permitir que o dispositivo móbil se conecte o servidor sen ter que coñece
 O servidor deberá arrancar automaticamente o acender o dispositivo, e arrancar de novo se por algún motivo detense a súa execución. Para elo crearemos un servizo en \emph{sytemd} que se encargará de arrancar o programa e reinicialo se é necesario. A estrutura do servizo e a seguinte, indica a localización do programa Python a executar, a orde de reiniciar sempre, os \emph{logs} a utilizar para rexistrar as execucións e os fallos, e o usuario e grupo que o executará. Situaremos o ficheiro do servizo na ruta \textit{/etc/systemd/system/} e unha vez ali o habilitaremos coa orde \textit{sudo systemctl enable bikeview.service} agora o servizo executarase cando se arranque o dispositivo e reiniciarase se se para.
 
 \section{Alimentación e enerxía}
-O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA, gravando vídeo a 1080p o consumo é de 230mA, gravarase vídeo a 720p polo que o consumo será algo menor pero engadirase o consumo do chip wifi funcionando. Os leds ws2812 teñen un consumo máximo de 60 mA cada un 20 mA como máximo por cada un dos tres leds \emph{RGB} a máxima intensidade, o noso máximo consumo realizarse coa luz vermella acesa de forma continua, xa que no resto de modos os padróns de palpadeo reducen o consumo. Contamos con 24 destes leds polo que o consumo máximo será de 20mA por 24 leds, un total de 480mA que sumados o consumo da Raspberry Pi nos da un consumo máximo teórico de 710mA na versión sen leds intermitentes o consumo seria de 160mA máis 230mA, en total 390mA.
+O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA, gravando vídeo a 1080p o consumo é de 230mA, gravarase vídeo a 720p polo que o consumo será algo menor pero engadirase o consumo do chip Wi-Fi funcionando. Os leds ws2812 teñen un consumo máximo de 60 mA cada un 20 mA como máximo por cada un dos tres leds \emph{RGB} a máxima intensidade, o noso máximo consumo realizarse coa luz vermella acesa de forma continua, xa que no resto de modos os padróns de palpadeo reducen o consumo. Contamos con 24 destes leds polo que o consumo máximo será de 20mA por 24 leds, un total de 480mA que sumados o consumo da Raspberry Pi nos da un consumo máximo teórico de 710mA na versión sen leds intermitentes o consumo seria de 160mA máis 230mA, en total 390mA.
 
 \begin{itemize}
-    \item Unha primeira versión máis sinxela contará solo cunha batería usb para alimentar a Raspberry. Os requisitos de esta batería serán a amperaxe e a capacidade.
+    \item Unha primeira versión máis sinxela contará solo cunha batería USB para alimentar a Raspberry. Os requisitos de esta batería serán a amperaxe e a capacidade.
 
     Partirase do valor do consumo máximo aproximado de 400mA para calcular o tempo de funcionamento. Con esta amperaxe aos 5V que funcionan a Raspberry e os leds a potencia utilizada sería de 2W. Neste suposto unha batería de  5000mAh cunha voltaxe nominal de 3.7V pode proporcionar 18.5Wh polo que duraría ata 9 horas e 15 minutos, no caso dunha batería de 1000mAh o tempo mínimo teórico de funcionamento sería de algo menos de dúas horas.
     Comprobaremos se estes supostos se cumpren facendo medicións do tempo de funcionamento.
@@ -193,7 +193,7 @@ O consumo de amperios da Raspberry Pi Zero sen carga de traballo é duns 120 mA,
 
 Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse dúas opcións.
 \begin{itemize}
-    \item A primeira realizarase para a versión do proxecto alimentada cunha batería usb. Consistirá en utilizar a carcasa oficial da Raspberry Pi Zero que inclúe un oco para a cámara e espazo para as conexión na parte de atrás, a carcasa so permite a uso de cámaras sen lentes polo que incorporarase unha lente externa.
+    \item A primeira realizarase para a versión do proxecto alimentada cunha batería USB. Consistirá en utilizar a carcasa oficial da Raspberry Pi Zero que inclúe un oco para a cámara e espazo para as conexión na parte de atrás, a carcasa so permite a uso de cámaras sen lentes polo que incorporarase unha lente externa.
 
     Para suxeitar a carcasa a bicicleta deseñaremos un soporte en 3d co software Blender. Partiremos das medición da carcasa e deseñarase un soporte que suxeite a carcasa firmemente e permita atala a barra da sela mediante unha correa.
 
@@ -209,7 +209,7 @@ Para protexer o dispositivo e suxeitalo baixo a sela da bicicleta plantexaranse 
 
     \item A segunda versión terá que albergar a Raspberry Pi Zero xunto coa cámara, o chip de carga e alimentación, o conversor lóxico de voltaxe e a batería. Utilizaremos tamén neste caso o software de edición 3d Blender para deseñar os prototipos.
 
-    O deseño contara co anel led situado no exterior o redor da lente da cámara, no interior colocaranse tódolos compoñentes electrónicas e a batería. Na parte superior contará cun oco para o conector micro usb de carga e aceso a tarxeta micro sd da Raspberry Pi. No exterior contará tamén con dous brazos articulados nos que situaremos as dúas tiras leds para indicar o xiro.
+    O deseño contara co anel led situado no exterior o redor da lente da cámara, no interior colocaranse tódolos compoñentes electrónicas e a batería. Na parte superior contará cun oco para o conector micro USB de carga e aceso a tarxeta micro sd da Raspberry Pi. No exterior contará tamén con dous brazos articulados nos que situaremos as dúas tiras leds para indicar o xiro.
 
     Da mesma forma que no caso anterior o deseño imprimirase modificarase e volverase a imprimir ata que se obteña un resultado aceptable. Na figura~\ref{fig:evolucion_carcasa} pódese observar a evolución dos diferentes deseños e na figura~\ref{fig:carcasa} unha imaxe renderizada do deseño final.
 

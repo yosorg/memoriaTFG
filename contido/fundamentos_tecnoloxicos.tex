@@ -1,11 +1,11 @@
-conexións\chapter{Fundamentos tecnolóxicos}
+\chapter{Fundamentos tecnolóxicos}
 \label{chap:fundamentos_tecnoloxicos}
 
-\lettrine{N}{este} capítulo esbozaremos unha arquitectura do sistema e estudaremos as opcións de tecnoloxías dispoñibles para implementalo.
+\lettrine{N}{este} capítulo esbozase unha arquitectura do sistema e estúdanse as opcións de tecnoloxías dispoñibles para implementalo.
 
-\section{BiekeGuard}
+\section{Arquitectura do sistema}
 
-BikeGuard será o nome que asignaremos o sistema e se comporá de dous elementos principais BikView, o dispositivo de control e visualización e BikeCam o dispositivo de captura de imaxes e sinalización lumínica, plantexarase unha variación de este, BikeLed, que so contará con elementos de iluminación, figura~\ref{fig:bikeguard}.
+BikeGuard será o nome que asignaremos o sistema e se comporá de dous elementos principais BikeView, o dispositivo de control e visualización e BikeCam o dispositivo de captura de imaxes e sinalización lumínica, plantexarase unha variación de este, BikeLed, que so contará con elementos de iluminación, figura~\ref{fig:bikeguard}.
 
 \begin{figure}[tb]
   \centering
@@ -14,7 +14,7 @@ BikeGuard será o nome que asignaremos o sistema e se comporá de dous elementos
   \label{fig:bikeguard}
 \end{figure}
 
-Nas seguintes seccións analizaremos as alternativas para o desenvolvemento dos dous dispositivos as conexións entre ambos.
+Nas seguintes seccións analizaremos as alternativas para o desenvolvemento dos dous dispositivos e as conexións entre ambos.
 
 \section{Esquema xeral de BikeView}
 
@@ -32,7 +32,14 @@ Desenvolverase a aplicación para o sistema operativo Android xa que este é o s
 
 Para suxeitar un teléfono móbil ao guiador da bicicleta existen múltiples ancoraxes que se adaptan a varios tamaños de teléfono. Tamén existen modelos configurables segundo o tamaño do teléfono que despois se poden imprimir en 3D.
 
+Na figura~\ref{fig:bikeview} mostrase o posible aspecto da aplicación.
 
+\begin{figure}[tb]
+  \centering
+  \includegraphics[scale=0.4]{imaxes/bikeview.jpg}
+  \caption{Exemplo de implementación de BikeCam.}
+  \label{fig:bikeview}
+\end{figure}
 
 \section{Esquema xeral de BikeCam}
 
@@ -204,25 +211,63 @@ A Raspberry Pi conta cunha caixa oficial na que se pode instalar xunto coa cáma
 
 Os prototipos imprimiranse en \emph{PLA} un material biodegradable e de fácil impresión, no é o mellor material para resistir a auga ou a humidade pero é ideal para o prototipado. Poderá utilizarse \emph{ABS} para imprimir unha versión final, un material moito máis resistente as condicións atmosféricas.
 
-\section{Conexión entre BikeView e BikeCam}
-Optarase por utilizar un sistema de conexión cliente servidor no que BikeView realizara peticións o servidor en BikeCam que responderá actuando as luces e devolvendo cofirmacións e a sinal de video.
+\subsection{Esquema conceptual de BikeCam}
 
+As decisións tomadas condúcenos a un dispositivo composto por unha Raspberry Pi Zero con presenza de batería interna ou externa e unha o varias tiras LED RGB, na figura~\ref{fig:bikecam} mostrase unha posible aproximación incluíndo unha Raspberry Pi Zero W unha Pi Camera V1 e unha tira e un anel WS2812 de 8 luces cada un.
+\begin{figure}[tb]
+  \centering
+  \includegraphics[scale=0.4]{imaxes/bikecam.jpg}
+  \caption{Exemplo de implementación de BikeCam.}
+  \label{fig:bikecam}
+\end{figure}
+\subsection{Esquema conceptual de BikeLed}
+
+Este dispositvio cotaría con un Arduino Nano mais un chip Wi-Fi ou Bluetooth ou cun ESP32 conectado a unhas tiras Leds RGB e unhas Batería, na foto da figura~\ref{fig:bikeled} mostras unha imaxe dos posibles compoñenetes que poderia implemtear, con un anel RGB de 8 luces, unha bateria de 400mA e un microcontrolador ESP8266 Wemmos D1 mini con Wi-Fi.
+\begin{figure}[tb]
+  \centering
+  \includegraphics[scale=0.3]{imaxes/bikeled.jpg}
+  \caption{Exemplo de implementación de BikeLed.}
+  \label{fig:bikeled}
+\end{figure}
+
+\section{Comunicacións entre BikeCam e BikeView}
+Optarase por utilizar un sistema de conexión cliente servidor no que BikeView realizará peticións o servidor en BikeCam que responderá actuando as luces e devolvendo cofirmacións e a sinal de vídeo.
+
+
+
+\subsection{Canle de comunicaións}
 Partindo da elección da Raspebrry Pi para BikeCam e un dispositivo Android para BikeView as opcións para a implementación física da conexión son as seguintes.
+begin{\begin{itemize}
+  \item USB
 
-\subsection{USB}
-A Raspberry Pi Zero conta cun conector USB 2.0, e os dispositivos Android implementan este estándar ou o superior 3.0 polo que a velocidade máxima será restrinxida pola Raspberry Pi permitindo un máximo de 480Mbits/s esta velocidade permitiría a transimisión de vidio sen problemas.
-Tanto no dispositivo Android como na Raspberry Pi pódese implementar unha conexión Ethernet virtual sobre USB o que facilitaría a estandarización das comunicacións.
+  A Raspberry Pi Zero conta cun conector USB 2.0, e os dispositivos Android implementan este estándar ou o superior 3.0 polo que a velocidade máxima será restrinxida pola Raspberry Pi permitindo un máximo de 480Mbits/s esta velocidade permitiría a transimisión de vidio sen problemas.
+  Tanto no dispositivo Android como na Raspberry Pi pódese implementar unha conexión Ethernet virtual sobre USB o que facilitaría a estandarización das comunicacións.
 
-Unha das principais vantaxes de usar unha conexión USB é que poderíase alimentar enerxeticamente o dispositivo BikeCam dende BikeView sempre e cando o consumo de este non supere o máximo de 500mA que pode subministrar un dispositivo Android por USB en modo OTG.
+  Unha das principais vantaxes de usar unha conexión USB é que poderíase alimentar enerxeticamente o dispositivo BikeCam dende BikeView sempre e cando o consumo de este non supere o máximo de 500mA que pode subministrar un dispositivo Android por USB en modo OTG.
 
-A principal desvantaxe é a necesidade de ter un cable unindo ambos dispositivos dende o guiador a sela da bicicleta.
-\subsection{WI-Fi}
-A Raspberry Pi Zero conta con un chip WI-Fi 802.11n e calquera móbil actual implementan esta versión do estándar ou unha superior. Este estandar Wi-Fi permite unha velocidade máxima de transmisión de 300Mbits/s tamén neste caso suficiente para a transmisión de vídeo HD.
+  A principal desvantaxe é a necesidade de ter un cable unindo ambos dispositivos dende o guiador a sela da bicicleta.
 
-A principal vantaxe do uso do WI-Fi é a independencia dos dispositivos pero coma contrapartida será necesario que BikeCam conte cunha batería propia.
-\subsection{Bluetooth}
-Bluetooth 4.0 é a versión do estándar implemetado pola Rasberry Pi Zero W e neste caso tamén marcará a velocidade máxima de transmisión xa que os dispositivos Android actuais implementan versións iguales ou superiores do estándar.Esta velocidade será 25Mbits/s o que non nos permitiría transmitir vídeo en tempo real. Sen embargo esta conexión e máis que suficiente para o dispositivo BikeLed que non require transmisión de vídeo.
+  \item WI-Fi
 
-Unha das súas vantaxes fronte o Wi-Fi e menor consumo enerxético.
+  A Raspberry Pi Zero conta con un chip WI-Fi 802.11n e calquera móbil actual implementan esta versión do estándar ou unha superior. Este estandar Wi-Fi permite unha velocidade máxima de transmisión de 300Mbits/s tamén neste caso suficiente para a transmisión de vídeo HD.
 
-Tendo en conta a viabilidade das tres opción optarase por a implementación das conexión a través de Wi-Fi xa que é a opción que menos limitacións carrexa.
+  A principal vantaxe do uso do WI-Fi é a independencia dos dispositivos pero coma contrapartida será necesario que BikeCam conte cunha batería propia.
+
+  \item Bluetooth
+
+  Bluetooth 4.0 é a versión do estándar implemetado pola Rasberry Pi Zero W e neste caso tamén marcará a velocidade máxima de transmisión xa que os dispositivos Android actuais implementan versións iguales ou superiores do estándar.Esta velocidade será 25Mbits/s o que non nos permitiría transmitir vídeo en tempo real. Sen embargo esta conexión e máis que suficiente para o dispositivo BikeLed que non require transmisión de vídeo.
+
+  Unha das súas vantaxes fronte o Wi-Fi e menor consumo enerxético.
+\end{itemize}
+
+Tendo en conta a viabilidade das tres opción optarase por a implementación das conexión a través de Wi-Fi xa que é a opción que menos limitacións carrexa. Neste caso optarase por usar modo \emph{hotspot} de Android no que o dispositvo BikeView xerará unha rede Wi-Fi a que se conectará io dispositivo BikeCam.
+
+\subsection{Protocolos de comunicación}
+Como o esquema de comunicacións involucra so a dous dispositivos intentarase realizar un esquema de comunicación o máis sinxelo posible. Será o dispositvo BikeLed o que exerza de servido e escoite as ordes enviadas dende BikeView, para elo a primeira aproximación foi a creación dun servidor \emph{http} pero como non requiríamos da necesidade de utilizar múltiples threads decidiuse facer unha aproximación de mais simple, implementar un protocolo de envío de ordes a través de paquetes \emph{UDP} no que o dispositivo BikeView enviará ordes de control e ordes para saber se o sistema segue activo, e o servidor de BikeCam responderá se se recibiu a orde.
+
+\subsection{Protocolos de videostreaming}
+Existen varias opcións para transmitir vídeo a trabes da rede pero moi poucas están orientadas a transmisión de vídeo en tempo real e as que o conseguen e a base de reducir a calidade do vídeo.
+
+As opcións que maior velocidade prometen son aquelas que transmiten o vídeo capturado en formato H.264 directamente, redireccionando o fluxo da cámara a rede en paquetes \emph{UDP}. No capítulo de Deseño e implementación do dispositivo detallaranse a probas realizas a diferentes software para obter a menor latencia de transmisión.
+
+Para a recepción realizado no dispositivo BikeView levaremos a cabo a descompresión a baixo nivel descompoñendo os paquetes recibidos e enviando os fotogramas a superficie de vídeo.

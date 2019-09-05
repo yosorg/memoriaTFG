@@ -272,6 +272,9 @@ OUTPUT contido/fundamentos_tecnoloxicos.aux
 INPUT contido/fundamentos_tecnoloxicos.tex
 INPUT contido/fundamentos_tecnoloxicos.tex
 INPUT imaxes/bikeguard.jpg
+INPUT imaxes/bikeview.jpg
+INPUT imaxes/bikecam.jpg
+INPUT imaxes/bikeled.jpg
 OUTPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_dispositivo.tex
 INPUT contido/implementacion_dispositivo.tex

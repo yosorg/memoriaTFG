@@ -48,18 +48,28 @@ Se comenzará coa análise das posíbeis solucións contemplando as diferentes o
 Se realizará a implementación da solución elixida e se someterá a probas nun entorno real para comprobar o cumprimento dos requisitos establecidos.
 
 
-\section{Metodoloxía}
-A forma de traballo consistirá en seguir as directrices dadas polo método da enxeñaría partindo de estudo de traballos relacionados anteriores e continuando co análise, deseño implementación e avaliación do sistema implementado.
-
-No apartado de deseño, debido a que o proxecto se estrutura en diferentes compoñentes, optarase por unha metodoloxía Top-Down que consiste en, partindo dos requisitos xerais, dividir o sistema en módulos independentes que se implementarán e probarán por separado. A cada un destes módulos se lle aplicará unha metodoloxía iterativa baseada en prototipos engadindo en cada incremento novas funcionalidades a o prototipo previamente desenvolvido, implementado e validado.
-
 \section{Proposta}
 Neste traballo propoñerase unha solución baseada nun microordenador colocado baixo a sela, a Raspberry Pi Zero, que contará cunha cámara é unhas serie de luces leds conectadas. Para o control e a visualización do vídeo en directo realizarase unha aplicación Android que se executará nun teléfono situado no guiador da bicicleta.
 
 
 \section{Traballo relacionado}
-Existen no mercado dispositivos con funcións similares pero poucos integra tódalas funcións. É o caso da cámara Fly6 da compañía Cycliq~\cite{Fly6CERear}, un combo de cámara traseira máis luces que se poden controlar dende o móbil, pero non permite o \emph{streaming} en directo do vídeo, solo a gravación. Conta con características interesantes como a estabilización da imaxe, resistencia a auga e un tamaño moi compacto ou seu prezo e de 179 euros. Outra opción existente é a cámara Hexagon~\cite{HEXAGONCameraSignals} que se financiou exitosamente mediante croudfounding no ano 2017 pero non chegou a produción. Este dispositivo si que contaba con \emph{streaming} de vídeo en directo, xunto con acendido automático das luces en caso de freada. A aplicación tamén se encarga de gravar a posición gps no itinerario ou compartila en tempo real, conta cun segundo dispositivo con botóns para o control do dispositivo, e de chegar a producirse o seu prezo estaría entre os 100 e 200 euros.
+Existen no mercado dispositivos con funcións similares pero poucos integra tódalas funcións os dous máis avanzados son os seguintes.
+
+ A cámara Fly6 da compañía Cycliq~\cite{Fly6CERear}, un combo de cámara traseira máis luces que se poden controlar dende o móbil, pero non permite o \emph{streaming} en directo do vídeo, solo a gravación. Conta con características interesantes como a estabilización da imaxe, resistencia a auga e un tamaño moi compacto ou seu prezo e de 179 euros.
+
+ A outra opción existente é a cámara Hexagon~\cite{HEXAGONCameraSignals} que se financiou exitosamente mediante croudfounding no ano 2017 pero nunca chegou a produción. Este dispositivo si que contaría con \emph{streaming} de vídeo en directo, xunto con acendido automático das luces en caso de freada. A aplicación tamén se encarga de gravar a posición gps no itinerario ou compartila en tempo real, conta cun segundo dispositivo con botóns para o control do dispositivo, e de chegar a producirse o seu prezo estaría entre os 100 e 200 euros.
+
+ A principal diferenza destes dispositivos con este proxecto é o uso dunha arquitectura aberta e modular que non so integra máis funcionalidades se non que sentará como base para a implantación de moitas máis no futuro.
 
 
 \section{Estrutura da memoria}
-Este documento estrutúrase en seis capítulos e un anexo. Neste primeiro capítulo exponse a motivación os requisitos e as liñas xerais do proxecto. O capítulo 2 explora as posibles alternativas dispoñibles analizando as vantaxes e desvantaxes de cada unha delas fronte a solución elixida. O capítulo 3 relata o proceso e os detalles da implementación do dispositivo a construír xunto co seu software. O capítulo 4 expón a implementación da aplicación Android que se utilizará para o control e a visualización. O capítulo 5 describe as probas realizadas e a análise dos seus resultados. O sexto e derradeiro capítulo recolle as conclusión obtidas trala realización deste proxecto.
+Este documento estrutúrase en seis capítulos e un anexo.
+\begin{itemize}
+  \item Neste primeiro capítulo exponse a motivación os requisitos e as liñas xerais do proxecto, incluíndo os obxectivos e finalmente faise unha proposta e compárase con traballos relacionados.
+  \item No capitulo 2 expóñense as funcionalidades requiridas para o sistema, faise elíxese a metodoloxía a utilizar e partindo de esta planifícanse as etapas de desenvolvemento e por ultimo móstranse os custo do proxecto.
+  \item O capítulo 3 presenta a arquitectura do sistema e explora as posibles alternativas dispoñibles analizando as vantaxes e desvantaxes de cada unha delas fronte a solución elixida.
+  \item O capítulo 4 relata o proceso, os detalles e os problemas xurdidos na implementación e construción do dispositivo BikeCam xunto co seu software.
+  \item O capítulo 5 expón o deseño e implementación de BikeView a aplicación Android que se utilizará para o control e a visualización.
+  \item O capítulo 6 describe as probas realizadas e a análise dos seus resultados. O sexto e derradeiro capítulo recolle as conclusión obtidas trala realización deste proxecto.
+  \item O capítulo 7 é o derradeiro no que se presentan as conclusións finais do proxecto valorando o proceso levado a cabo e os resultados obtidos, finalmente se formulan opcións de traballo futuro e posibles melloras do proxecto.
+\end{itemize}
