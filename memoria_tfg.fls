@@ -295,6 +295,11 @@ OUTPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.tex
 INPUT contido/evaluacion_experimenal.tex
 INPUT imaxes/grafica-amperaxe.png
+INPUT imaxes/latencia.png
+INPUT imaxes/percepcion-luminica.png
+INPUT imaxes/foto-dia.png
+INPUT imaxes/foto-noite.png
+INPUT imaxes/foto-coche.png
 INPUT imaxes/lexislacion-luminica.png
 OUTPUT contido/conclusions.aux
 INPUT contido/conclusions.tex

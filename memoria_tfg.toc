@@ -33,37 +33,39 @@
 \contentsline {section}{\numberline {3.8}Alimentación e enerxía}{25}{section.3.8}% 
 \contentsline {section}{\numberline {3.9}Carcasa e ancoraxe}{28}{section.3.9}% 
 \contentsline {chapter}{\numberline {4}Arquitectura e implementación da aplicación}{33}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Esquema xeral da aplicación}{34}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Actividade principal}{34}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Layout}{34}{subsection.4.2.1}% 
-\contentsline {subsubsection}{Layout vertical}{35}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.1}Requisitos funcionais}{33}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Esquema xeral da aplicación}{34}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Actividade principal}{34}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Layout}{35}{subsection.4.3.1}% 
+\contentsline {subsubsection}{Layout vertical}{35}{subsection.4.3.1}% 
 \contentsline {subsubsection}{Layout horizontal}{35}{figure.4.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Ciclo de vida da actividade}{35}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.3.2}Ciclo de vida da actividade}{35}{subsection.4.3.2}% 
 \contentsline {subsubsection}{onCreate}{36}{figure.4.3}% 
 \contentsline {subsubsection}{onResume}{36}{figure.4.3}% 
 \contentsline {subsubsection}{onPause}{36}{figure.4.3}% 
 \contentsline {subsubsection}{onDestroy}{37}{figure.4.3}% 
-\contentsline {subsection}{\numberline {4.2.3}Botons}{37}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Sensores}{38}{subsection.4.2.4}% 
-\contentsline {subsubsection}{Sensor de Luz}{38}{subsection.4.2.4}% 
-\contentsline {subsubsection}{Acelerómetro e xiroscopio}{38}{subsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.2.5}Superficie de vídeo}{39}{subsection.4.2.5}% 
-\contentsline {section}{\numberline {4.3}Comuniciacíon co dispositivo}{40}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Broadcast}{40}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Conexión}{40}{subsection.4.3.2}% 
-\contentsline {subsection}{\numberline {4.3.3}Transmisión de ordes}{40}{subsection.4.3.3}% 
-\contentsline {section}{\numberline {4.4}Recepción de vídeo}{41}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Anclaxe a bicicleta}{41}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.3.3}Botons}{37}{subsection.4.3.3}% 
+\contentsline {subsection}{\numberline {4.3.4}Sensores}{38}{subsection.4.3.4}% 
+\contentsline {subsubsection}{Sensor de Luz}{38}{subsection.4.3.4}% 
+\contentsline {subsubsection}{Acelerómetro e xiroscopio}{39}{subsection.4.3.4}% 
+\contentsline {subsection}{\numberline {4.3.5}Superficie de vídeo}{39}{subsection.4.3.5}% 
+\contentsline {section}{\numberline {4.4}Comuniciacíon co dispositivo}{40}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Broadcast}{40}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Conexión}{40}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Transmisión de ordes}{41}{subsection.4.4.3}% 
+\contentsline {section}{\numberline {4.5}Recepción de vídeo}{41}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Anclaxe a bicicleta}{41}{section.4.6}% 
 \contentsline {chapter}{\numberline {5}Evaluación experimental}{43}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Consumo}{43}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Autonomía}{45}{section.5.2}% 
 \contentsline {section}{\numberline {5.3}Vídeo e lentes}{46}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Visibilidade}{46}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Lexislación}{46}{section.5.5}% 
-\contentsline {subsubsection}{Luces}{47}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}Cámaras}{49}{subsection.5.5.1}% 
-\contentsline {chapter}{\numberline {6}Conclusións}{51}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Traballo futuro}{51}{section.6.1}% 
-\contentsline {chapter}{\numberline {A}Glosario de acrónimos}{53}{appendix.A}% 
-\contentsline {chapter}{\numberline {B}Glosario de termos}{55}{appendix.B}% 
-\contentsline {chapter}{Bibliografía}{57}{appendix*.4}% 
+\contentsline {section}{\numberline {5.4}Visibilidade}{47}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Modo noite e freo automático}{48}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Lexislación}{49}{section.5.6}% 
+\contentsline {subsubsection}{Luces}{49}{section.5.6}% 
+\contentsline {subsection}{\numberline {5.6.1}Cámaras}{51}{subsection.5.6.1}% 
+\contentsline {chapter}{\numberline {6}Conclusións}{53}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Traballo futuro}{53}{section.6.1}% 
+\contentsline {chapter}{\numberline {A}Glosario de acrónimos}{55}{appendix.A}% 
+\contentsline {chapter}{\numberline {B}Glosario de termos}{57}{appendix.B}% 
+\contentsline {chapter}{Bibliografía}{59}{appendix*.4}% 

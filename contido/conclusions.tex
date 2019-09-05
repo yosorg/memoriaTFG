@@ -1,25 +1,15 @@
 \chapter{Conclusións}
 \label{chap:conclusions}
 
-\lettrine{D}{erradeiro} capítulo da memoria, onde se presentará a
-situación final do traballo, as leccións aprendidas, a relación coas
-competencias da titulación en xeral e a mención en particular,
-posibles liñas futuras,\dots
+\lettrine{A}{umentar} a seguridade dos desprazamentos en bicicleta e fundamental a hora de afrontar os cambios nas novas sociedades urbanas. O obxectivo de este traballo  foi o estudo, deseño, implementación e posterior evaluación dun sistema composto por cámara é luces para mellorar a seguridade dos ciclistas na vía publica. Para elo establecéronse uns requisitos funcionais, indicar a posición e manobras do ciclista e permitirlle visualizar o que ocorre tras el, e uns requisitos de deseño, pequeno tamaño, portabilidade, baixo custo e modularidade. Esbozouse un sistema composto por luces, cámara e pantalla, analizáronse as as posible opcións de implementación e tecnoloxías a utilizar e deñouse un sistema composto por dous dispositivos: BikeCam, un miniordenador Raspberry Pi con luces RGB e cámara conectado mediante Wi-Fi a BikeView unha aplicación de control e visualización funcionando nun dispositivo Android. Desenvolveuse un prototipo do sistema respectando os requisitos orixinais e tratouse de optimizar o seu funcionamento e usabilidade poñendo atención os padróns lumínicos a independencia enerxética e a baixa latencia do vídeo. Por último púxose o sistema a proba para comprobar que seu funcionamento e a súa usabilidade se correspondían o esperado.
+
+Con estas probas demostrouse que o dispositivo é completamente funcional se ben conta con moitos aspectos a mellorar se quere estandarizar o seu uso. Estas melloras implicarían o deseño dunha mellor caixa protector que soporte os impactos e as condicións meteorolóxicas, a redución da latencia mellorando a decodificación, a mellora da robustez nas comunicacións para garantir a modularidade e facilitar implementación de novos casos de uso, engadir opcións de configuración para darlle o usuario un maior control do sistema, ou o uso de difusores nas luces para mellorar a visivilidade e protexer os leds.
+
 \section{Traballo futuro}
-Mellorar interfaces da app, subila a tenda de aplicacións de google//
-Engadir mecanismos de control, control por voz, mando no guiador, pulsadores intermitentes//
-desear circuito impreso//
-Detector de caídas//
-Soporte a multiples dispositivos, visualizar diferentes camaras, utilidade en outros ambitos, camións etc.//
-Mellorar a estructura do dispositivo, facelo resistente a auga e golpes, protexer os leds,//
-Estudar a unclusion de difusores de luz e ou lentes nos leds para aumentar a distancia de visualización e oou reducir o Consumo//
-Luces frontais e laterais//
-Aumentar a bateria e o mecanismo de proteción desta para aumentar o tempo de uso//
-Apagar o dispositivo dende a aplicación//
-Engadir menú de configuriación//
-Carga rápida//
-Gravación continua, gravaacion en caso de accidente//
-cactadrioptico//
-modo bajo consumo
-varios padrons de palpadeo, configurables
-procesado imagenes
+O uso de compoñentes xenéricos e potentes pode permitir a evolución do dispositivo de diferentes formas, distinguiremos as seguintes:
+\begin{itemize}
+  \item Mellorar as funcións actuais como por exemplo incluído un sistema de carga rápida da batería, ou un modo baixo consumo para aforrar batería se o dispositivo non esta en uso, realizar un circuíto impreso para simplificar a construción do dispositivo BikeCam.
+  \item Engadir funcionalidades novas o sistema como podería ser un detector de caídas, a gravación de vídeo, o calculo da velocidade por GPS, ou o posproceseado do vídeo xa sexa en BikeCam (p. ex. TensorFlow)  ou no dispositivo Android (p. ex. ARCore) o que permitiría novas funcionalidades como a detección de proximidade ou cambio de carril, para informar o ciclista do que sucede no seu entorno ou para advertir a outros condutores.
+  \item Complementar o sistema con luces frontais e laterais e con mecanismos físicos de control ou control por voz.
+  \item Diversificar os casos de uso como podería ser o uso de varios dispositivos o mesmo tempo para controlar varias cámaras nun camión, a inclusión de GPS e 3G para convertelo nun dispositivo IoT e por exemplo poder seguir a bicicleta en caso de roubo.
+\end{itemize}

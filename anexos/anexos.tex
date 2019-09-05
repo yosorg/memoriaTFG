@@ -5,14 +5,11 @@
 \chapter{Contido DVD}
 
 \chapter{Requisitos e instalación}
-revisar e redactar tutorial
-descargar ultima version de raspbian lite
-flashear so en targeta micro sd
-montar particiones creadas en la targeta
-navegar a la particion boot de la sd
-crear un archivo vacio llamado ssh
-crear un archivo llamdo wpa_supplicant.conf
-editar el archivo añadiendo la siguinte cofiguración con la cofiguracion de la red wifi creada en el movil
+Para a instalación do software no dispositivo BikeView neceitaremos unha Raspberry Pi con unha tarxeta micro sd cuha capacidade mínima de 4GB.
+
+Comezarase por descargar ultima versión de raspbian lite da web da Rasberry Pi e gravar a imaxe na tarxeta micro sd, isto pódese acadar mediante o comando \emp{dd} ou mediante unha ferramenta con ese propósito como balenaEtcher.
+Unha vez finalizado accederase a partición boot coa que conta agora a tarxeta de memoria, nela crearemos un arquivo baleiro chamado ssh para activar a interface ssh cando o sistema arranque, creamos tamén nesta ubicación un arquivo chamado emp{wpa_supplicant.conf} para configurar a conexón wifi, nel introducirmos os datos do SSID e a cotraseña da rede Wi-Fi creada polo dispositivo android
+
 	country=COUNTRY
 	%ctrl_interface=DIR=/var/run/wpa\_supplicant GROUP=netdev
 	update_config=1
@@ -22,29 +19,17 @@ editar el archivo añadiendo la siguinte cofiguración con la cofiguracion de la
 	       psk="PASSWORD"
 	 %      key\_mgmt=WPA-PSK
 	    }
-%#contemplar realizar configuracion con ip estatica
-%#añadir opcion para activar otg https://medium.com/@aallan/setting-up-a-headless-raspberry-pi-zero-3ded0b83f274
-espulsamos la targeta y la introduciomos en la raspi y la encendemos
-#ofrecer opciones para averiguar la ip
-nos conectamos por ssh con el usuario y contraseña por defecto "pi" "raspberry"
-cambiamos la contraseña por defecto con passwd
-ejecutar sudo raspi-config
-en el apartado Interfacacing Options activar el modulo de la camara
-en el apartado advanced options ejecutar la opcion enlage filesistem
-ejecutar el apartado update
-salir de la configuracion
-ejecutar sudo apt update
-ejcutar sudo apt upgrade
 
-instalacion de la libreia de jgarff para el control de los leds
-sudo apt install scons
-%descargamos la libreria con wget https://github.com/jgarff/rpi_ws281x/archive/master.zip
+Expulsamos a tarxeta e a introduciomos na Raspi Pi e a encendemos, dende un ordenador ou dispositivo móbil averiguamos a direción ip, con por exemplo o softwar Fing dispoñible para linux e android. Conectamonos por ssh co usuario e contraseña por defecto "pi" "raspberry", é altamente recomendable cabiar a cotnrasella por defecto co comando passwd.
+
+Executamos sudo raspi-config e no apartado Interfacacing Options activar o modulo da camara, no apartado advanced options executamos a opción enlage filesistem. A continuación executamos o apartado update, de seguido poderemos sair da raspi-config e actualizar o sitema cos comandos
+sudo apt update e sudo apt upgrade
+
+Para istalar a librería  de jgarff para o control de los leds instalamos a seguinte aplicación sudo apt install scons
+descargamos aa librería con wget https://github.com/jgarff/rpi_ws281x/archive/master.zip
 descomprimimos con unzip master.zip
-entra en la carpeta y ejecutar el comando scons
-ejecutar sudo apt install python-dev swig
-%ejecutar wget https://pypi.python.org/packages/source/s/setuptools/setuptools-5.7.zip
-entrar en la carpeta python y ejecutar sudo python ./setup.py build
-ejecutar sudo python ./setup.py install
+entramos na carpeta e executar o comando scons
+executamos sudo apt install python-dev swig. A continuación entramos na carpeta python e executamos sudo python ./setup.py build e a contunuación sudo python ./setup.py install
 
 \newpage
 \thispagestyle{empty}

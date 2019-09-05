@@ -32,28 +32,30 @@
 \BOOKMARK [1][-]{section.3.8}{Alimentación e enerxía}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.9}{Carcasa\040e\040ancoraxe}{chapter.3}% 33
 \BOOKMARK [0][-]{chapter.4}{Arquitectura e implementación da aplicación}{}% 34
-\BOOKMARK [1][-]{section.4.1}{Esquema xeral da aplicación}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.2}{Actividade\040principal}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.2.1}{Layout}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.2}{Ciclo\040de\040vida\040da\040actividade}{section.4.2}% 38
-\BOOKMARK [2][-]{subsection.4.2.3}{Botons}{section.4.2}% 39
-\BOOKMARK [2][-]{subsection.4.2.4}{Sensores}{section.4.2}% 40
-\BOOKMARK [2][-]{subsection.4.2.5}{Superficie de vídeo}{section.4.2}% 41
-\BOOKMARK [1][-]{section.4.3}{Comuniciacíon co dispositivo}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.3.1}{Broadcast}{section.4.3}% 43
-\BOOKMARK [2][-]{subsection.4.3.2}{Conexión}{section.4.3}% 44
-\BOOKMARK [2][-]{subsection.4.3.3}{Transmisión de ordes}{section.4.3}% 45
-\BOOKMARK [1][-]{section.4.4}{Recepción de vídeo}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.5}{Anclaxe\040a\040bicicleta}{chapter.4}% 47
-\BOOKMARK [0][-]{chapter.5}{Evaluación experimental}{}% 48
-\BOOKMARK [1][-]{section.5.1}{Consumo}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.2}{Autonomía}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.3}{Vídeo e lentes}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.4}{Visibilidade}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.5}{Lexislación}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.5.1}{Cámaras}{section.5.5}% 54
-\BOOKMARK [0][-]{chapter.6}{Conclusións}{}% 55
-\BOOKMARK [1][-]{section.6.1}{Traballo\040futuro}{chapter.6}% 56
-\BOOKMARK [0][-]{appendix.A}{Glosario de acrónimos}{}% 57
-\BOOKMARK [0][-]{appendix.B}{Glosario\040de\040termos}{}% 58
-\BOOKMARK [0][-]{appendix*.4}{Bibliografía}{}% 59
+\BOOKMARK [1][-]{section.4.1}{Requisitos\040funcionais}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{Esquema xeral da aplicación}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.3}{Actividade\040principal}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.3.1}{Layout}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.2}{Ciclo\040de\040vida\040da\040actividade}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.3}{Botons}{section.4.3}% 40
+\BOOKMARK [2][-]{subsection.4.3.4}{Sensores}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.5}{Superficie de vídeo}{section.4.3}% 42
+\BOOKMARK [1][-]{section.4.4}{Comuniciacíon co dispositivo}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.1}{Broadcast}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.2}{Conexión}{section.4.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.3}{Transmisión de ordes}{section.4.4}% 46
+\BOOKMARK [1][-]{section.4.5}{Recepción de vídeo}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.6}{Anclaxe\040a\040bicicleta}{chapter.4}% 48
+\BOOKMARK [0][-]{chapter.5}{Evaluación experimental}{}% 49
+\BOOKMARK [1][-]{section.5.1}{Consumo}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.2}{Autonomía}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.3}{Vídeo e lentes}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.4}{Visibilidade}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.5}{Modo noite e freo automático}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.6}{Lexislación}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.6.1}{Cámaras}{section.5.6}% 56
+\BOOKMARK [0][-]{chapter.6}{Conclusións}{}% 57
+\BOOKMARK [1][-]{section.6.1}{Traballo\040futuro}{chapter.6}% 58
+\BOOKMARK [0][-]{appendix.A}{Glosario de acrónimos}{}% 59
+\BOOKMARK [0][-]{appendix.B}{Glosario\040de\040termos}{}% 60
+\BOOKMARK [0][-]{appendix*.4}{Bibliografía}{}% 61

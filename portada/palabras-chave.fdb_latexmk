@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "palabras-chave.xdv" "palabras-chave.pdf" "palabras-chave" 0
+  "palabras-chave.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "palabras-chave.pdf"
+["xelatex"] 1567649595 "palabras-chave.tex" "palabras-chave.xdv" "palabras-chave" 1567649595
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
+  "palabras-chave.aux" 1567645451 8 a94a2480d3289e625eea47cd1b285758 ""
+  "palabras-chave.tex" 1567649595 264 02ff3fcd98bb1b7e381b3df2313bbf8b ""
+  (generated)
+  "palabras-chave.xdv"
+  "palabras-chave.log"
