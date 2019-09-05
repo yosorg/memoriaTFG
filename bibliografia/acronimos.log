@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.8.16)  2 SEP 2019 07:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.9.4)  5 SEP 2019 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,30 +555,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23  \item [FPS]
-                  \emph{Frames Per Second}.
+l.23  \item [OTG]
+                  \emph{On the Go}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (31.45pt too wide) in paragraph at lines 23--24
-\TU/lmr/m/it/10 Frames
+Overfull \hbox (13.29pt too wide) in paragraph at lines 23--24
+\TU/lmr/m/it/10 On
  []
 
 
-Overfull \hbox (15.6pt too wide) in paragraph at lines 23--24
-\TU/lmr/m/it/10 Per
+Overfull \hbox (13.03pt too wide) in paragraph at lines 23--24
+\TU/lmr/m/it/10 the
  []
 
 
-Overfull \hbox (17.89pt too wide) in paragraph at lines 23--24
-\TU/lmr/m/it/10 Sec-
- []
-
-
-Overfull \hbox (15.84pt too wide) in paragraph at lines 23--24
-\TU/lmr/m/it/10 ond 
+Overfull \hbox (12.85pt too wide) in paragraph at lines 23--24
+\TU/lmr/m/it/10 Go 
  []
 
 
@@ -588,40 +583,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24  \item [UDP]
-                  \emph{User Datagram Protocol}.
+l.24  \item [FPS]
+                  \emph{Frames Per Second}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (19.83pt too wide) in paragraph at lines 24--25
-\TU/lmr/m/it/10 User
+Overfull \hbox (31.45pt too wide) in paragraph at lines 24--25
+\TU/lmr/m/it/10 Frames
  []
 
 
-Overfull \hbox (24.67pt too wide) in paragraph at lines 24--25
-\TU/lmr/m/it/10 Data-
+Overfull \hbox (15.6pt too wide) in paragraph at lines 24--25
+\TU/lmr/m/it/10 Per
  []
 
 
-Overfull \hbox (21.6pt too wide) in paragraph at lines 24--25
-\TU/lmr/m/it/10 gram
+Overfull \hbox (17.89pt too wide) in paragraph at lines 24--25
+\TU/lmr/m/it/10 Sec-
  []
 
 
-Overfull \hbox (19.18001pt too wide) in paragraph at lines 24--25
-\TU/lmr/m/it/10 Pro-
- []
-
-
-Overfull \hbox (12.01pt too wide) in paragraph at lines 24--25
-\TU/lmr/m/it/10 to-
- []
-
-
-Overfull \hbox (11.76pt too wide) in paragraph at lines 24--25
-\TU/lmr/m/it/10 col 
+Overfull \hbox (15.84pt too wide) in paragraph at lines 24--25
+\TU/lmr/m/it/10 ond 
  []
 
 
@@ -631,25 +616,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25  \item [TCP]
-                  \emph{Transmission Control Protocol}.
+l.25  \item [UDP]
+                  \emph{User Datagram Protocol}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (58.15001pt too wide) in paragraph at lines 25--26
-\TU/lmr/m/it/10 Transmission
+Overfull \hbox (19.83pt too wide) in paragraph at lines 25--26
+\TU/lmr/m/it/10 User
  []
 
 
-Overfull \hbox (21.47pt too wide) in paragraph at lines 25--26
-\TU/lmr/m/it/10 Con-
+Overfull \hbox (24.67pt too wide) in paragraph at lines 25--26
+\TU/lmr/m/it/10 Data-
  []
 
 
-Overfull \hbox (14.7pt too wide) in paragraph at lines 25--26
-\TU/lmr/m/it/10 trol
+Overfull \hbox (21.6pt too wide) in paragraph at lines 25--26
+\TU/lmr/m/it/10 gram
  []
 
 
@@ -674,15 +659,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26  \item [IP]
-                 \emph{Internet Protocol}.
+l.26  \item [TCP]
+                  \emph{Transmission Control Protocol}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (35.16pt too wide) in paragraph at lines 26--27
-\TU/lmr/m/it/10 Internet
+Overfull \hbox (58.15001pt too wide) in paragraph at lines 26--27
+\TU/lmr/m/it/10 Transmission
+ []
+
+
+Overfull \hbox (21.47pt too wide) in paragraph at lines 26--27
+\TU/lmr/m/it/10 Con-
+ []
+
+
+Overfull \hbox (14.7pt too wide) in paragraph at lines 26--27
+\TU/lmr/m/it/10 trol
  []
 
 
@@ -707,35 +702,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27  \item [HTTP]
-                   \emph{ HyperText Transfer Protocol}.
+l.27  \item [IP]
+                 \emph{Internet Protocol}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (15.87pt too wide) in paragraph at lines 27--28
-\TU/lmr/m/it/10 Hy-
- []
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 27--28
-\TU/lmr/m/it/10 per-
- []
-
-
-Overfull \hbox (18.95pt too wide) in paragraph at lines 27--28
-\TU/lmr/m/it/10 Text
- []
-
-
-Overfull \hbox (28.5pt too wide) in paragraph at lines 27--28
-\TU/lmr/m/it/10 Trans-
- []
-
-
-Overfull \hbox (11.89pt too wide) in paragraph at lines 27--28
-\TU/lmr/m/it/10 fer
+Overfull \hbox (35.16pt too wide) in paragraph at lines 27--28
+\TU/lmr/m/it/10 Internet
  []
 
 
@@ -760,30 +735,50 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28  \item [GPIO]
-                   \emph{General-prupouse Input/Output}.
+l.28  \item [HTTP]
+                   \emph{ HyperText Transfer Protocol}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (37.52pt too wide) in paragraph at lines 28--29
-\TU/lmr/m/it/10 General-
+Overfull \hbox (15.87pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 Hy-
  []
 
 
-Overfull \hbox (38.47pt too wide) in paragraph at lines 28--29
-\TU/lmr/m/it/10 prupouse
+Overfull \hbox (17.0pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 per-
  []
 
 
-Overfull \hbox (13.06pt too wide) in paragraph at lines 28--29
-\TU/lmr/m/it/10 In-
+Overfull \hbox (18.95pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 Text
  []
 
 
-Overfull \hbox (49.07pt too wide) in paragraph at lines 28--29
-\TU/lmr/m/it/10 put/Output 
+Overfull \hbox (28.5pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 Trans-
+ []
+
+
+Overfull \hbox (11.89pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 fer
+ []
+
+
+Overfull \hbox (19.18001pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 Pro-
+ []
+
+
+Overfull \hbox (12.01pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 to-
+ []
+
+
+Overfull \hbox (11.76pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/it/10 col 
  []
 
 
@@ -793,45 +788,78 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29  \item [NAL]
+l.29  \item [GPIO]
+                   \emph{General-prupouse Input/Output}.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (37.52pt too wide) in paragraph at lines 29--30
+\TU/lmr/m/it/10 General-
+ []
+
+
+Overfull \hbox (38.47pt too wide) in paragraph at lines 29--30
+\TU/lmr/m/it/10 prupouse
+ []
+
+
+Overfull \hbox (13.06pt too wide) in paragraph at lines 29--30
+\TU/lmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (49.07pt too wide) in paragraph at lines 29--30
+\TU/lmr/m/it/10 put/Output 
+ []
+
+
+./acronimos.tex:30: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30  \item [NAL]
                   \emph{Network Abstraction Layer}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (35.92pt too wide) in paragraph at lines 29--30
+Overfull \hbox (35.92pt too wide) in paragraph at lines 30--31
 \TU/lmr/m/it/10 Network
  []
 
 
-Overfull \hbox (15.1pt too wide) in paragraph at lines 29--30
+Overfull \hbox (15.1pt too wide) in paragraph at lines 30--31
 \TU/lmr/m/it/10 Ab-
  []
 
 
-Overfull \hbox (24.41pt too wide) in paragraph at lines 29--30
+Overfull \hbox (24.41pt too wide) in paragraph at lines 30--31
 \TU/lmr/m/it/10 strac-
  []
 
 
-Overfull \hbox (17.12pt too wide) in paragraph at lines 29--30
+Overfull \hbox (17.12pt too wide) in paragraph at lines 30--31
 \TU/lmr/m/it/10 tion
  []
 
 
-Overfull \hbox (24.55pt too wide) in paragraph at lines 29--30
+Overfull \hbox (24.55pt too wide) in paragraph at lines 30--31
 \TU/lmr/m/it/10 Layer 
  []
 
 
-./acronimos.tex:31: LaTeX Error: \begin{document} ended by \end{description}.
+./acronimos.tex:32: LaTeX Error: \begin{document} ended by \end{description}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 \end{description}
+l.32 \end{description}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -845,11 +873,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 9 strings out of 494900
- 154 string characters out of 6177140
- 59940 words of memory out of 5000000
- 4026 multiletter control sequences out of 15000+600000
+ 9 strings out of 494846
+ 154 string characters out of 6175759
+ 60184 words of memory out of 5000000
+ 4034 multiletter control sequences out of 15000+600000
  3648 words of font info for 15 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 40 hyphenation exceptions out of 8191
  14i,1n,8p,96b,85s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

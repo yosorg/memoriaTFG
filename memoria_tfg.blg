@@ -5,6 +5,7 @@ A level-1 auxiliary file: portada/portada.aux
 A level-1 auxiliary file: portada/resumo.aux
 A level-1 auxiliary file: contido/introducion.aux
 A level-1 auxiliary file: contido/analise.aux
+A level-1 auxiliary file: contido/fundamentos_tecnoloxicos.aux
 A level-1 auxiliary file: contido/implementacion_dispositivo.aux
 A level-1 auxiliary file: contido/implementacion_aplicacion.aux
 A level-1 auxiliary file: contido/evaluacion_experimenal.aux
@@ -31,7 +32,7 @@ Warning--empty journal in PrincipalesCifrasSiniestralidad
 Done.
 You've used 19 entries,
             4855 wiz_defined-function locations,
-            1062 strings with 11958 characters,
+            1063 strings with 11994 characters,
 and the built_in function-call counts, 8950 in all, are:
 = -- 823
 > -- 84

@@ -179,6 +179,8 @@ INPUT contido/introducion.aux
 INPUT contido/introducion.aux
 INPUT contido/analise.aux
 INPUT contido/analise.aux
+INPUT contido/fundamentos_tecnoloxicos.aux
+INPUT contido/fundamentos_tecnoloxicos.aux
 INPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_aplicacion.aux
@@ -266,6 +268,10 @@ INPUT contido/introducion.tex
 OUTPUT contido/analise.aux
 INPUT contido/analise.tex
 INPUT contido/analise.tex
+OUTPUT contido/fundamentos_tecnoloxicos.aux
+INPUT contido/fundamentos_tecnoloxicos.tex
+INPUT contido/fundamentos_tecnoloxicos.tex
+INPUT imaxes/bikeguard.jpg
 OUTPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_dispositivo.tex
 INPUT contido/implementacion_dispositivo.tex
@@ -321,6 +327,8 @@ INPUT contido/introducion.aux
 INPUT contido/introducion.aux
 INPUT contido/analise.aux
 INPUT contido/analise.aux
+INPUT contido/fundamentos_tecnoloxicos.aux
+INPUT contido/fundamentos_tecnoloxicos.aux
 INPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_dispositivo.aux
 INPUT contido/implementacion_aplicacion.aux

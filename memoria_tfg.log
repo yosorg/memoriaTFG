@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.9.4)  5 SEP 2019 05:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.9.4)  5 SEP 2019 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1137,7 +1137,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 File: gloss-spanish.ldf polyglossia: module for spanish
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-) (./memoria_tfg.aux (./portada/portada.aux) (./portada/resumo.aux) (./contido/introducion.aux) (./contido/analise.aux) (./contido/implementacion_dispositivo.aux) (./contido/implementacion_aplicacion.aux) (./contido/evaluacion_experimenal.aux) (./contido/conclusions.aux) (./bibliografia/acronimos.aux) (./bibliografia/glosario.aux))
+) (./memoria_tfg.aux (./portada/portada.aux) (./portada/resumo.aux) (./contido/introducion.aux) (./contido/analise.aux) (./contido/fundamentos_tecnoloxicos.aux) (./contido/implementacion_dispositivo.aux) (./contido/implementacion_aplicacion.aux) (./contido/evaluacion_experimenal.aux) (./contido/conclusions.aux) (./bibliografia/acronimos.aux) (./bibliografia/glosario.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -1168,7 +1168,8 @@ LaTeX Font Info:    ... okay on input line 38.
 Package hyperref Info: Link coloring ON on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count308
@@ -1419,13 +1420,13 @@ Requested font "cmr10" at 10.95pt
 
 ]
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 71.
+(Font)              scaled to size 10.0pt on input line 73.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 71.
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 73.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 71.
+(Font)              scaled to size 10.0pt on input line 73.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf
  [2])
@@ -1436,11 +1437,11 @@ Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;m
 
 ] (./memoria_tfg.lof
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 16.
+(Font)              scaled to size 10.95pt on input line 18.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf
 
-Overfull \hbox (7.09021pt too wide) in paragraph at lines 25--25
+Overfull \hbox (7.09021pt too wide) in paragraph at lines 27--27
  [][] [][][]\TU/LinLibertine(0)/m/n/10.95 Perecepción subxectiva de estímulos lumíncos segundo a lei de Weber-Fechner [[]].[][] [][]  
  []
 
@@ -1448,13 +1449,13 @@ Overfull \hbox (7.09021pt too wide) in paragraph at lines 25--25
 \tf@lof=\write5
 \openout5 = `memoria_tfg.lof'.
 
- [5] [6
-
-] (./memoria_tfg.lot)
+ [5] [6] (./memoria_tfg.lot)
 \tf@lot=\write6
 \openout6 = `memoria_tfg.lot'.
 
- [7] [8
+ [7
+
+] [8
 
 ]
 \openout2 = `contido/introducion.aux'.
@@ -1525,10 +1526,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 [6] [7]) [8] [9]
-\openout2 = `contido/implementacion_dispositivo.aux'.
+\openout2 = `contido/fundamentos_tecnoloxicos.aux'.
 
- (./contido/implementacion_dispositivo.tex [10
-
+ (./contido/fundamentos_tecnoloxicos.tex [10
 
 
 ]
@@ -1536,76 +1536,91 @@ Capítulo 3.
 Package lettrine.sty Info: Targeted height = 21.55566pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 21.35751pt (N);
+(lettrine.sty)             reported on input line 4.
+File: imaxes/bikeguard.jpg Graphic file (type bmp)
+<imaxes/bikeguard.jpg>
+[11
+
+]
+Underfull \vbox (badness 7981) has occurred while \output is active []
+
+ [12] [13] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[17] [18] [19]) [20]
+\openout2 = `contido/implementacion_dispositivo.aux'.
+
+ (./contido/implementacion_dispositivo.tex
+Capítulo 4.
+Package lettrine.sty Info: Targeted height = 21.55566pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 21.35751pt (N);
 (lettrine.sty)             reported on input line 3.
-[11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[21
 
- []
 
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
- []
-
-[16] [17] [18]
+]
 File: imaxes/circuito-leds.png Graphic file (type bmp)
 <imaxes/circuito-leds.png>
- [19] [20]
+ [22]
 File: imaxes/camaras.jpg Graphic file (type bmp)
 <imaxes/camaras.jpg>
 File: imaxes/lentes.jpg Graphic file (type bmp)
 <imaxes/lentes.jpg>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1297) has occurred while \output is active []
 
- [21] [22] [23] [24] [25]
-Underfull \vbox (badness 1735) has occurred while \output is active []
-
- [26]
+ [23] [24] [25] [26] [27] [28]
 File: imaxes/circuito-bateria.png Graphic file (type bmp)
 <imaxes/circuito-bateria.png>
 
-Overfull \hbox (40.36516pt too wide) in paragraph at lines 325--326
+Overfull \hbox (40.36516pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
 File: imaxes/circuito-completo.png Graphic file (type bmp)
 <imaxes/circuito-completo.png>
 
-Overfull \hbox (54.82039pt too wide) in paragraph at lines 334--335
+Overfull \hbox (54.82039pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
 File: imaxes/esquema-completo.png Graphic file (type bmp)
 <imaxes/esquema-completo.png>
+[29]
 File: imaxes/foto-circuito1.jpg Graphic file (type bmp)
 <imaxes/foto-circuito1.jpg>
 File: imaxes/foto-circuito2.jpg Graphic file (type bmp)
 <imaxes/foto-circuito2.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
+ [30]
 File: imaxes/soporte-caixa.jpg Graphic file (type bmp)
 <imaxes/soporte-caixa.jpg>
 File: imaxes/evolucion-carcasa.jpg Graphic file (type bmp)
 <imaxes/evolucion-carcasa.jpg>
 File: imaxes/carcasa.png Graphic file (type bmp)
 <imaxes/carcasa.png>
-) [28] [29] [30] [31] [32]
+) [31] [32] [33] [34] [35]
 \openout2 = `contido/implementacion_aplicacion.aux'.
 
- (./contido/implementacion_aplicacion.tex
-Capítulo 4.
+ (./contido/implementacion_aplicacion.tex [36
+
+
+
+]
+Capítulo 5.
 Package lettrine.sty Info: Targeted height = 21.55566pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 21.52257pt (P);
 (lettrine.sty)             reported on input line 3.
-[33
-
-
-
-] [34]
+[37]
 File: imaxes/layout-vertical1.png Graphic file (type bmp)
 <imaxes/layout-vertical1.png>
 File: imaxes/layout-vertical2.png Graphic file (type bmp)
@@ -1616,70 +1631,21 @@ File: imaxes/layout-horizontal2.png Graphic file (type bmp)
 <imaxes/layout-horizontal2.png>
 File: imaxes/ciclo-actividade.png Graphic file (type bmp)
 <imaxes/ciclo-actividade.png>
- [35] [36] [37] [38]
+ [38] [39] [40] [41]
 File: imaxes/angulo.png Graphic file (type bmp)
 <imaxes/angulo.png>
- [39]
-Underfull \vbox (badness 1102) has occurred while \output is active []
+ [42]
+Underfull \vbox (badness 1515) has occurred while \output is active []
 
- [40]
+ [43]
 File: imaxes/soporte-mobil.png Graphic file (type bmp)
 <imaxes/soporte-mobil.png>
 File: imaxes/fallos-soporte.jpg Graphic file (type bmp)
 <imaxes/fallos-soporte.jpg>
-) [41] [42]
+) [44] [45]
 \openout2 = `contido/evaluacion_experimenal.aux'.
 
- (./contido/evaluacion_experimenal.tex
-Capítulo 5.
-Package lettrine.sty Info: Targeted height = 21.55566pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 21.52257pt (P);
-(lettrine.sty)             reported on input line 3.
-[43
-
-
-
-]
-File: imaxes/grafica-amperaxe.png Graphic file (type bmp)
-<imaxes/grafica-amperaxe.png>
-
-Overfull \hbox (10.08539pt too wide) in paragraph at lines 33--34
- [][] 
- []
-
-[44]
-Underfull \vbox (badness 2245) has occurred while \output is active []
-
- [45]
-File: imaxes/latencia.png Graphic file (type bmp)
-<imaxes/latencia.png>
- [46]
-File: imaxes/percepcion-luminica.png Graphic file (type bmp)
-<imaxes/percepcion-luminica.png>
- [47]
-File: imaxes/foto-dia.png Graphic file (type bmp)
-<imaxes/foto-dia.png>
-File: imaxes/foto-noite.png Graphic file (type bmp)
-<imaxes/foto-noite.png>
-File: imaxes/foto-coche.png Graphic file (type bmp)
-<imaxes/foto-coche.png>
- [48]
-Overfull \hbox (4.04973pt too wide) in paragraph at lines 117--119
-[]\TU/LinLibertine(0)/m/n/10.95 Artigo 98.1 do Regulmento Xeneral de Circulación, aprobado por Real Decreto 1428/2003,
- []
-
-File: imaxes/lexislacion-luminica.png Graphic file (type bmp)
-<imaxes/lexislacion-luminica.png>
-[49]
-Overfull \hbox (22.53825pt too wide) in paragraph at lines 146--153
- [] 
- []
-
-[50]) [51]
-\openout2 = `contido/conclusions.aux'.
-
- (./contido/conclusions.tex [52
+ (./contido/evaluacion_experimenal.tex [46
 
 
 
@@ -1687,27 +1653,76 @@ Overfull \hbox (22.53825pt too wide) in paragraph at lines 146--153
 Capítulo 6.
 Package lettrine.sty Info: Targeted height = 21.55566pt
 (lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 21.52257pt (P);
+(lettrine.sty)             reported on input line 3.
+[47]
+File: imaxes/grafica-amperaxe.png Graphic file (type bmp)
+<imaxes/grafica-amperaxe.png>
+
+Overfull \hbox (10.08539pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+[48]
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [49]
+File: imaxes/latencia.png Graphic file (type bmp)
+<imaxes/latencia.png>
+ [50]
+File: imaxes/percepcion-luminica.png Graphic file (type bmp)
+<imaxes/percepcion-luminica.png>
+ [51]
+File: imaxes/foto-dia.png Graphic file (type bmp)
+<imaxes/foto-dia.png>
+File: imaxes/foto-noite.png Graphic file (type bmp)
+<imaxes/foto-noite.png>
+File: imaxes/foto-coche.png Graphic file (type bmp)
+<imaxes/foto-coche.png>
+ [52]
+Overfull \hbox (4.04973pt too wide) in paragraph at lines 117--119
+[]\TU/LinLibertine(0)/m/n/10.95 Artigo 98.1 do Regulmento Xeneral de Circulación, aprobado por Real Decreto 1428/2003,
+ []
+
+File: imaxes/lexislacion-luminica.png Graphic file (type bmp)
+<imaxes/lexislacion-luminica.png>
+[53]
+Overfull \hbox (22.53825pt too wide) in paragraph at lines 146--153
+ [] 
+ []
+
+[54]) [55]
+\openout2 = `contido/conclusions.aux'.
+
+ (./contido/conclusions.tex [56
+
+
+
+]
+Capítulo 7.
+Package lettrine.sty Info: Targeted height = 21.55566pt
+(lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 21.72063pt (A);
 (lettrine.sty)             reported on input line 4.
-[53]) [54]
+[57]) [58]
 \openout2 = `bibliografia/acronimos.aux'.
 
  (./bibliografia/acronimos.tex
 Apéndice A.
-[55
+[59
 
 
 
-]) [56]
+]) [60]
 \openout2 = `bibliografia/glosario.aux'.
 
  (./bibliografia/glosario.tex
 Apéndice B.
-[57
+[61
 
 
 
-]) [58] (./memoria_tfg.bbl
+]) [62] (./memoria_tfg.bbl
 ** WARNING: IEEEtranN.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
@@ -1731,7 +1746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--66
 ** WARNING: IEEEtranN.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[59
+[63
 
 
 ]
@@ -1747,23 +1762,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--66
 ** WARNING: IEEEtranN.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-) [60]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
- (./memoria_tfg.aux (./portada/portada.aux) (./portada/resumo.aux) (./contido/introducion.aux) (./contido/analise.aux) (./contido/implementacion_dispositivo.aux) (./contido/implementacion_aplicacion.aux) (./contido/evaluacion_experimenal.aux) (./contido/conclusions.aux) (./bibliografia/acronimos.aux) (./bibliografia/glosario.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+) [64]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (./memoria_tfg.aux (./portada/portada.aux) (./portada/resumo.aux) (./contido/introducion.aux) (./contido/analise.aux) (./contido/fundamentos_tecnoloxicos.aux) (./contido/implementacion_dispositivo.aux) (./contido/implementacion_aplicacion.aux) (./contido/evaluacion_experimenal.aux) (./contido/conclusions.aux) (./bibliografia/acronimos.aux) (./bibliografia/glosario.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: D7FD5AB83162860508514331D59CEC50.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+(rerunfilecheck)             Checksum: 6C7821BF23F75B91AF69C9893A848310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 33368 strings out of 494846
- 653900 string characters out of 6175759
- 686393 words of memory out of 5000000
- 36897 multiletter control sequences out of 15000+600000
+ 33384 strings out of 494846
+ 654337 string characters out of 6175759
+ 687663 words of memory out of 5000000
+ 36905 multiletter control sequences out of 15000+600000
  542087 words of font info for 98 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  65i,12n,101p,1706b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memoria_tfg.xdv (75 pages, 1121612 bytes).
+Output written on memoria_tfg.xdv (79 pages, 1166052 bytes).
