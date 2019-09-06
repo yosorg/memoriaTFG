@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.2}Obxectivos}{2}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Proposta}{3}{section.1.3}% 
 \contentsline {section}{\numberline {1.4}Traballo relacionado}{3}{section.1.4}% 
-\contentsline {section}{\numberline {1.5}Estrutura da memoria}{3}{section.1.5}% 
+\contentsline {section}{\numberline {1.5}Estrutura da memoria}{4}{section.1.5}% 
 \contentsline {chapter}{\numberline {2}Analise e planificación}{5}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Metodoloxía}{5}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Análise}{5}{section.2.2}% 
@@ -13,35 +13,45 @@
 \contentsline {subsection}{\numberline {2.3.2}Fase 2: Aplicación do dispositivo móbil}{8}{subsection.2.3.2}% 
 \contentsline {subsection}{\numberline {2.3.3}Tempos estimados e reais}{8}{subsection.2.3.3}% 
 \contentsline {section}{\numberline {2.4}Custos do proxecto}{8}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Fundamentos tecnolóxicos}{11}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Arquitectura do sistema BikeGuard}{11}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Arquitectura do sistema}{11}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Esquema xeral de BikeView}{11}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Esquema xeral de BikeCam}{12}{section.3.3}% 
 \contentsline {subsection}{\numberline {3.3.1}Placas de desenvolvemento}{13}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Luces led}{16}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.2}Luces LED}{16}{subsection.3.3.2}% 
 \contentsline {subsection}{\numberline {3.3.3}Cámara}{17}{subsection.3.3.3}% 
 \contentsline {subsection}{\numberline {3.3.4}Alimentación e baterías}{18}{subsection.3.3.4}% 
 \contentsline {subsection}{\numberline {3.3.5}Software a utilizar}{19}{subsection.3.3.5}% 
-\contentsline {subsection}{\numberline {3.3.6}Caixa e ancoraxes a bicicleta}{19}{subsection.3.3.6}% 
+\contentsline {subsection}{\numberline {3.3.6}Caixa e ancoraxes a bicicleta}{20}{subsection.3.3.6}% 
 \contentsline {subsection}{\numberline {3.3.7}Esquema conceptual de BikeCam}{20}{subsection.3.3.7}% 
 \contentsline {subsection}{\numberline {3.3.8}Esquema conceptual de BikeLed}{20}{subsection.3.3.8}% 
-\contentsline {section}{\numberline {3.4}Comunicacións entre BikeCam e BikeView}{21}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Canle de comunicaións}{21}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Protocolos de comunicación}{22}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Protocolos de videostreaming}{22}{subsection.3.4.3}% 
+\contentsline {section}{\numberline {3.4}Comunicacións entre BikeCam e BikeView}{20}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Canle de comunicaións}{22}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Protocolos de comunicación}{23}{subsection.3.4.2}% 
+\contentsline {subsubsection}{Establecemento da conexión}{23}{subsection.3.4.2}% 
+\contentsline {subsubsection}{Transmisión de ordes}{23}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Protocolos de videostreaming}{24}{subsection.3.4.3}% 
 \contentsline {chapter}{\numberline {4}Deseño e implementación de BikeCam}{25}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Leds}{25}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Conexión coa Raspberry Pi}{25}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Software de Control}{26}{subsection.4.1.2}% 
-\contentsline {section}{\numberline {4.2}Cámara}{27}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Lentes}{28}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Captura de vídeo}{28}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Transmisión de vídeo}{29}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Recepción de ordes}{30}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conexión co servidor}{31}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Autoarranque do servidor}{31}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}Alimentación e enerxía}{32}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Carcasa e ancoraxe}{34}{section.4.8}% 
+\contentsline {section}{\numberline {4.1}Estrutura xeral de BikeCam}{25}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}LEDs}{26}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Conexión coa Raspberry Pi}{26}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.3}Cámara}{27}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Lentes}{28}{subsection.4.3.1}% 
+\contentsline {section}{\numberline {4.4}Alimentación e enerxía}{28}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Software de control de BikeCam}{34}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}lightsServer}{34}{subsection.4.5.1}% 
+\contentsline {subsubsection}{Broadcasting da dirección IP}{34}{subsection.4.5.1}% 
+\contentsline {section}{\numberline {4.6}Recepción de ordes}{35}{section.4.6}% 
+\contentsline {subsubsection}{Xestión dos LEDs}{35}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Captura de vídeo}{36}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Transmisión de vídeo}{36}{subsection.4.6.2}% 
+\contentsline {subsection}{\numberline {4.6.3}LipoPi}{37}{subsection.4.6.3}% 
+\contentsline {subsection}{\numberline {4.6.4}Servizos en \emph {sytemd}}{37}{subsection.4.6.4}% 
+\contentsline {subsubsection}{bikecam service}{38}{subsection.4.6.4}% 
+\contentsline {subsubsection}{lipopi service}{38}{subsection.4.6.4}% 
+\contentsline {section}{\numberline {4.7}Carcasa e ancoraxe}{38}{section.4.7}% 
+\contentsline {subsection}{\numberline {4.7.1}Versión con batería externa}{38}{subsection.4.7.1}% 
+\contentsline {subsection}{\numberline {4.7.2}Versión con batería interna}{38}{subsection.4.7.2}% 
 \contentsline {chapter}{\numberline {5}Deseño e implementación de BikeView}{41}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Esquema xeral da aplicación}{41}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Actividade principal}{42}{section.5.2}% 
@@ -49,30 +59,31 @@
 \contentsline {subsubsection}{Layout vertical}{42}{subsection.5.2.1}% 
 \contentsline {subsubsection}{Layout horizontal}{42}{figure.5.1}% 
 \contentsline {subsection}{\numberline {5.2.2}Ciclo de vida da actividade}{42}{subsection.5.2.2}% 
-\contentsline {subsubsection}{onCreate}{43}{figure.5.3}% 
-\contentsline {subsubsection}{onResume}{43}{figure.5.3}% 
-\contentsline {subsubsection}{onPause}{43}{figure.5.3}% 
-\contentsline {subsubsection}{onDestroy}{44}{figure.5.3}% 
+\contentsline {subsubsection}{onCreate}{44}{subsection.5.2.2}% 
+\contentsline {subsubsection}{onResume}{44}{subsection.5.2.2}% 
+\contentsline {subsubsection}{onPause}{44}{subsection.5.2.2}% 
+\contentsline {subsubsection}{onDestroy}{44}{subsection.5.2.2}% 
 \contentsline {subsection}{\numberline {5.2.3}Botons}{44}{subsection.5.2.3}% 
 \contentsline {subsection}{\numberline {5.2.4}Sensores}{45}{subsection.5.2.4}% 
-\contentsline {subsubsection}{Sensor de Luz}{46}{subsection.5.2.4}% 
-\contentsline {subsubsection}{Acelerómetro e xiroscopio}{46}{subsection.5.2.4}% 
+\contentsline {subsubsection}{Sensor de Luz}{45}{subsection.5.2.4}% 
+\contentsline {subsubsection}{Acelerómetro e xiroscopio}{45}{subsection.5.2.4}% 
 \contentsline {subsection}{\numberline {5.2.5}Superficie de vídeo}{47}{subsection.5.2.5}% 
 \contentsline {section}{\numberline {5.3}Comuniciacíon co dispositivo}{47}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}Broadcast}{48}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}Conexión}{48}{subsection.5.3.2}% 
-\contentsline {subsection}{\numberline {5.3.3}Transmisión de ordes}{48}{subsection.5.3.3}% 
-\contentsline {section}{\numberline {5.4}Recepción de vídeo}{48}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Anclaxe a bicicleta}{48}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.3.1}Broadcast}{47}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Conexión}{47}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}Transmisión de ordes}{47}{subsection.5.3.3}% 
+\contentsline {section}{\numberline {5.4}Recepción de vídeo}{47}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Ancoraxe a bicicleta}{48}{section.5.5}% 
 \contentsline {chapter}{\numberline {6}Evaluación experimental}{51}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Consumo}{51}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Autonomía}{53}{section.6.2}% 
 \contentsline {section}{\numberline {6.3}Vídeo e lentes}{54}{section.6.3}% 
 \contentsline {section}{\numberline {6.4}Visibilidade}{55}{section.6.4}% 
-\contentsline {section}{\numberline {6.5}Modo noite e freo automático}{55}{section.6.5}% 
-\contentsline {section}{\numberline {6.6}Lexislación}{57}{section.6.6}% 
-\contentsline {subsubsection}{Luces}{57}{section.6.6}% 
-\contentsline {subsection}{\numberline {6.6.1}Cámaras}{59}{subsection.6.6.1}% 
+\contentsline {subsection}{\numberline {6.4.1}Modo noite}{56}{subsection.6.4.1}% 
+\contentsline {subsection}{\numberline {6.4.2}Freo automático}{56}{subsection.6.4.2}% 
+\contentsline {section}{\numberline {6.5}Lexislación}{58}{section.6.5}% 
+\contentsline {subsection}{\numberline {6.5.1}Luces}{58}{subsection.6.5.1}% 
+\contentsline {subsection}{\numberline {6.5.2}Cámaras}{59}{subsection.6.5.2}% 
 \contentsline {chapter}{\numberline {7}Conclusións e traballo futuro}{61}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}Conclusións}{61}{section.7.1}% 
 \contentsline {section}{\numberline {7.2}Traballo futuro}{62}{section.7.2}% 

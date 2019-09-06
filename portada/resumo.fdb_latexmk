@@ -1,0 +1,16 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "resumo.xdv" "resumo.pdf" "resumo" 0
+  "resumo.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "resumo.pdf"
+["xelatex"] 1567716720 "resumo.tex" "resumo.xdv" "resumo" 1567716720
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
+  "portada/palabras-chave.tex" 0 -1 0 ""
+  "resumo.aux" 1567715018 1197 afb4513b10d17321ac0c935e12c2f9f7 ""
+  "resumo.tex" 1567716719 1135 520708e4b153be409ac15f00827c7182 ""
+  (generated)
+  "resumo.xdv"
+  "resumo.log"

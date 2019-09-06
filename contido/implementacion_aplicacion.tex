@@ -1,8 +1,6 @@
 \chapter{Deseño e implementación de BikeView}
 \label{chap:implementacion_aplicacion}
-\lettrine{P}{artindo} dos requisitos de BikeView elixirase a arquitectura a utilizar e implementarase o software necesario.
-
-
+\lettrine{P}{artindo} dos requisitos de BikeView elixirase a estrutura xeral da aplicación Android. A continuación mostrarase a actividade principal e única da aplicación e explicarase a implementación das comunicacións e da recepción do vídeo H264. Rematarase comentando diversos tipos de ancoraxes de BikeView á bicicleta.
 
 \section{Esquema xeral da aplicación}
 Para crear esta aplicación Android optarase por utilizar a linguaxe de programación Kotlin e o entorno de programación Android Studio. Kotlin é unha linguaxe de programación creada por JetBrains executable na maquina virtual de Java, dende 2017 Kotlin é unha linguaxe oficial para desenvolver aplicacións Android.
@@ -25,8 +23,8 @@ A actividade principal ou \emph{MainActivity} dunha aplicación Android é a pri
 \subsection{Layout}
 Un \emph{layout} é a definición da estrutura da interface de usuario. Esta actividade contará con dous \emph{layouts} un para a posición vertical e outro para a posición horizontal da pantalla
 \subsubsection{Layout vertical}
-Este \emph{layout}, figura~\ref{fig:layout_horizontal}, contará cunha superficie reservada para o vídeo na metade superior da pantalla. Na metade inferior situaranse os botóns encargados de executar as ordes. Na parte superior situase a barra de estado que na sua parte dereita contará cun botón para conectar que servirá o tempo de indicador de conexión, a súa esquerda mostrarase unha barra para controlar a intensidade dos leds.
-\begin{figure}[tb]
+Este \emph{layout}, figura~\ref{fig:layout_horizontal}, contará cunha superficie reservada para o vídeo na metade superior da pantalla. Na metade inferior situaranse os botóns encargados de executar as ordes. Na parte superior situase a barra de estado que na sua parte dereita contará cun botón para conectar que servirá o tempo de indicador de conexión, a súa esquerda mostrarase unha barra para controlar a intensidade dos LEDs.
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=.1]{imaxes/layout-vertical1.png}
   \includegraphics[scale=.1]{imaxes/layout-vertical2.png}
@@ -35,7 +33,7 @@ Este \emph{layout}, figura~\ref{fig:layout_horizontal}, contará cunha superfici
 \end{figure}
 \subsubsection{Layout horizontal}
 Neste \emph{layout}, figura~\ref{fig:layout_vertical}, o vídeo mostrarase como o fondo e os botóns sobre el. Os de xiro a esquerda e xiro dereita situados a ámbolos dous lados e o resto incluíndo o de control de intensidade lumínica e o de conexión situaranse na parte de inferior da pantalla.
-\begin{figure}[tb]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=.1]{imaxes/layout-horizontal1.png}
   \includegraphics[scale=.1]{imaxes/layout-horizontal2.png}
@@ -43,14 +41,7 @@ Neste \emph{layout}, figura~\ref{fig:layout_vertical}, o vídeo mostrarase como 
   \label{fig:layout_vertical}
 \end{figure}
 \subsection{Ciclo de vida da actividade}
-En Android cada actividade conta conta cun ciclo de vida, figura~\ref{fig:actividade}, pasa por varios estados dende antes de iniciarse ata despois de finalizar. O estado principal dunha actividade é activa, no momento que a actividade está en primeiro plano e interactuando co usuario.
-
-\begin{figure}[tb]
-  \centering
-  \includegraphics[scale=.6]{imaxes/ciclo-actividade.png}
-  \caption{Ciclo de actividade Android~\cite{UnderstandActivityLifecyclea}}
-  \label{fig:actividade}
-\end{figure}
+En Android cada actividade conta conta cun ciclo de vida~\cite{UnderstandActivityLifecyclea}, pasa por varios estados dende antes de iniciarse ata despois de finalizar. O estado principal dunha actividade é activa, no momento que a actividade está en primeiro plano e interactuando co usuario.
 
 Para xestionar o que sucede no resto de estados utilízanse unhas funcións de \emph{callbacks}, no noso caso realizarase as seguintes accións en cada fase:
 \subsubsection{onCreate}
@@ -94,7 +85,7 @@ Para poder indicar a freada da bicicleta utilizarase o acelerómetro do disposit
 A forza a obter é a deceleración no sentido da marcha, para poder calculala é necesario coñecer a orientación do dispositivo co respecto ao eixo lonxitudinal da bicicleta. O dispositivo situarase no guiador da bicicleta en dúas posición horizontal, ou vertical polo que en ámbalas dúas poderase excluír os valores dun dos eixos do acelerómetro, \emph{x} e \emph{y} respectivamente como se ve na figur~\ref{fig:angulo}. Para coñecer a influenza dos outros dous eixos sobre o plano paralelo a bicicleta necesitamos coñecer o ángulo que forma con esta. Utilizaremos o sensor virtual \emph{game rotation vector} para obter este ángulo, este sensor utiliza os datos do acelerómetro e o xiroscopio para proporcionar valores rotación en radiáns sobre os eixo de coordenadas da terra, aínda que non orientado o norte xa que este sensor virtual non utiliza o magnetómetro.  Estes valores están expresados en ángulos de Euler que indican mediante unha sucesións de xiros a desviación do sistema de coordenadas, para obter o ángulo respecto o eixo de coordenadas do móbil transformaremos o vector obtido mediante o calculo a matriz de rotación. Unha vez obtidos valores normalizados utilizaremos o ángulo respecto o eixo \emph{x} se o móbil esta en posición vertical e con respecto a \emph{y} se está en horizontal.
 
 O ángulo obtido coincide co ángulo con respecto o eixo direccional da bicicleta so no caso no que a bicicleta estea sobre chan plano polo que será necesario que a bicicleta estea sobre un terreo sen inclinación, para elo o cálculo do ángulo realizarase nun proceso de calibración, cando se acenda o modo freada solicitarase que se coloque o telefono no soporte do guiador e se suxeite a bicicleta sobre un terreo chairo.
-\begin{figure}[tb]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=.6]{imaxes/angulo.png}
   \caption{Eixos do acelerómetro e ángulo coa horizontal. Para o dispositivo colocado en horizontal, en vertical o eixo superior sería \emph{y}.}
@@ -121,18 +112,18 @@ Unha vez obtida a dirección IP a clase \emph{request} utilizará unha función 
 Para transmitir as ordes a clase \emph{request} contara cunha función que recibe a mensaxe a transmitir e a envía a través do socket. Espera a recibir resposta do servidor e se é positiva devolve o valor booleano verdadeiro, en caso de non recibila devolve o valor falso.
 
 \section{Recepción de vídeo}
-Para este apartado crearase a clase \emph{VideoReceiver} que executarase no seu propio \emph{thread}. O vídeo é codificado no formato H.264 e transmitido por UDP, para recibilo ábrese un \emph{socket} no porto 5000 extraese a mensaxe do datragrama e, para acelerar o proceso, en vez de utilizar a función \emph{MediaExtractor} pásase a unha función de parseo~\cite{consti10ContributeConsti10MyMediaCodecPlayerforFPV2018a} encargada de separar os datos recibidos en \emph{NAL units}, o formato que utiliza H.264 para o transporte. Para elo cando se identifica a cabeceira da seguinte \emph{NAL units} a anterior se envía a outra función encargada de decodificar o vídeo mediante un \emph{MediaCodec}~\cite{MediaCodec}, finalmente o vídeo mostrase na superficie.
+Para este apartado crearase a clase \emph{VideoReceiver} que executarase no seu propio \emph{thread}. O vídeo é codificado no formato H.264 e transmitido por UDP, para recibilo ábrese un \emph{socket} no porto 5000 extraese a mensaxe do datragrama e, para acelerar o proceso, en vez de utilizar a función \emph{MediaExtractor} pásase a unha función de parseo~\cite{consti10ContributeConsti10MyMediaCodecPlayerforFPV2018a} encargada de separar os datos recibidos en \emph{NAL units}~\cite{NetworkAbstractionLayer2019}, o formato que utiliza H.264 para o transporte. Para elo cando se identifica a cabeceira, o código \emph{0x000001} da seguinte \emph{NAL units} a anterior se envía a outra función encargada de decodificar o vídeo mediante un \emph{MediaCodec}~\cite{MediaCodec}, finalmente o vídeo mostrase na superficie.
 
-\section{Anclaxe a bicicleta}
-Existen diversas opcións paras suxeitar o móbil o guiador dunha bicicleta, no mercado hai soportes para dispositivos concretos e outros que se adaptan ao tamaño e forma de diferentes modelos. Neste caso utilizarase unha código \emph{SCAD} que ao executalo co software de deseño 3D paramétrico OpenSCAD no que introdúcense as dimensións do dispositivo e como resultado obtense un arquivo \emph{STL} co deseño 3D do soporte, figura~\ref{fig:soporte_mobil}.
-\begin{figure}[tb]
+\section{Ancoraxe a bicicleta}
+Existen diversas opcións paras suxeitar o móbil o guiador dunha bicicleta, no mercado hai soportes para dispositivos concretos e outros que se adaptan ao tamaño e forma de diferentes modelos. Neste caso utilizarase un código~\cite{thingiverse.comCustomizableBikeMount} \emph{SCAD} que ao executalo co software de deseño 3D paramétrico OpenSCAD no que introdúcense as dimensións do dispositivo e como resultado obtense un arquivo \emph{STL} co deseño 3D do soporte, figura~\ref{fig:soporte_mobil}.
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=.2]{imaxes/soporte-mobil.png}
   \caption{Desño 3D do soporte para o dispositivo móbil.}
   \label{fig:soporte_mobil}
 \end{figure}
 Vendo que os soportes impresos non constaban coa resistencia esperada, como se mostra nas imaxes da figura~\ref{fig:fallos_soporte}, optouse por utilizar un soporte de aluminio nas probas para preservar a integridade do dispositivo móbil.
-\begin{figure}[tb]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=.08]{imaxes/fallos-soporte.jpg}
   \caption{Mostras dos problemas do soporte impreso.}

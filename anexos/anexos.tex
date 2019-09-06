@@ -5,10 +5,10 @@
 \chapter{Contido DVD}
 
 \chapter{Requisitos e instalación}
-Para a instalación do software no dispositivo BikeView neceitaremos unha Raspberry Pi con unha tarxeta micro sd cuha capacidade mínima de 4GB.
+Para a instalación do software no dispositivo BikeCam neceitaremos unha Raspberry Pi con unha tarxeta micro sd cuha capacidade mínima de 4GB.
 
 Comezarase por descargar ultima versión de raspbian lite da web da Rasberry Pi e gravar a imaxe na tarxeta micro sd, isto pódese acadar mediante o comando \emp{dd} ou mediante unha ferramenta con ese propósito como balenaEtcher.
-Unha vez finalizado accederase a partición boot coa que conta agora a tarxeta de memoria, nela crearemos un arquivo baleiro chamado ssh para activar a interface ssh cando o sistema arranque, creamos tamén nesta ubicación un arquivo chamado emp{wpa_supplicant.conf} para configurar a conexón wifi, nel introducirmos os datos do SSID e a cotraseña da rede Wi-Fi creada polo dispositivo android
+Unha vez finalizado accederase á partición boot coa que conta agora a tarxeta de memoria, nela crearemos un arquivo baleiro chamado ssh para activar a interface ssh cando o sistema arranque, creamos tamén nesta ubicación un arquivo chamado emp{wpa_supplicant.conf} para configurar a conexón wifi, nel introducirmos os datos do SSID e a cotraseña da rede Wi-Fi creada polo dispositivo android
 
 	country=COUNTRY
 	%ctrl_interface=DIR=/var/run/wpa\_supplicant GROUP=netdev
@@ -20,12 +20,12 @@ Unha vez finalizado accederase a partición boot coa que conta agora a tarxeta d
 	 %      key\_mgmt=WPA-PSK
 	    }
 
-Expulsamos a tarxeta e a introduciomos na Raspi Pi e a encendemos, dende un ordenador ou dispositivo móbil averiguamos a direción ip, con por exemplo o softwar Fing dispoñible para linux e android. Conectamonos por ssh co usuario e contraseña por defecto "pi" "raspberry", é altamente recomendable cabiar a cotnrasella por defecto co comando passwd.
+Expulsamos a tarxeta e a introduciomos na Raspi Pi e a encendemos, dende un ordenador ou dispositivo móbil averiguamos a direción ip, con por exemplo o softwar Fing dispoñible para linux e android. Conectamonos por ssh co usuario e contraseña por defecto "pi" "raspberry", é altamente recomendable cabiar a cotnraseña por defecto co comando passwd.
 
 Executamos sudo raspi-config e no apartado Interfacacing Options activar o modulo da cámara, no apartado advanced options executamos a opción enlage filesistem. A continuación executamos o apartado update, de seguido poderemos saír da raspi-config e actualizar o sitema cos comandos
 sudo apt update e sudo apt upgrade
 
-Para instalar a librería  de jgarff para o control de los leds instalamos a seguinte aplicación sudo apt install scons
+Para instalar a librería  de jgarff para o control de los LEDs instalamos a seguinte aplicación sudo apt install scons
 descargamos aa librería con wget https://github.com/jgarff/rpi_ws281x/archive/master.zip
 descomprimimos con unzip master.zip
 entramos na carpeta e executar o comando scons

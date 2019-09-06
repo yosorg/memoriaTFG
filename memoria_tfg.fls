@@ -296,7 +296,6 @@ INPUT imaxes/layout-vertical1.png
 INPUT imaxes/layout-vertical2.png
 INPUT imaxes/layout-horizontal1.png
 INPUT imaxes/layout-horizontal2.png
-INPUT imaxes/ciclo-actividade.png
 INPUT imaxes/angulo.png
 INPUT imaxes/soporte-mobil.png
 INPUT imaxes/fallos-soporte.jpg
@@ -304,6 +303,12 @@ OUTPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.tex
 INPUT contido/evaluacion_experimenal.tex
 INPUT imaxes/grafica-amperaxe.png
+INPUT imaxes/cam1.jpg
+INPUT imaxes/cam2.jpg
+INPUT imaxes/cam2noir.jpg
+INPUT imaxes/lente1.jpg
+INPUT imaxes/lente2.jpg
+INPUT imaxes/lente3.jpg
 INPUT imaxes/latencia.png
 INPUT imaxes/percepcion-luminica.png
 INPUT imaxes/foto-dia.png

@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "implementacion_aplicacion.xdv" "implementacion_aplicacion.pdf" "implementacion_aplicacion" 0
+  "implementacion_aplicacion.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "implementacion_aplicacion.pdf"
+["xelatex"] 1567750768 "implementacion_aplicacion.tex" "implementacion_aplicacion.xdv" "implementacion_aplicacion" 1567750770
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
+  "implementacion_aplicacion.aux" 1567747315 5780 f3efbb8d610881c59f1924fb5b619327 ""
+  "implementacion_aplicacion.tex" 1567750767 15142 72b62660d30f39abdfdd89e57e0fa1f7 ""
+  (generated)
+  "implementacion_aplicacion.log"
+  "implementacion_aplicacion.xdv"

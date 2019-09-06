@@ -30,45 +30,45 @@ Warning--empty journal in ESTUDIOANALISISSINIESTRALIDAD
 Warning--empty journal in PrincipalesCifrasSiniestralidad
 
 Done.
-You've used 20 entries,
+You've used 23 entries,
             4855 wiz_defined-function locations,
-            1068 strings with 12187 characters,
-and the built_in function-call counts, 9417 in all, are:
-= -- 870
-> -- 84
-< -- 14
-+ -- 64
-- -- 24
-* -- 472
-:= -- 1610
-add.period$ -- 40
-call.type$ -- 20
-change.case$ -- 42
-chr.to.int$ -- 20
-cite$ -- 30
-duplicate$ -- 725
-empty$ -- 855
-format.name$ -- 36
-if$ -- 2029
+            1083 strings with 12745 characters,
+and the built_in function-call counts, 10813 in all, are:
+= -- 1005
+> -- 91
+< -- 15
++ -- 72
+- -- 26
+* -- 548
+:= -- 1838
+add.period$ -- 46
+call.type$ -- 23
+change.case$ -- 50
+chr.to.int$ -- 23
+cite$ -- 35
+duplicate$ -- 834
+empty$ -- 981
+format.name$ -- 39
+if$ -- 2332
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 128
-newline$ -- 118
-num.names$ -- 36
-pop$ -- 476
+int.to.str$ -- 24
+missing$ -- 149
+newline$ -- 133
+num.names$ -- 39
+pop$ -- 553
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 23
 quote$ -- 2
-skip$ -- 672
+skip$ -- 768
 stack$ -- 0
-substring$ -- 85
-swap$ -- 357
+substring$ -- 100
+swap$ -- 415
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 282
+type$ -- 327
 warning$ -- 2
-while$ -- 26
+while$ -- 28
 width$ -- 0
-write$ -- 247
+write$ -- 282
 (There were 2 warnings)

@@ -12,7 +12,7 @@ O obxetivo do proxecto é a creación de dous dispositivos que realizarán as se
 \begin{itemize}
     \item\textbf{Informar da posición da bicicleta mediante luces}
 
-Esta función realizarase no dispositivo principal. Para elo terá que contar con luces leds e capacidade para controlalas, tamén dispor de capacidade de comunicación co segundo dispositivo e dispoñer dunha fonte de alimentación con capacidade suficiente para facer funcionar as luces.\\
+Esta función realizarase no dispositivo principal. Para elo terá que contar con luces LEDs e capacidade para controlalas, tamén dispor de capacidade de comunicación co segundo dispositivo e dispoñer dunha fonte de alimentación con capacidade suficiente para facer funcionar as luces.\\
 
     \item\textbf{Informar das manobras e estado do vehículo mediante luces}
 
@@ -35,7 +35,7 @@ A maiores destes requisitos funcionais contase cos seguintes obxectivos:
 \begin{itemize}
     \item \textbf{Pequeno tamaño e potabilidade}
 
-Co motivo de poder dispoñer o dispositivo da bicicleta, xa sexa para cargalo ou por motivos de seguridade o deixar a bicicleta aparcada na rúa, priorizarase por un deseño portátil. O ideal e que os dispositivos poidan separase da bicicleta con facilidade e que o seu tamaño permita gardalos no peto. Este, xunto cos requisitos funcionais, é o principal motivo polo que optarase por utilizar un telefono móbil como segundo dispositivo, xa que a maioría de persoas dispoñen de un en todo momento, a así evitaríase ter que levar un dispositivo a maiores.
+Co motivo de poder dispoñer o dispositivo da bicicleta, xa sexa para cargalo ou por motivos de seguridade o deixar a bicicleta aparcada na rúa, priorizarase por un deseño portátil. O ideal e que os dispositivos poidan separase da bicicleta con facilidade e que o seu tamaño permita gardalos no peto. Este, xunto cos requisitos funcionais, é o principal motivo polo que optarase por utilizar un telefono móbil como segundo dispositivo, xa que a maioría de persoas dispoñen de un en todo momento, e así evitaríase ter que levar un dispositivo a maiores.
 
     \item \textbf{Independencia entre dispositivos}
 
@@ -51,13 +51,13 @@ Pretendese desenvolver un sistema robusto e simple para facilitar o seu mantemen
 \end{itemize}
 \section{Planificación}
 
-Seguindo a metodoloxía Top-Dow o desenvolvemento do proxecto dividirase en dúas fases correspondentes a os dous dispositivos. Comezarase polo desenvolvemento do dispositivo principal seguido da aplicación no dispositivo móbil é a comunicación entre ambos. Unha vez desenvolvidas as funcións principais iterarase entre as fase para desenrolar a conexión entre os dispositivos.
+Seguindo a metodoloxía Top-Dow o desenvolvemento do proxecto dividirase en dúas fases correspondentes ós dous dispositivos. Comezarase polo desenvolvemento do dispositivo principal seguido da aplicación no dispositivo móbil é a comunicación entre ambos. Unha vez desenvolvidas as funcións principais iterarase entre as fase para desenrolar a conexión entre os dispositivos.
 
 \subsection{Fase 1: Dispositivo principal}
 As tarefas a realizar son as seguintes:
 \begin{itemize}
-    \item Conexión dos leds e probas de funcionamento.
-    \item Funcións de control dos leds, secuencias e cores.
+    \item Conexión dos LEDs e probas de funcionamento.
+    \item Funcións de control dos LEDs, secuencias e cores.
     \item Servidor de peticións de ordes.
     \item Conexión da cámara e probas de funcionamento.
     \item Transmisión de vídeo.
@@ -80,14 +80,14 @@ Realizaranse a seguintes tarefas:
 \end{itemize}
 
 \subsection{Tempos estimados e reais}
-Esperábase adicar un tempo similar o desenvolvemento do  software e a implementación física do dispositivo e un tempo menor a documentación. Finalmente a documentación requiriu moito máis tempo do esperado tendo que volver a busca de información en cada paso do proxecto debido aos múltiples compoñentes hardware e software utilizado sendo un apartado. A implementación física do dispositivo requiriu moito menos tempo en comparación coa implemetación do sofware xa que o único problema xurdido foi no control de calidade do dispositivo final e unha vez conseguido un prototipo funcional deuse mais peso o desenvolvemento do software ámbito no que xurdiron moitos mais problemas o principal foi deseñar e implementar un esquema de comunicación fiable e que funcionara a tempo real.
+Esperábase adicar un tempo similar o desenvolvemento do  software e a implementación física do dispositivo e un tempo menor a documentación. Finalmente a documentación requiriu moito máis tempo do esperado tendo que volver a busca de información en cada paso do proxecto debido ós múltiples compoñentes hardware e software utilizado sendo un apartado. A implementación física do dispositivo requiriu moito menos tempo en comparación coa implemetación do sofware xa que o único problema xurdido foi no control de calidade do dispositivo final e unha vez conseguido un prototipo funcional deuse mais peso o desenvolvemento do software ámbito no que xurdiron moitos mais problemas o principal foi deseñar e implementar un esquema de comunicación fiable e que funcionara a tempo real.
 
 \section{Custos do proxecto}
-O software utilizado neste proxecto conta con licenzas de software libre polo que os custos restrinxiranse aos recursos humanos e recursos hardware.
+O software utilizado neste proxecto conta con licenzas de software libre polo que os custos restrinxiranse ós recursos humanos e recursos hardware.
 Nos recursos hardware da táboa~\ref{tab:custos_hardware} inclúense as pezas utilizadas finalmente para o dispositivo asi como as que se utilizaron para realización de probas. Para aproximar o rango prezos do custo \emph{DIY} de fabricación do dispositivo  na táboa~\ref{tab:custos_dispositivo} calcularanse dúas opción a primeira utilizando os compoñentes máis baratos é a segunda os máis caros.
 
 
-\begin{table}[tb]
+\begin{table}[tbp]
     \label{tab:custos_hardware}
     \caption{Custos monetarios do proxecto}
     \begin{center}
@@ -100,8 +100,8 @@ Nos recursos hardware da táboa~\ref{tab:custos_hardware} inclúense as pezas ut
              Pi Camera Module V1 & 1 & 5.00€ & 5.00€ \\ \hline
              Pi Camera Module V2 & 2 & 20.00€ & 40.00€ \\ \hline
              Conxunto de lentes & 1 & 2.00€ & 2.00€ \\ \hline
-             Tira 8 leds w2812b & 4 & 1.00€ & 4.00€\\ \hline
-             Anel 8 leds w2812b & 2 & 1.00€ & 2.00€ \\ \hline
+             Tira 8 LEDs w2812b & 4 & 1.00€ & 4.00€\\ \hline
+             Anel 8 LEDs w2812b & 2 & 1.00€ & 2.00€ \\ \hline
              Adafruit Powerboost 1000C & 1 & 23.00€ & 23.00€ \\ \hline
              Batería Lipo 1600mA & 1 & 7.00€ & 7.00€\\ \hline
              Batería 18650 3400mA & 2 & 2.00€ & 4.00€ \\ \hline
@@ -112,7 +112,7 @@ Nos recursos hardware da táboa~\ref{tab:custos_hardware} inclúense as pezas ut
     \end{center}
 \end{table}
 
-\begin{table}[tb]
+\begin{table}[tbp]
     \label{tab:custos_dispositivo}
     \caption{Custos de fabricación do dispositivo \emph{DIY}}
     \begin{center}
@@ -125,7 +125,7 @@ Nos recursos hardware da táboa~\ref{tab:custos_hardware} inclúense as pezas ut
               &  & Material Soprte 3D & 0.50€ \\ \hline
              Pi Camera Module V1 & 3.00€ & Pi Camera Module V2 & 20.00€ \\ \hline
               &  & Lentes  & 2.00€ \\ \hline
-             8 leds w2812b & 1.00€  &  24 leds w2812b & 3.00€\\ \hline
+             8 LEDs w2812b & 1.00€  &  24 LEDs w2812b & 3.00€\\ \hline
              Circuito de carga e protección xenérico & 2.00€  & Adafruit Powerboost 1000C & 23.00€ \\ \hline
              Batería Lipo 1600mA & 7.00€ & Batería Lipo 1800mA & 10.00€\\ \hline
              Cables & 1.00€ &  Cables & 1.00€ \\ \hline
@@ -138,7 +138,7 @@ As estes custos engádense as ferramentas utilizadas incluíndo entre outros ord
 
 Na táboa~\ref{tab:custos_humanos} móstranse os recursos humanos utilizados medidos en horas de traballo.
 
-\begin{table}[tb]
+\begin{table}[tbp]
     \label{tab:custos_humanos}
     \caption{Tempo empregado no proxecto}
     \begin{center}
