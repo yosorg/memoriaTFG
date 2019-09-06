@@ -189,6 +189,8 @@ INPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.aux
 INPUT contido/conclusions.aux
 INPUT contido/conclusions.aux
+INPUT anexos/anexos.aux
+INPUT anexos/anexos.aux
 INPUT bibliografia/acronimos.aux
 INPUT bibliografia/acronimos.aux
 INPUT bibliografia/glosario.aux
@@ -318,6 +320,9 @@ INPUT imaxes/lexislacion-luminica.png
 OUTPUT contido/conclusions.aux
 INPUT contido/conclusions.tex
 INPUT contido/conclusions.tex
+OUTPUT anexos/anexos.aux
+INPUT anexos/anexos.tex
+INPUT anexos/anexos.tex
 OUTPUT bibliografia/acronimos.aux
 INPUT bibliografia/acronimos.tex
 INPUT bibliografia/acronimos.tex
@@ -345,6 +350,8 @@ INPUT contido/evaluacion_experimenal.aux
 INPUT contido/evaluacion_experimenal.aux
 INPUT contido/conclusions.aux
 INPUT contido/conclusions.aux
+INPUT anexos/anexos.aux
+INPUT anexos/anexos.aux
 INPUT bibliografia/acronimos.aux
 INPUT bibliografia/acronimos.aux
 INPUT bibliografia/glosario.aux

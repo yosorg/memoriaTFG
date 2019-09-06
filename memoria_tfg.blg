@@ -10,6 +10,7 @@ A level-1 auxiliary file: contido/implementacion_dispositivo.aux
 A level-1 auxiliary file: contido/implementacion_aplicacion.aux
 A level-1 auxiliary file: contido/evaluacion_experimenal.aux
 A level-1 auxiliary file: contido/conclusions.aux
+A level-1 auxiliary file: anexos/anexos.aux
 A level-1 auxiliary file: bibliografia/acronimos.aux
 A level-1 auxiliary file: bibliografia/glosario.aux
 The style file: IEEEtranN.bst
@@ -32,7 +33,7 @@ Warning--empty journal in PrincipalesCifrasSiniestralidad
 Done.
 You've used 23 entries,
             4855 wiz_defined-function locations,
-            1083 strings with 12745 characters,
+            1084 strings with 12762 characters,
 and the built_in function-call counts, 10813 in all, are:
 = -- 1005
 > -- 91

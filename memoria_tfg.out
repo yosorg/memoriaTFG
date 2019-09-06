@@ -10,68 +10,70 @@
 \BOOKMARK [1][-]{section.2.3}{Planificación}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.3.1}{Fase\0401:\040Dispositivo\040principal}{section.2.3}% 11
 \BOOKMARK [2][-]{subsection.2.3.2}{Fase 2: Aplicación do dispositivo móbil}{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.3}{Tempos\040estimados\040e\040reais}{section.2.3}% 13
-\BOOKMARK [1][-]{section.2.4}{Custos\040do\040proxecto}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Arquitectura\040do\040sistema\040BikeGuard}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Arquitectura\040do\040sistema}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Esquema\040xeral\040de\040BikeView}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Esquema\040xeral\040de\040BikeCam}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.1}{Placas\040de\040desenvolvemento}{section.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.2}{Luces\040LED}{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.3}{Cámara}{section.3.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.4}{Alimentación e baterías}{section.3.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.5}{Software\040a\040utilizar}{section.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.6}{Caixa\040e\040ancoraxes\040a\040bicicleta}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.7}{Esquema\040conceptual\040de\040BikeCam}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.8}{Esquema\040conceptual\040de\040BikeLed}{section.3.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Comunicacións entre BikeCam e BikeView}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.4.1}{Canle de comunicaións}{section.3.4}% 28
-\BOOKMARK [2][-]{subsection.3.4.2}{Protocolos de comunicación}{section.3.4}% 29
-\BOOKMARK [2][-]{subsection.3.4.3}{Protocolos\040de\040videostreaming}{section.3.4}% 30
-\BOOKMARK [0][-]{chapter.4}{Deseño e implementación de BikeCam}{}% 31
-\BOOKMARK [1][-]{section.4.1}{Estrutura\040xeral\040de\040BikeCam}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{LEDs}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.2.1}{Conexión coa Raspberry Pi}{section.4.2}% 34
-\BOOKMARK [1][-]{section.4.3}{Cámara}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.3.1}{Lentes}{section.4.3}% 36
-\BOOKMARK [1][-]{section.4.4}{Alimentación e enerxía}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.5}{Software\040de\040control\040de\040BikeCam}{chapter.4}% 38
-\BOOKMARK [2][-]{subsection.4.5.1}{lightsServer}{section.4.5}% 39
-\BOOKMARK [1][-]{section.4.6}{Recepción de ordes}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.6.1}{Captura de vídeo}{section.4.6}% 41
-\BOOKMARK [2][-]{subsection.4.6.2}{Transmisión de vídeo}{section.4.6}% 42
-\BOOKMARK [2][-]{subsection.4.6.3}{LipoPi}{section.4.6}% 43
-\BOOKMARK [2][-]{subsection.4.6.4}{Servizos\040en\040sytemd}{section.4.6}% 44
-\BOOKMARK [1][-]{section.4.7}{Carcasa\040e\040ancoraxe}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.7.1}{Versión con batería externa}{section.4.7}% 46
-\BOOKMARK [2][-]{subsection.4.7.2}{Versión con batería interna}{section.4.7}% 47
-\BOOKMARK [0][-]{chapter.5}{Deseño e implementación de BikeView}{}% 48
-\BOOKMARK [1][-]{section.5.1}{Esquema xeral da aplicación}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.2}{Actividade\040principal}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.2.1}{Layout}{section.5.2}% 51
-\BOOKMARK [2][-]{subsection.5.2.2}{Ciclo\040de\040vida\040da\040actividade}{section.5.2}% 52
-\BOOKMARK [2][-]{subsection.5.2.3}{Botons}{section.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.2.4}{Sensores}{section.5.2}% 54
-\BOOKMARK [2][-]{subsection.5.2.5}{Superficie de vídeo}{section.5.2}% 55
-\BOOKMARK [1][-]{section.5.3}{Comuniciacíon co dispositivo}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.3.1}{Broadcast}{section.5.3}% 57
-\BOOKMARK [2][-]{subsection.5.3.2}{Conexión}{section.5.3}% 58
-\BOOKMARK [2][-]{subsection.5.3.3}{Transmisión de ordes}{section.5.3}% 59
-\BOOKMARK [1][-]{section.5.4}{Recepción de vídeo}{chapter.5}% 60
-\BOOKMARK [1][-]{section.5.5}{Ancoraxe\040a\040bicicleta}{chapter.5}% 61
-\BOOKMARK [0][-]{chapter.6}{Evaluación experimental}{}% 62
-\BOOKMARK [1][-]{section.6.1}{Consumo}{chapter.6}% 63
-\BOOKMARK [1][-]{section.6.2}{Autonomía}{chapter.6}% 64
-\BOOKMARK [1][-]{section.6.3}{Vídeo e lentes}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.4}{Visibilidade}{chapter.6}% 66
-\BOOKMARK [2][-]{subsection.6.4.1}{Modo\040noite}{section.6.4}% 67
-\BOOKMARK [2][-]{subsection.6.4.2}{Freo automático}{section.6.4}% 68
-\BOOKMARK [1][-]{section.6.5}{Lexislación}{chapter.6}% 69
-\BOOKMARK [2][-]{subsection.6.5.1}{Luces}{section.6.5}% 70
-\BOOKMARK [2][-]{subsection.6.5.2}{Cámaras}{section.6.5}% 71
-\BOOKMARK [0][-]{chapter.7}{Conclusións e traballo futuro}{}% 72
-\BOOKMARK [1][-]{section.7.1}{Conclusións}{chapter.7}% 73
-\BOOKMARK [1][-]{section.7.2}{Traballo\040futuro}{chapter.7}% 74
-\BOOKMARK [0][-]{appendix.A}{Glosario de acrónimos}{}% 75
-\BOOKMARK [0][-]{appendix.B}{Glosario\040de\040termos}{}% 76
-\BOOKMARK [0][-]{appendix*.4}{Bibliografía}{}% 77
+\BOOKMARK [1][-]{section.2.4}{Custos\040do\040proxecto}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Arquitectura\040do\040sistema\040BikeGuard}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Arquitectura\040do\040sistema}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Esquema\040xeral\040de\040BikeView}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{Esquema\040xeral\040de\040BikeCam}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.1}{Placas\040de\040desenvolvemento}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.2}{Luces\040LED}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.3}{Cámara}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.4}{Alimentación e baterías}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.5}{Software\040a\040utilizar}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.6}{Caixa e ancoraxes á bicicleta}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.7}{Esquema\040conceptual\040de\040BikeCam}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.8}{Esquema\040conceptual\040de\040BikeLed}{section.3.3}% 25
+\BOOKMARK [1][-]{section.3.4}{Comunicacións entre BikeCam e BikeView}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.4.1}{Canle de comunicaións}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.2}{Protocolos de comunicación}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.3}{Protocolos\040de\040videostreaming}{section.3.4}% 29
+\BOOKMARK [0][-]{chapter.4}{Deseño e implementación de BikeCam}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Estrutura\040xeral\040de\040BikeCam}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{LEDs}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{Conexión coa Raspberry Pi}{section.4.2}% 33
+\BOOKMARK [1][-]{section.4.3}{Cámara}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.3.1}{Lentes}{section.4.3}% 35
+\BOOKMARK [1][-]{section.4.4}{Alimentación e enerxía}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.5}{Software\040de\040control\040de\040BikeCam}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.5.1}{lightsServer}{section.4.5}% 38
+\BOOKMARK [1][-]{section.4.6}{Recepción de ordes}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.6.1}{Captura de vídeo}{section.4.6}% 40
+\BOOKMARK [2][-]{subsection.4.6.2}{Transmisión de vídeo}{section.4.6}% 41
+\BOOKMARK [2][-]{subsection.4.6.3}{LipoPi}{section.4.6}% 42
+\BOOKMARK [2][-]{subsection.4.6.4}{Servizos\040en\040sytemd}{section.4.6}% 43
+\BOOKMARK [1][-]{section.4.7}{Carcasa\040e\040ancoraxe}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.7.1}{Versión con batería externa}{section.4.7}% 45
+\BOOKMARK [2][-]{subsection.4.7.2}{Versión con batería interna}{section.4.7}% 46
+\BOOKMARK [0][-]{chapter.5}{Deseño e implementación de BikeView}{}% 47
+\BOOKMARK [1][-]{section.5.1}{Esquema xeral da aplicación}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{Actividade\040principal}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.2.1}{Layout}{section.5.2}% 50
+\BOOKMARK [2][-]{subsection.5.2.2}{Ciclo\040de\040vida\040da\040actividade}{section.5.2}% 51
+\BOOKMARK [2][-]{subsection.5.2.3}{Botons}{section.5.2}% 52
+\BOOKMARK [2][-]{subsection.5.2.4}{Sensores}{section.5.2}% 53
+\BOOKMARK [2][-]{subsection.5.2.5}{Superficie de vídeo}{section.5.2}% 54
+\BOOKMARK [1][-]{section.5.3}{Comuniciacíon co dispositivo}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.3.1}{Broadcast}{section.5.3}% 56
+\BOOKMARK [2][-]{subsection.5.3.2}{Conexión}{section.5.3}% 57
+\BOOKMARK [2][-]{subsection.5.3.3}{Transmisión de ordes}{section.5.3}% 58
+\BOOKMARK [1][-]{section.5.4}{Recepción de vídeo}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.5}{Ancoraxe á bicicleta}{chapter.5}% 60
+\BOOKMARK [0][-]{chapter.6}{Evaluación experimental}{}% 61
+\BOOKMARK [1][-]{section.6.1}{Consumo}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.2}{Autonomía}{chapter.6}% 63
+\BOOKMARK [1][-]{section.6.3}{Vídeo e lentes}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.4}{Visibilidade}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.4.1}{Modo\040noite}{section.6.4}% 66
+\BOOKMARK [2][-]{subsection.6.4.2}{Freo automático}{section.6.4}% 67
+\BOOKMARK [1][-]{section.6.5}{Lexislación}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.5.1}{Luces}{section.6.5}% 69
+\BOOKMARK [2][-]{subsection.6.5.2}{Cámaras}{section.6.5}% 70
+\BOOKMARK [0][-]{chapter.7}{Conclusións e traballo futuro}{}% 71
+\BOOKMARK [1][-]{section.7.1}{Conclusións}{chapter.7}% 72
+\BOOKMARK [1][-]{section.7.2}{Traballo\040futuro}{chapter.7}% 73
+\BOOKMARK [0][-]{appendix.A}{Apéndices}{}% 74
+\BOOKMARK [0][-]{appendix.B}{Contido\040DVD}{}% 75
+\BOOKMARK [0][-]{appendix.C}{Requisitos e instalación}{}% 76
+\BOOKMARK [0][-]{appendix.D}{Glosario de acrónimos}{}% 77
+\BOOKMARK [0][-]{appendix.E}{Glosario\040de\040termos}{}% 78
+\BOOKMARK [0][-]{appendix*.4}{Bibliografía}{}% 79

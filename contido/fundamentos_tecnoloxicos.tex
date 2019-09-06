@@ -45,7 +45,7 @@ Na figura~\ref{fig:bikeview} mostrase o posible aspecto da aplicación.
 \section{Esquema xeral de BikeCam}
 
 
-As esixencias principais destes dispositivo son a existencia de conexións para as luces LEDs, conexións para unha cámara e capacidade de procesamento e comunicación o que engadiremos unha quinta esixencia, xa que o obxectivo do proxecto e conseguir unha solución de hardware e software libre que posibilite que o usuario final poida adquirir os compoñentes e montalos de forma sinxela, é preciso que os compoñentes sexan fáciles de adquirir e traballar con eles.
+As esixencias principais destes dispositivo son a presenza de conexións para as luces LEDs, conexións para unha cámara e capacidade de procesamento e comunicación. Engadirase unha quinta esixencia, xa que o obxectivo do proxecto é conseguir unha solución de hardware e software libre que posibilite que o usuario final poida adquirir os compoñentes e montalos de forma sinxela,polo que será preciso que os compoñentes sexan fáciles de adquirir e traballar con eles.
 
 A continuación analizaranse as diferentes opción de hardware dispoñibles, as súas características e seus pros e contras para o proxecto proposto.
 
@@ -115,10 +115,10 @@ Os chip \emph{FPGA} permiten un nivel de personalización hardware moi elevado, 
 Tendo en conta o tamaño, a potencia, as conexións dispoñibles e o prezo, decidiuse optar pola Raspberry Pi Zero e Zero W como a placa encargada do control das luces e do vídeo. O dispor esta dunhas características estándar poderíase substituír nun futuro por outro tipo de placa garantido así a modularidade do sistema.
 
 \subsection{Luces LED}
-As dúas principais vantaxes das luces LED fronte a outras formas de iluminación son o se baixo consumo e o seu pequeno tamaño. Estas calidades fainas ideais para un dispositivo portátil coma o que pretendemos construír.
+As dúas principais vantaxes das luces LED fronte a outras formas de iluminación son o seu baixo consumo ese o seu pequeno tamaño. Estas calidades fainas ideais para un dispositivo portátil coma o que pretendemos construír.
 Os requirimentos principais son poder controlar a intensidade dos LEDs e dispoñer de polo menos un color vermello para indicar a posición e a freada, e un color amarelo ou ámbar para os intermitentes.
 
-Coa intención de miniaturizar se optara por utilizar LEDs \emph{RGB} que permiten xerar diversas combinacións de cores e así poder utilizar os mesmos LEDs para as diferentes funcións.
+Coa intención de miniaturizar optarase por utilizar LEDs \emph{RGB} que permiten xerar diversas combinacións de cores e así poder utilizar os mesmos LEDs para as diferentes funcións.
 Xa que a Raspberry Pi non conta con saídas analóxicas, utilizaranse as canles \emph{PWM} que permite enviar sinais moduladas en pulsos. A modulación \emph{PWM} permite acender e apagar os LEDs múltiples veces a unha alta frecuencia a unha velocidade, tan rápidas que o ollo humano percibe como diferentes intensidades lumínicas en función da anchura dos pulsos. En LEDs \emph{RGB} compatibles o \emph{PWM} tamén se pode utilizar para codificar a cor elixida, e en series de LEDs conectados e direccionables se pode elixir que LED a iluminar e a súa cor e intensidade individualmente, permitindo así controlar un alto numero de LEDs cunha soa saída \emph{PWM}.
 
 Existen diferentes tipos de LEDs \emph{RGB} direccionables no mercado, elixiremos o tipo de LED en función do seu tipo de conexión, a dispoñibilidade de librerías de software compatibles e coa limitación de que deberán operar a 5v que a voltaxe constante que necesita a Raspberry Pi para funcionar.\\
@@ -149,7 +149,7 @@ Este tipo de LEDs están dispoñibles en diferentes combinacións: LEDs individu
 
 \subsection{Cámara}
 
-No caso da cámara plantexanse dúas opcións utilizar unha cámara usb ou unha das cámara deseñadas para funcionar coa Raspberry Pi que utilizan a sua conexión \emph{CSI}. Optaremos pola segunda opción xa que unha cámara usb implica un tamaño demasiado grande para o proxecto e ademais non soen estar indicadas para a iluminación de exteriores.
+No caso da cámara plantexanse dúas opcións utilizar unha cámara usb ou unha das cámaras deseñadas para funcionar coa Raspberry Pi que utilizan a sua conexión \emph{CSI}. Optaremos pola segunda opción xa que unha cámara usb implica un tamaño demasiado grande para o proxecto e ademais non soen estar indicadas para a iluminación de exteriores.
 
 No mercado existen diversos módulos de cámara para a Raspberry Pi pero a maioría están baseados nos Raspberry Pi Camera Module V1 e Raspberry Pi Camera Module V2 a principal diferencia entre ambos e que o primeiro conto con 5 megapixeles mentres o segundo conta con 8 megapixeles e unha notable mellora na calidade de imaxe.\\
 
@@ -203,7 +203,7 @@ A comunicación entre o dispositivo de control e o de luces e captura de vídeo 
 
 Por motivos de compatibilidade entre todo o software necesitado para o control de LEDs, vídeo, e conexións, decidiremos integralo todo nunha aplicación Python que se encargará das tres tarefas.
 
-\subsection{Caixa e ancoraxes a bicicleta}
+\subsection{Caixa e ancoraxes á bicicleta}
 
 
 O lugar a colocar o dispositivo de iluminación e captura será na barra da sela da bicicleta, esta posición é a ideal tanto para capturar o vídeo como para que as luces sexan vistas polo tráfico que circula detrás do vehículo.

@@ -3,13 +3,13 @@
   "analise.xdv" 0 -1 0 "xelatex"
   (generated)
   "analise.pdf"
-["xelatex"] 1567718502 "analise.tex" "analise.xdv" "analise" 1567718503
+["xelatex"] 1567758070 "analise.tex" "analise.xdv" "analise" 1567758071
   "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
-  "analise.aux" 1567715018 3078 394d74a102128fc2610611c7e712dc2f ""
-  "analise.tex" 1567718502 10655 411a255b8ac65f6156b1c8567d7c5910 ""
+  "analise.aux" 1567756895 3078 394d74a102128fc2610611c7e712dc2f ""
+  "analise.tex" 1567758069 10660 f3afd75e8ea4d7d848c8a944e02a4ed4 ""
   (generated)
-  "analise.log"
   "analise.xdv"
+  "analise.log"

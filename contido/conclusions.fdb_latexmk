@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "conclusions.xdv" "conclusions.pdf" "conclusions" 0
+  "conclusions.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "conclusions.pdf"
+["xelatex"] 1567759009 "conclusions.tex" "conclusions.xdv" "conclusions" 1567759010
+  "/etc/texmf/web2c/texmf.cnf" 1555971638 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551226139 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567601387 2455329 d7c7b5d1571191f6aa1f80d19ca9cbd6 ""
+  "conclusions.aux" 1567756896 1721 55b7b3adfa865a3b676d9a52f4ea06c2 ""
+  "conclusions.tex" 1567759009 3556 62dbdcac002ab6b2b8b2a8730f86b456 ""
+  (generated)
+  "conclusions.log"
+  "conclusions.xdv"
